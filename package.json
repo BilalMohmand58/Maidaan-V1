@@ -1,0 +1,38 @@
+{
+  "name": "maidaan",
+  "version": "2.3.0",
+  "description": "Maidaan | Simplifying Real Estate",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "themaidaan.com",
+  "license": "ISC",
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@contentful/rich-text-react-renderer": "^15.19.4",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@sendgrid/mail": "^8.1.1",
+    "aos": "^2.3.4",
+    "axios": "^1.3.3",
+    "contentful": "^10.6.22",
+    "framer-motion": "^11.0.8",
+    "fslightbox-react": "^1.7.6",
+    "next": "^14.1.0",
+    "nodemailer": "^6.9.1",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "react": "^18.2.0",
+    "react-accessible-accordion": "^5.0.0",
+    "react-dom": "^18.2.0",
+    "react-modal": "^3.16.1",
+    "react-tabs": "^6.0.2",
+    "sass": "^1.43.4",
+    "sharp": "^0.33.2",
+    "sweetalert2": "^11.4.8",
+    "sweetalert2-react-content": "^5.0.7",
+    "swiper": "^11.0.6"
+  }
+}
