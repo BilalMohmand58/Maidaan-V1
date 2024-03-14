@@ -7,12 +7,12 @@ import leftShape from "../../public/images/left-shape.png";
 import rightShape from "../../public/images/right-shape.png";
 
 // Shape Images
-import shape2 from "../../public/images/shape/shape2.png";
-import shape3 from "../../public/images/shape/shape3.png";
-import shape5 from "../../public/images/shape/shape5.png";
-import shape6 from "../../public/images/shape/shape6.png";
-import shape7 from "../../public/images/shape/shape7.png";
-import shape10 from "../../public/images/shape/shape10.png";
+// import shape2 from "../../public/images/shape/shape2.png";
+// import shape3 from "../../public/images/shape/shape3.png";
+// import shape5 from "../../public/images/shape/shape5.png";
+// import shape6 from "../../public/images/shape/shape6.png";
+// import shape7 from "../../public/images/shape/shape7.png";
+// import shape10 from "../../public/images/shape/shape10.png";
 import shape11 from "../../public/images/shape/shape11.png";
 import {
   Button,
@@ -204,39 +204,39 @@ const MainBanner = () => {
         </div>
 
         <div className="banner-img-wrapper">
-          <div className="banner-img-1">
+          {/* <div className="banner-img-1">
             <Image src={leftShape} alt="image" width={597} height={1171} />
-          </div>
+          </div> */}
 
-          <div className="banner-img-2">
+          {/* <div className="banner-img-2">
             <Image src={rightShape} alt="image" width={553} height={943} />
-          </div>
+          </div> */}
         </div>
 
         {/* Shape Images */}
         <div className="shape-img2">
-          <Image src={shape2} alt="shape" width={23} height={23} />
+          <Image src={shape11} alt="shape" width={23} height={23} />
         </div>
         <div className="shape-img3">
-          <Image src={shape3} alt="shape" width={51} height={46} />
+          <Image src={shape11} alt="shape" width={51} height={46} />
         </div>
         <div className="shape-img5">
-          <Image src={shape5} alt="shape" width={71} height={16} />
+          <Image src={shape11} alt="shape" width={71} height={16} />
         </div>
-        <div className="shape-img6">
-          <Image src={shape6} alt="shape" width={51} height={56} />
-        </div>
+        {/* <div className="shape-img6">
+          <Image src={shape11} alt="shape" width={51} height={56} />
+        </div> */}
         <div className="shape-img7">
-          <Image src={shape2} alt="shape" width={23} height={23} />
+          <Image src={shape11} alt="shape" width={23} height={23} />
         </div>
         <div className="shape-img8">
-          <Image src={shape10} alt="shape" width={71} height={16} />
+          <Image src={shape11} alt="shape" width={71} height={16} />
         </div>
         <div className="shape-img9">
-          <Image src={shape7} alt="shape" width={39} height={39} />
+          <Image src={shape11} alt="shape" width={39} height={39} />
         </div>
         <div className="shape-img10">
-          <Image src={shape5} alt="shape" width={71} height={16} />
+          <Image src={shape11} alt="shape" width={71} height={16} />
         </div>
         <div className="shape-img11">
           <Image src={shape11} alt="shape" width={202} height={202} />
