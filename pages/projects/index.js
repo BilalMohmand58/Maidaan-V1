@@ -39,9 +39,9 @@ export default function Projects({ projects }) {
 
       <SubscribeStyleTwo />
 
-      <div className="ptb-100">
+      {/* <div className="ptb-100">
         <PartnerLogos />
-      </div>
+      </div> */}
 
       <Footer />
     </>

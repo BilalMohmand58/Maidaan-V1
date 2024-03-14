@@ -18,40 +18,40 @@ const OutstandingDigitalExperience = () => {
       <div className="tab-section">
         <div className="container">
           <div className="section-title">
-            <span>Boosting</span>
-            <h3>Outstanding Digital Experience</h3>
+            <span>Invest In Dubai </span>
+            <h3>Explore Investment Opportunities</h3>
           </div>
 
           <Tabs className="boosting-list-tab">
             <TabList>
               <Tab>
                 <i className="flaticon-analysis-2"></i>
-                <span>Real-Time-Analytics</span>
+                <span>Emaar</span>
               </Tab>
 
               <Tab className="bg-eff7e9">
                 <i className="flaticon-hand"></i>
-                <span>Pay-Per-Click</span>
+                <span>DAMAC</span>
               </Tab>
 
               <Tab className="bg-fff8f0">
                 <i className="flaticon-digital-marketing"></i>
-                <span>Online Marketing</span>
+                <span>NAKHEEL</span>
               </Tab>
 
               <Tab className="bg-ecfaf7">
                 <i className="flaticon-email"></i>
-                <span>Email Marketing</span>
+                <span>Reportage Properties</span>
               </Tab>
 
               <Tab className="bg-f2f0fb">
                 <i className="flaticon-network"></i>
-                <span>Social Marketing</span>
+                <span>SOBHA REALTY</span>
               </Tab>
 
               <Tab className="bg-c5ebf9">
                 <i className="flaticon-analysis-1"></i>
-                <span>Digital Marketing</span>
+                <span>MERAAS</span>
               </Tab>
             </TabList>
 
@@ -105,7 +105,10 @@ const OutstandingDigitalExperience = () => {
                     </div>
 
                     <div className="tab-btn">
-                      <Link href="/services/single-service/" className="default-btn-one">
+                      <Link
+                        href="/services/single-service/"
+                        className="default-btn-one"
+                      >
                         Discover More
                       </Link>
                     </div>
@@ -166,7 +169,10 @@ const OutstandingDigitalExperience = () => {
                     </div>
 
                     <div className="tab-btn">
-                      <Link href="/services/single-service/" className="default-btn-one">
+                      <Link
+                        href="/services/single-service/"
+                        className="default-btn-one"
+                      >
                         Discover More
                       </Link>
                     </div>
@@ -229,7 +235,10 @@ const OutstandingDigitalExperience = () => {
                     </div>
 
                     <div className="tab-btn">
-                      <Link href="/services/single-service/" className="default-btn-one">
+                      <Link
+                        href="/services/single-service/"
+                        className="default-btn-one"
+                      >
                         Discover More
                       </Link>
                     </div>
@@ -290,7 +299,10 @@ const OutstandingDigitalExperience = () => {
                     </div>
 
                     <div className="tab-btn">
-                      <Link href="/services/single-service/" className="default-btn-one">
+                      <Link
+                        href="/services/single-service/"
+                        className="default-btn-one"
+                      >
                         Discover More
                       </Link>
                     </div>
@@ -351,7 +363,10 @@ const OutstandingDigitalExperience = () => {
                     </div>
 
                     <div className="tab-btn">
-                      <Link href="/services/single-service/" className="default-btn-one">
+                      <Link
+                        href="/services/single-service/"
+                        className="default-btn-one"
+                      >
                         Discover More
                       </Link>
                     </div>
@@ -412,7 +427,10 @@ const OutstandingDigitalExperience = () => {
                     </div>
 
                     <div className="tab-btn">
-                      <Link href="/services/single-service/" className="default-btn-one">
+                      <Link
+                        href="/services/single-service/"
+                        className="default-btn-one"
+                      >
                         Discover More
                       </Link>
                     </div>

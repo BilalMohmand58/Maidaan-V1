@@ -25,9 +25,9 @@ export default function Services() {
 
       <SubscribeStyleTwo />
 
-      <div className="ptb-100">
+      {/* <div className="ptb-100">
         <PartnerLogos />
-      </div>
+      </div> */}
 
       <Footer />
     </>

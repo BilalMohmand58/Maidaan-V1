@@ -1811,6 +1811,7 @@ Tab Section CSS
 =================================================*/
 .tab-section {
   line-height: 1;
+  padding-top: 70px;
 }
 
 .tab .tabs_item {

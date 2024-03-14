@@ -19,6 +19,7 @@ import SubscribeStyleTwo from "../components/Common/SubscribeStyleTwo";
 import Footer from "../components/Layouts/Footer";
 import { createClient } from "contentful";
 import ProjectsStyleOne from "../components/Projects/ProjectsStyleOne";
+import OutstandingDigitalExperience from "../components/Home/OutstandingDigitalExperience";
 
 export async function getStaticProps() {
   try {
@@ -70,6 +71,9 @@ export default function Index({ posts, projects }) {
       </div>
 
       <WhyChooseUs />
+      <div className="pb-70">
+        <OutstandingDigitalExperience />
+      </div>
 
       <ProjectsStyleOne projects={projects} />
 
