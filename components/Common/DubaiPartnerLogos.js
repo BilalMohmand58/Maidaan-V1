@@ -8,7 +8,7 @@ import partner2 from "../../public/images/partner/damac.png";
 import partner3 from "../../public/images/partner/danube.png";
 import partner4 from "../../public/images/partner/emaar.png";
 import partner5 from "../../public/images/partner/empired.png";
-import partner6 from "../../public/images/partner/imtiaz.png";
+import partner6 from "../../public/images/partner/Imtiaz.png";
 import partner7 from "../../public/images/partner/meraas.png";
 
 import partner8 from "../../public/images/partner/nakheel.png";
