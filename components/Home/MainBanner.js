@@ -6,13 +6,6 @@ import Image from "next/image";
 import leftShape from "../../public/images/left-shape.png";
 import rightShape from "../../public/images/right-shape.png";
 
-// Shape Images
-// import shape2 from "../../public/images/shape/shape2.png";
-// import shape3 from "../../public/images/shape/shape3.png";
-// import shape5 from "../../public/images/shape/shape5.png";
-// import shape6 from "../../public/images/shape/shape6.png";
-// import shape7 from "../../public/images/shape/shape7.png";
-// import shape10 from "../../public/images/shape/shape10.png";
 import shape11 from "../../public/images/shape/shape11.png";
 import {
   Button,
@@ -77,7 +70,7 @@ const MainBanner = () => {
     <>
       <FsLightbox
         toggler={toggler}
-        sources={["https://www.youtube.com/watch?v=_ysd-zHamjk"]}
+        sources={["https://youtu.be/RD0le4EYjnE?si=KOHsiBHRmyyuXvvX"]}
       />
 
       <div className="home-banner-two">
@@ -92,22 +85,23 @@ const MainBanner = () => {
                       data-aos-duration="800"
                       data-aos-delay="100"
                     >
-                      Welcome to Maidaan
+                      Simplifying Real Estate.
                     </h1>
-                    <h4>The best real estate marketing services</h4>
+                    <h4>Unlock The Door To Your Dream Property With Maidaan</h4>
                     <p
                       data-aos="fade-up"
                       data-aos-duration="800"
                       data-aos-delay="200"
                     >
-                      We ensure to genuinely address the needs of our customers.
-                      Through unparalleled marketing services, we pacify the
-                      pains and obstacles our clients face in terms of business
-                      image and real estate needs. Maidaan Marketing provides
-                      you with the best transparent services in the real estate
-                      market. We prefer customer values over business and offer
-                      futuristic buy, sell, and rent services.
+                      Maidaan thoroughly fulfills the aspirations of our
+                      customers and investors about real estate. We offer our
+                      buy, sell, and rent services to aspirants of luxury
+                      properties.
                     </p>
+                    <strong>
+                      Join Us From March 31 - Eid in Lahore for an unparalleled
+                      real estate journey.
+                    </strong>
 
                     <div
                       className="banner-btn"

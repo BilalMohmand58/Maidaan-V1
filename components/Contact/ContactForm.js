@@ -76,35 +76,49 @@ const ContactForm = () => {
               <div className="contact-text">
                 <h2>Get in Touch</h2>
                 <p>
-                  Orci varius natoque penatibus et magnis dis parturient montes,
-                  nascetur ridiculus mus. Etiam tempus magna vel turpis pharetra
-                  dictum.
+                  Dive into luxury, culture, and family-friendly real estate
+                  opportunities. Explore over 30 leading domestic and
+                  international brands and uncover prime real estate gems at
+                  Expo Center Lahore, presented in collaboration with Future
+                  Fest Shopping.
                 </p>
                 <p>
-                  Sed blandit tempus purus, sed sodales leo rutrum vel. Nam
-                  vulputate ipsum ac est congue, eget commodo magna lobortis.
+                  Maidaan, a trusted partner, helps you explore the unique gems
+                  of real estate marketing. We are a leading real estate
+                  marketing company and specialize in providing comprehensive
+                  services by our dedicated real estate marketing team for
+                  buying, selling, and renting properties.
                 </p>
 
                 <h3>Follow Us</h3>
 
                 <ul className="social-links">
                   <li>
-                    <a href="https://www.facebook.com/" target="_blank">
+                    <a
+                      href="https://www.facebook.com/themaidaan/"
+                      target="_blank"
+                    >
                       <i className="fab fa-facebook-f"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://twitter.com/" target="_blank">
+                    <a href="https://twitter.com/the_maidaan" target="_blank">
                       <i className="fab fa-twitter"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/" target="_blank">
+                    <a
+                      href="https://www.instagram.com/themaidaan/"
+                      target="_blank"
+                    >
                       <i className="fab fa-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
+                    <a
+                      href="http://linkedin.com/company/maidaan"
+                      target="_blank"
+                    >
                       <i className="fab fa-linkedin"></i>
                     </a>
                   </li>

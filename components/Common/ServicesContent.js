@@ -21,7 +21,7 @@ const ServicesContent = () => {
 
           <div className="row justify-content-center">
             <div
-              className="col-lg-4 col-md-6 col-sm-6"
+              className="col-lg-6 col-md-6 col-sm-6"
               data-aos="fade-up"
               data-aos-delay="100"
               data-aos-duration="800"
@@ -32,19 +32,16 @@ const ServicesContent = () => {
                   <i className="flaticon-landing-page"></i>
                 </div>
                 <h3>
-                  <Link href="/services/single-service/">
-                    Search Engine Optimization
-                  </Link>
+                  <Link href="#">Sales Support</Link>
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incutu labore et dolore magna aliqua.
+                  Expert assistance for buying, selling, renting properties.
                 </p>
               </div>
             </div>
 
             <div
-              className="col-lg-4 col-md-6 col-sm-6"
+              className="col-lg-6 col-md-6 col-sm-6"
               data-aos="fade-up"
               data-aos-delay="200"
               data-aos-duration="800"
@@ -55,19 +52,16 @@ const ServicesContent = () => {
                   <i className="flaticon-goal"></i>
                 </div>
                 <h3>
-                  <Link href="/services/single-service/">
-                    Social Media Strategy
-                  </Link>
+                  <Link href="#">Maas (Marketing as a Service)</Link>
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incutu labore et dolore magna aliqua.
+                  Comprehensive real estate marketing solutions under one roof.
                 </p>
               </div>
             </div>
 
             <div
-              className="col-lg-4 col-md-6 col-sm-6"
+              className="col-lg-6 col-md-6 col-sm-6"
               data-aos="fade-up"
               data-aos-delay="300"
               data-aos-duration="800"
@@ -78,19 +72,17 @@ const ServicesContent = () => {
                   <i className="flaticon-contract"></i>
                 </div>
                 <h3>
-                  <Link href="/services/single-service/">
-                    Real Time and Data
-                  </Link>
+                  <Link href="#">Real Estate Solutions</Link>
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incutu labore et dolore magna aliqua.
+                  Aiming to revolutionize the industry through innovative and
+                  technology-driven approaches.
                 </p>
               </div>
             </div>
 
             <div
-              className="col-lg-4 col-md-6 col-sm-6"
+              className="col-lg-6 col-md-6 col-sm-6"
               data-aos="fade-up"
               data-aos-delay="400"
               data-aos-duration="800"
@@ -101,57 +93,12 @@ const ServicesContent = () => {
                   <i className="flaticon-application"></i>
                 </div>
                 <h3>
-                  <Link href="/services/single-service/">
-                    Online Media Management
-                  </Link>
+                  <Link href="#">Invest in Dubai (Marketing services):</Link>
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incutu labore et dolore magna aliqua.
-                </p>
-              </div>
-            </div>
-
-            <div
-              className="col-lg-4 col-md-6 col-sm-6"
-              data-aos="fade-up"
-              data-aos-delay="500"
-              data-aos-duration="800"
-              data-aos-once="true"
-            >
-              <div className="single-services-box">
-                <div className="icon bg-faddd4">
-                  <i className="flaticon-seo"></i>
-                </div>
-                <h3>
-                  <Link href="/services/single-service/">
-                    Reporting & Analysis
-                  </Link>
-                </h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incutu labore et dolore magna aliqua.
-                </p>
-              </div>
-            </div>
-
-            <div
-              className="col-lg-4 col-md-6 col-sm-6"
-              data-aos="fade-up"
-              data-aos-delay="600"
-              data-aos-duration="800"
-              data-aos-once="true"
-            >
-              <div className="single-services-box">
-                <div className="icon bg-faddd4">
-                  <i className="flaticon-data-recovery"></i>
-                </div>
-                <h3>
-                  <Link href="/services/single-service/">Penalty Recovery</Link>
-                </h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incutu labore et dolore magna aliqua.
+                  A newest venture for buying, selling, and renting properties!
+                  Coming Soon to Dubai, we are your trusted partner for all your
+                  real estate needs here.a.
                 </p>
               </div>
             </div>

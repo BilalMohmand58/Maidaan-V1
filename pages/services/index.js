@@ -2,7 +2,7 @@ import React from "react";
 import NavbarTwo from "../../components/Layouts/NavbarTwo";
 import PageBanner from "../../components/Common/PageBanner";
 import ServicesContent from "../../components/Common/ServicesContent";
-import WhyChooseUs from "../../components/Common/WhyChooseUs";
+import WhyChooseUs from "../../components/Home/WhyChooseUs";
 import SubscribeStyleTwo from "../../components/Common/SubscribeStyleTwo";
 import PartnerLogos from "../../components/Common/PartnerLogos";
 import Footer from "../../components/Layouts/Footer";

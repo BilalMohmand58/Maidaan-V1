@@ -20,6 +20,9 @@ import Footer from "../components/Layouts/Footer";
 import { createClient } from "contentful";
 import ProjectsStyleOne from "../components/Projects/ProjectsStyleOne";
 import OutstandingDigitalExperience from "../components/Home/OutstandingDigitalExperience";
+import InvestInDubai from "../components/Home/InvestInDubai";
+import DubaiPartnerLogos from "../components/Common/DubaiPartnerLogos";
+import InvestInPak from "../components/Home/InvestInPak";
 
 export async function getStaticProps() {
   try {
@@ -57,23 +60,31 @@ export default function Index({ posts, projects }) {
 
       <MainBanner />
 
-      <PartnerLogos />
-
-      <FeaturesArea />
-
       <div className="pb-70 ">
         <AboutContent />
       </div>
 
-      <div className="pb-70">
-        <Mission />
-        <Vision />
+      <div className="pb-70 ">
+        <FeaturesArea />
       </div>
 
-      <WhyChooseUs />
-      <div className="pb-70">
-        <OutstandingDigitalExperience />
+      <InvestInDubai />
+
+      <div className="pb-70 ">
+        <DubaiPartnerLogos />
       </div>
+
+      <InvestInPak />
+
+      <div className="pb-70 ">
+        <PartnerLogos />
+      </div>
+
+      {/* <div className="pb-70">
+        <OutstandingDigitalExperience />
+      </div> */}
+
+      <WhyChooseUs />
 
       <ProjectsStyleOne projects={projects} />
 
@@ -87,7 +98,7 @@ export default function Index({ posts, projects }) {
 
       <FaqSection />
 
-      <TeamCard />
+      {/* <TeamCard /> */}
 
       {/* <AnalysisFormContent /> */}
 

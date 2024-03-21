@@ -295,7 +295,7 @@ const Navbar = () => {
                         currentPath == "/blog/" && "active"
                       }`}
                     >
-                      Blog
+                      Blogs
                     </Link>
                   </li>
 
@@ -333,7 +333,7 @@ const Navbar = () => {
                     </ul>
                   </li> */}
 
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link
                       href="/features/"
                       className={`nav-link ${
@@ -342,7 +342,7 @@ const Navbar = () => {
                     >
                       Features
                     </Link>
-                  </li>
+                  </li> */}
 
                   {/* <li className="nav-item">
                     <Link
@@ -429,7 +429,7 @@ const Navbar = () => {
                         currentPath == "/contact-us/" && "active"
                       }`}
                     >
-                      Contact
+                      Contact Us
                     </Link>
                   </li>
                 </ul>
@@ -509,14 +509,13 @@ const Navbar = () => {
           <div className="sidebar-about-area">
             <div className="title">
               <p>
-                We believe brand interaction is key to communication. Real
-                innovations and positive customer experience are the heart of
-                successful communication. No fake products and services. The
-                customer is king, their lives and needs are the inspiration.
+                We are simplifying the real estate of Pakistan by leveraging
+                technology, making it more convenient, accessible, and
+                transparent for all.
               </p>
             </div>
           </div>
-          <div className="contact-items">
+          {/* <div className="contact-items">
             <h4>Contact Info</h4>
             <span className="info">
               <i className="fas fa-phone"></i> 0304-111-3309
@@ -524,7 +523,7 @@ const Navbar = () => {
             <span className="info">
               <i className="far fa-envelope"></i> info@themaidaan.com
             </span>
-          </div>
+          </div> */}
           {/* Maidaan Office Location */}
 
           <div className="sidebar-map">
@@ -632,27 +631,32 @@ const Navbar = () => {
               <div className="contact-info-content">
                 <ul className="social">
                   <li>
-                    <a href="https://twitter.com/" target="_blank">
+                    <a href="https://twitter.com/the_maidaan" target="_blank">
                       <i className="fab fa-twitter"></i>
                     </a>
                   </li>
+
                   <li>
-                    <a href="https://www.youtube.com/" target="_blank">
-                      <i className="fab fa-youtube"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.facebook.com/" target="_blank">
+                    <a
+                      href="https://www.facebook.com/themaidaan/"
+                      target="_blank"
+                    >
                       <i className="fab fa-facebook-f"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
+                    <a
+                      href="http://linkedin.com/company/maidaan"
+                      target="_blank"
+                    >
                       <i className="fab fa-linkedin-in"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/" target="_blank">
+                    <a
+                      href="https://www.instagram.com/themaidaan/"
+                      target="_blank"
+                    >
                       <i className="fab fa-instagram"></i>
                     </a>
                   </li>

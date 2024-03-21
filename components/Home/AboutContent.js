@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import aboutImg from "../../public/images/about-image.png";
+import aboutImg from "../../public/images/about-image.jpg";
 
 const AboutContent = () => {
   return (
@@ -35,18 +35,20 @@ const AboutContent = () => {
             >
               <div className="about-area-content">
                 <span>About Us</span>
-                <h3>We are Dynamic Team of Real Estate Marketing</h3>
+                <h3>Maidaan The Future of Real Estate.</h3>
                 <strong>
-                  With a vision for transparency, efficiency, and innovation,
-                  Maidaan is shaping the future of Pakistan's real estate
-                  industry.
+                  Dive into luxury, culture, and family-friendly real estate
+                  opportunities. Explore over 30 leading domestic and
+                  international brands and uncover prime real estate gems at
+                  Expo Center Lahore, presented in collaboration with Future
+                  Fest Shopping
                 </strong>
                 <p>
-                  Explore unique marketing gems with Maidaan, which is a leading
-                  real estate marketing business in Pakistan. It simplifies the
-                  real estate sector in the country. We specialize in providing
-                  comprehensive services for buying, selling, and renting and
-                  building properties across Pakistan.
+                  Maidaan, a trusted partner, helps you explore the unique gems
+                  of real estate marketing. We are a leading real estate
+                  marketing company and specialize in providing comprehensive
+                  services by our dedicated real estate marketing team for
+                  buying, selling, and renting properties.
                 </p>
               </div>
             </div>

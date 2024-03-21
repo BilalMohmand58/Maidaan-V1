@@ -8,7 +8,7 @@ import {
 } from "react-accessible-accordion";
 import Image from "next/image";
 
-import faqImg from "../../public/images/faq-image.png";
+import faqImg from "../../public/images/faq-image.jpg";
 
 const FaqSection = () => {
   return (
@@ -27,16 +27,17 @@ const FaqSection = () => {
                   <AccordionItem uuid="a">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        What harsh truth do you prefer to ignore?
+                        What is Maidaan?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.
+                        Maidaan is a leading real estate marketing company,
+                        dedicated to simplifying the complexities of buying,
+                        selling, and renting properties. We offer a
+                        comprehensive suite of services and utilize innovative
+                        solutions to make the real estate process more
+                        accessible and transparent for everyone.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -44,16 +45,18 @@ const FaqSection = () => {
                   <AccordionItem uuid="b">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        Is free will real or just an illusion?
+                        What services does Maidaan offer?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.
+                        We offer a range of services tailored to your specific
+                        needs, including Sales Support i.e., Assistance and
+                        guidance throughout the buying, selling, or renting
+                        process, and Marketing services, A diverse spectrum of
+                        real estate marketing services, including branding
+                        solutions, digital marketing, and conventional
+                        marketing.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -61,16 +64,17 @@ const FaqSection = () => {
                   <AccordionItem uuid="c">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        Does the price go up as my team gets larger?
+                        What unique advantages does Maidaan offer for real
+                        estate investors?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.
+                        Maidaan provides a comprehensive suite of services
+                        tailored to the real estate market, including market
+                        analysis, property selection, legal assistance, and
+                        post-purchase support, ensuring a seamless investment
+                        experience.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -78,33 +82,16 @@ const FaqSection = () => {
                   <AccordionItem uuid="d">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        How long does it take for equipment to be delivered?
+                        Can Maidaan help first-time investors navigate the Dubai
+                        real estate market?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.
-                      </p>
-                    </AccordionItemPanel>
-                  </AccordionItem>
-
-                  <AccordionItem uuid="e">
-                    <AccordionItemHeading>
-                      <AccordionItemButton>
-                        I’m a developer, how do I become a Glass Partner?
-                      </AccordionItemButton>
-                    </AccordionItemHeading>
-                    <AccordionItemPanel>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.
+                        Participants will gain exclusive insights into real
+                        estate market, access to top developers, networking
+                        opportunities, and firsthand knowledge of Maidaan&#39;s
+                        unique investment strategies and offers.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>

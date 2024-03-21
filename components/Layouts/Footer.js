@@ -7,6 +7,7 @@ import shape13 from "../../public/images/shape/shape13.svg";
 import shape14 from "../../public/images/shape/shape14.png";
 import shape15 from "../../public/images/shape/shape15.png";
 import shape2 from "../../public/images/shape/shape2.png";
+import logo from "../../public/images/logo.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -18,19 +19,21 @@ const Footer = () => {
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="footer-area">
                 <div className="footer-heading">
-                  <h3>Maidaan</h3>
+                  <Link href="/" className="navbar-brand">
+                    <Image src={logo} alt="logo" width={150} height={34} />
+                  </Link>
                 </div>
 
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                  We are simplifying the real estate of Pakistan by leveraging
+                  technology, making it more convenient, accessible, and
+                  transparent for all.
                 </p>
 
                 <ul className="footer-social">
                   <li>
                     <a
-                      href="https://www.linkedin.com/"
+                      href="http://linkedin.com/company/maidaan"
                       target="_blank"
                       className="bg-3955bc"
                     >
@@ -39,7 +42,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="https://www.facebook.com/"
+                      href="https://www.facebook.com/themaidaan/"
                       target="_blank"
                       className="bg-1da1f2"
                     >
@@ -48,7 +51,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="https://twitter.com/"
+                      href="https://twitter.com/the_maidaan"
                       target="_blank"
                       className="bg-004dff"
                     >
@@ -57,7 +60,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="https://www.instagram.com/"
+                      href="https://www.instagram.com/themaidaan/"
                       target="_blank"
                       className="bg-0273af"
                     >
@@ -85,7 +88,7 @@ const Footer = () => {
                     <Link href="/services">Services</Link>
                   </li>
                   <li>
-                    <Link href="/team">Team</Link>
+                    <Link href="/blog">Blogs</Link>
                   </li>
                   <li>
                     <Link href="/contact-us">Contact Us</Link>
@@ -102,19 +105,18 @@ const Footer = () => {
 
                 <ul className="footer-quick-links">
                   <li>
-                    <Link href="/services/single-service/">SEO Marketing</Link>
+                    <Link href="/services">Sale Support</Link>
                   </li>
                   <li>
-                    <Link href="/services/single-service/">SEO Services</Link>
+                    <Link href="/services">
+                      Maas ( Marketing As A Service )
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/services/single-service/">Services</Link>
+                    <Link href="/services">Real Estate Solutions</Link>
                   </li>
                   <li>
-                    <Link href="/services/single-service/">Pay-Per-Click</Link>
-                  </li>
-                  <li>
-                    <Link href="/services/single-service/">Social Media</Link>
+                    <Link href="/services">Invest In Dubai</Link>
                   </li>
                 </ul>
               </div>
@@ -175,7 +177,7 @@ const Footer = () => {
             <div className="col-lg-6">
               <p>
                 © {currentYear}. All Rights Reserved by{" "}
-                <a href="https://envytheme.com/" target="_blank">
+                <a href="https://themaidaan.com/" target="_blank">
                   Maidaan
                 </a>
               </p>
@@ -184,10 +186,10 @@ const Footer = () => {
             <div className="col-lg-6">
               <ul>
                 <li>
-                  <Link href="/terms-conditions">Terms & Conditions</Link>
+                  <Link href="/">Terms & Conditions</Link>
                 </li>
                 <li>
-                  <Link href="/privacy-policy">Privacy Policy</Link>
+                  <Link href="/">Privacy Policy</Link>
                 </li>
               </ul>
             </div>

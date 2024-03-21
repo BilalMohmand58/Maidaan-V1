@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
 
-import aboutImg from "../../public/images/about-image.png";
+import aboutImg from "../../public/images/vision.jpg";
 
 const Vision = () => {
   return (
     <>
-      <div className="about-section">
+      <div className="vision-section">
         <div className="container">
           <div className=" d-flex flex-row align-items-center ">
             <div
@@ -35,16 +35,19 @@ const Vision = () => {
             >
               <div className="about-area-content">
                 <span>Our Vision</span>
-                <h3>We are Dynamic Team</h3>
-                <strong>
+                <h3>
+                  Translating To Your Success By Our Team’s Extensive Knowledge
+                  of Real Estate Investment.
+                </h3>
+                {/* <strong>
                   With a vision for transparency, efficiency, and innovation,
                   Maidaan is shaping the future of Pakistan's real estate
                   industry.
-                </strong>
+                </strong> */}
                 <p>
-                  Maidaan envisions redefining the simplicity of real estate and
-                  offering an integrated platform for buying, selling, and
-                  renting properties.
+                  Redefining the simplicity of real estate and offering an
+                  integrated platform for buying, selling, and renting
+                  properties.
                 </p>
               </div>
             </div>

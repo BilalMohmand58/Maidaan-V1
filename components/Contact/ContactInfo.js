@@ -12,8 +12,7 @@ const ContactInfo = () => {
               </div>
               <div className="content">
                 <h4>Phone / Fax</h4>
-                <p>(882) 569-7566</p>
-                <p>(882) 453-4566</p>
+                <p>(+92) 304-111-3309</p>
               </div>
             </div>
           </div>
@@ -26,7 +25,6 @@ const ContactInfo = () => {
               <div className="content">
                 <h4>E-mail</h4>
                 <p>info@themaidaan.com</p>
-                <p>themaidaan@gmail.com</p>
               </div>
             </div>
           </div>
@@ -38,9 +36,7 @@ const ContactInfo = () => {
               </div>
               <div className="content">
                 <h4>Location</h4>
-                <p>
-                  Fortune Plaza Blue Area <br /> Pakistan
-                </p>
+                <p>Fortune Plaza Blue Area Islamabad</p>
               </div>
             </div>
           </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import aboutImg from "../../public/images/about-image.png";
+import aboutImg from "../../public/images/mission.jpg";
 
 const Mission = () => {
   return (
@@ -20,8 +20,8 @@ const Mission = () => {
                 <Image
                   src={aboutImg}
                   alt="About Img"
-                  width={595}
-                  height={536}
+                  width={515}
+                  height={436}
                 />
               </div>
             </div>
@@ -35,15 +35,14 @@ const Mission = () => {
             >
               <div className="about-area-content">
                 <span>Our Mission</span>
-                <h3>We are Dynamic Team</h3>
-                <strong>
-                  With a vision for transparency, efficiency, and innovation,
-                  Maidaan is shaping the future of Pakistan's real estate
-                  industry.
-                </strong>
+                <h3>
+                  Playing a Role As Your Trusted Partner In Luxury Properties.{" "}
+                </h3>
+
                 <p>
-                  includes addressing the multifaceted needs of the real estate
-                  industry and simplifying the processes for our clients.
+                  Addressing the multifaceted needs of the real estate industry
+                  and simplifying the processes for our clients in Pakistan and
+                  Dubai.
                 </p>
               </div>
             </div>

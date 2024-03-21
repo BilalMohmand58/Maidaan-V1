@@ -147,12 +147,13 @@ h6 {
   margin-bottom: 5px;
 }
 .section-title h3 {
-  font-size: 38px;
+  font-size: 30px;
   color: #202647;
   font-weight: bold;
   margin: 0;
   position: relative;
   padding-bottom: 20px;
+  text-transform: capitalize;
 }
 .section-title h3::before {
   position: absolute;
@@ -363,7 +364,7 @@ h6 {
   visibility: hidden;
 }
 .neemo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
-  color: #131f58;
+  color: #0a61c1;
 }
 .neemo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .neemo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .neemo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
   color: #0a61c1;
@@ -1515,7 +1516,7 @@ About Section CSS
   margin-bottom: 5px;
 }
 .about-section .about-area-content h3 {
-  font-size: 38px;
+  font-size: 30px;
   color: #202647;
   font-weight: bold;
   margin: 0 0 25px;
@@ -1551,7 +1552,7 @@ About Section CSS
 
 .mission-section {
   background-color: #f6f5fb;
-  padding: 70px 0px;
+  padding: 50px 0px;
 }
 .mission-section .about-area-content span {
   font-size: 14px;
@@ -1562,7 +1563,7 @@ About Section CSS
   margin-bottom: 5px;
 }
 .mission-section .about-area-content h3 {
-  font-size: 38px;
+  font-size: 30px;
   color: #202647;
   font-weight: bold;
   margin: 0 0 25px;
@@ -1592,6 +1593,100 @@ About Section CSS
   margin: 15px 0 0 0;
 }
 .mission-section .about-area-content strong {
+  color: #6a6c72;
+  font-weight: 500;
+}
+
+.vision-section {
+  background-color: #fff;
+  padding: 10px 0px;
+}
+.vision-section .about-area-content span {
+  font-size: 14px;
+  color: #0a61c1;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 5px;
+}
+.vision-section .about-area-content h3 {
+  font-size: 30px;
+  color: #202647;
+  font-weight: bold;
+  margin: 0 0 25px;
+  position: relative;
+  padding-bottom: 25px;
+}
+.vision-section .about-area-content h3::before {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 80px;
+  background-color: #fab4a2;
+  bottom: 0;
+  left: 0;
+}
+.vision-section .about-area-content h3::after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 32px;
+  background-color: #ff724e;
+  bottom: 0;
+  margin: 0 auto 0;
+  left: 95px;
+}
+.vision-section .about-area-content p {
+  margin: 15px 0 0 0;
+}
+.vision-section .about-area-content strong {
+  color: #6a6c72;
+  font-weight: 500;
+}
+
+.dubai-section {
+  background-color: #fff;
+  padding: 10px 0px;
+}
+.dubai-section .about-area-content span {
+  font-size: 14px;
+  color: #0a61c1;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 5px;
+}
+.dubai-section .about-area-content h3 {
+  font-size: 30px;
+  color: #202647;
+  font-weight: bold;
+  margin: 0 0 25px;
+  position: relative;
+  padding-bottom: 25px;
+}
+.dubai-section .about-area-content h3::before {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 80px;
+  background-color: #fab4a2;
+  bottom: 0;
+  left: 0;
+}
+.dubai-section .about-area-content h3::after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 32px;
+  background-color: #ff724e;
+  bottom: 0;
+  margin: 0 auto 0;
+  left: 95px;
+}
+.dubai-section .about-area-content p {
+  margin: 15px 0 0 0;
+}
+.dubai-section .about-area-content strong {
   color: #6a6c72;
   font-weight: 500;
 }
@@ -1737,7 +1832,7 @@ Choose Section CSS
   margin-bottom: 5px;
 }
 .choose-content-area h3 {
-  font-size: 38px;
+  font-size: 30px;
   color: #202647;
   font-weight: bold;
   margin: 0 0 25px;
@@ -1767,12 +1862,19 @@ Choose Section CSS
 .choose-content-area p {
   margin: 0;
 }
-.choose-content-area .choose-text {
+.choose-content-area .container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.choose-content-area .container .choose-text {
   margin-top: 20px;
   position: relative;
   padding-left: 45px;
+  flex-basis: calc(45% - 5px); /* Half the container width minus margin */
+  margin: 10px; /* Add margin for spacing */
 }
-.choose-content-area .choose-text i {
+.choose-content-area .container .choose-text i {
   position: absolute;
   display: inline-block;
   height: 30px;
@@ -1786,17 +1888,17 @@ Choose Section CSS
   left: 0;
   transition: 0.5s;
 }
-.choose-content-area .choose-text i::before {
+.choose-content-area .container .choose-text i::before {
   font-size: 12px;
 }
-.choose-content-area .choose-text p {
+.choose-content-area .container .choose-text p {
   margin: 0;
 }
-.choose-content-area .choose-text:hover i {
+.choose-content-area .container .choose-text:hover i {
   background-color: #0a61c1;
   color: #ffffff;
 }
-.choose-content-area .choose-text h4 {
+.choose-content-area .container .choose-text h4 {
   font-size: 18px;
   color: #202647;
   font-weight: 500;
@@ -1804,6 +1906,7 @@ Choose Section CSS
 }
 .choose-content-area .choose-btn {
   margin-top: 30px;
+  padding-left: 45px;
 }
 
 /*================================================
@@ -1825,7 +1928,7 @@ Tab Section CSS
   padding: 0;
   list-style-type: none;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin-left: -5px;
   margin-right: -5px;
   margin-bottom: 20px;
@@ -1833,8 +1936,8 @@ Tab Section CSS
   justify-content: center;
 }
 .boosting-list-tab .react-tabs__tab-list li {
-  flex: 0 0 16.6666666667%;
-  max-width: 15.6666666667%;
+  flex: 0 0 10.6666666667%;
+  max-width: 10.6666666667%;
   text-align: center;
   cursor: pointer;
   margin-right: 5px;
@@ -2470,10 +2573,30 @@ Partner Section CSS
   text-align: center;
   background: #ffffff;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+  padding: 20px 30px;
   margin: 30px 10px;
   border-radius: 5px;
 }
 .partner-slider .partner-item img {
+  display: inline-block;
+  margin: auto;
+}
+
+.partner-section {
+  line-height: 1;
+  position: relative;
+  padding-top: 50px;
+}
+
+.partner-slider .dubai-partner-item {
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+  padding: 40px 30px;
+  margin: 30px 10px;
+  border-radius: 5px;
+}
+.partner-slider .dubai-partner-item img {
   display: inline-block;
   margin: auto;
 }
@@ -2567,7 +2690,7 @@ Home Banner Two CSS
 .home-banner-two .main-banner-content h1 {
   font-size: 50px;
   color: #0a61c1 !important;
-  font-weight: 600 !important;
+  font-weight: 700 !important;
   line-height: normal;
   margin: 0 0 20px 0;
 }
@@ -2576,6 +2699,11 @@ Home Banner Two CSS
   color: #404142;
   font-weight: 400;
   margin: 0 0 0 0;
+}
+.home-banner-two .main-banner-content strong {
+  margin-top: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
 }
 .home-banner-two .main-banner-content .banner-btn {
   margin-top: 40px;
@@ -2725,6 +2853,7 @@ Features Area CSS
   margin: 10px 0 0 0;
   position: relative;
   padding-bottom: 20px;
+  text-transform: capitalize;
 }
 .features-area .features-title h3::before {
   position: absolute;
@@ -3434,23 +3563,12 @@ Page Title Area CSS
 =================================================*/
 .page-title-area {
   position: relative;
-  background-image: url(/images/page-banner-bg.jpg);
+  background-image: url(/images/banner.jpg);
   background-position: center center;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 150px;
   position: relative;
-}
-
-.page-title-area::before {
-  content: "";
-  background-color: #2629b2;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.8;
 }
 
 .page-title-content {

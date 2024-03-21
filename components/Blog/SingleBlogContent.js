@@ -68,21 +68,21 @@ const SingleBlogContent = ({ post }) => {
                       <li>
                         {/* <span className="mr-1">Author:</span>{" "} */}
                         <span>
-                          <img
+                          {/* <img
                             src={
                               "https:" +
                               author?.fields?.avatar?.fields?.file?.url
                             } // Assuming there's a field for the author's avatar in the author object
                             alt={author?.fields?.name}
                             className="avatar"
-                          />
+                          /> */}
                           {author?.fields?.name}
                         </span>
                       </li>
                       <li>
-                        <span className="mr-1">Posted On:</span>{" "}
+                        <span className="mr-1">Posted On :</span>{" "}
                         <span>
-                          {monthName} {date}
+                          {monthName} {date} {year}
                         </span>
                       </li>
                     </ul>

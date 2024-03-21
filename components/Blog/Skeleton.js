@@ -8,10 +8,7 @@ import blogImg7 from "../../public/images/blog/blog-img7.jpg";
 import blogImg8 from "../../public/images/blog/blog-img8.jpg";
 import blogImg9 from "../../public/images/blog/blog-img9.jpg";
 
-import userImg1 from "../../public/images/clients/client1.jpg";
-import userImg2 from "../../public/images/clients/client2.jpg";
-import userImg3 from "../../public/images/clients/client3.jpg";
-import userImg4 from "../../public/images/clients/client4.jpg";
+import userImg1 from "../../public/images/clients/client.jpg";
 
 const SingleBlogContent = () => {
   return (

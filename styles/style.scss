@@ -149,12 +149,13 @@ h6 {
     margin-bottom: 5px;
   }
   h3 {
-    font-size: 38px;
+    font-size: 30px;
     color: $black-color;
     font-weight: bold;
     margin: 0;
     position: relative;
     padding-bottom: 20px;
+    text-transform: capitalize;
     &::before {
       position: absolute;
       content: "";
@@ -433,7 +434,7 @@ h6 {
 
               li {
                 a {
-                  color: #131f58;
+                  color: #0a61c1;
 
                   &:hover,
                   &:focus,
@@ -1740,7 +1741,7 @@ About Section CSS
       margin-bottom: 5px;
     }
     h3 {
-      font-size: 38px;
+      font-size: 30px;
       color: $black-color;
       font-weight: bold;
       margin: 0 0 25px;
@@ -1780,7 +1781,7 @@ About Section CSS
 // Mission Section
 .mission-section {
   background-color: #f6f5fb;
-  padding: 70px 0px;
+  padding: 50px 0px;
   .about-area-content {
     span {
       font-size: 14px;
@@ -1791,7 +1792,109 @@ About Section CSS
       margin-bottom: 5px;
     }
     h3 {
-      font-size: 38px;
+      font-size: 30px;
+      color: $black-color;
+      font-weight: bold;
+      margin: 0 0 25px;
+      position: relative;
+      padding-bottom: 25px;
+
+      &::before {
+        position: absolute;
+        content: "";
+        height: 3px;
+        width: 80px;
+        background-color: #fab4a2;
+        bottom: 0;
+        left: 0;
+      }
+      &::after {
+        position: absolute;
+        content: "";
+        height: 3px;
+        width: 32px;
+        background-color: #ff724e;
+        bottom: 0;
+        margin: 0 auto 0;
+        left: 95px;
+      }
+    }
+    p {
+      margin: 15px 0 0 0;
+    }
+    strong {
+      color: $paragraph-color;
+      font-weight: 500;
+    }
+  }
+}
+
+// vision Section
+.vision-section {
+  background-color: #fff;
+  padding: 10px 0px;
+  .about-area-content {
+    span {
+      font-size: 14px;
+      color: $main-color;
+      font-weight: 500;
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 5px;
+    }
+    h3 {
+      font-size: 30px;
+      color: $black-color;
+      font-weight: bold;
+      margin: 0 0 25px;
+      position: relative;
+      padding-bottom: 25px;
+
+      &::before {
+        position: absolute;
+        content: "";
+        height: 3px;
+        width: 80px;
+        background-color: #fab4a2;
+        bottom: 0;
+        left: 0;
+      }
+      &::after {
+        position: absolute;
+        content: "";
+        height: 3px;
+        width: 32px;
+        background-color: #ff724e;
+        bottom: 0;
+        margin: 0 auto 0;
+        left: 95px;
+      }
+    }
+    p {
+      margin: 15px 0 0 0;
+    }
+    strong {
+      color: $paragraph-color;
+      font-weight: 500;
+    }
+  }
+}
+
+// Invest In Dubai Section
+.dubai-section {
+  background-color: #fff;
+  padding: 10px 0px;
+  .about-area-content {
+    span {
+      font-size: 14px;
+      color: $main-color;
+      font-weight: 500;
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 5px;
+    }
+    h3 {
+      font-size: 30px;
       color: $black-color;
       font-weight: bold;
       margin: 0 0 25px;
@@ -1982,7 +2085,7 @@ Choose Section CSS
     margin-bottom: 5px;
   }
   h3 {
-    font-size: 38px;
+    font-size: 30px;
     color: $black-color;
     font-weight: bold;
     margin: 0 0 25px;
@@ -2013,45 +2116,57 @@ Choose Section CSS
   p {
     margin: 0;
   }
-  .choose-text {
-    margin-top: 20px;
-    position: relative;
-    padding-left: 45px;
-    i {
-      position: absolute;
-      display: inline-block;
-      height: 30px;
-      width: 30px;
-      line-height: 30px;
-      background-color: #f1f1f1;
-      text-align: center;
-      color: $main-color;
-      border-radius: 50px;
-      top: 2px;
-      left: 0;
-      transition: $transition;
-      &::before {
-        font-size: 12px;
-      }
-    }
-    p {
-      margin: 0;
-    }
-    &:hover {
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+    .choose-text {
+      margin-top: 20px;
+      position: relative;
+      padding-left: 45px;
+      // flex: 0 0 calc(50.33% - 20px); /* Adjust the width based on your preference */
+      flex-basis: calc(45% - 5px); /* Half the container width minus margin */
+      margin: 10px; /* Add margin for spacing */
       i {
-        background-color: $main-color;
-        color: $white-color;
+        position: absolute;
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        background-color: #f1f1f1;
+        text-align: center;
+        color: $main-color;
+        border-radius: 50px;
+        top: 2px;
+        left: 0;
+        transition: $transition;
+        &::before {
+          font-size: 12px;
+        }
       }
-    }
-    h4 {
-      font-size: 18px;
-      color: $black-color;
-      font-weight: 500;
-      margin: 0 0 8px 0;
+      p {
+        margin: 0;
+      }
+      &:hover {
+        i {
+          background-color: $main-color;
+          color: $white-color;
+        }
+      }
+      h4 {
+        font-size: 18px;
+        color: $black-color;
+        font-weight: 500;
+        margin: 0 0 8px 0;
+      }
     }
   }
+
   .choose-btn {
     margin-top: 30px;
+    padding-left: 45px;
   }
 }
 
@@ -2079,7 +2194,7 @@ Tab Section CSS
     display: -webkit-box;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin: {
       left: -5px;
       right: -5px;
@@ -2091,8 +2206,8 @@ Tab Section CSS
     li {
       -ms-flex: 0 0 16.6666666667%;
       -webkit-box-flex: 0;
-      flex: 0 0 16.6666666667%;
-      max-width: 15.6666666667%;
+      flex: 0 0 10.6666666667%;
+      max-width: 10.6666666667%;
       text-align: center;
       cursor: pointer;
       margin: {
@@ -2829,7 +2944,30 @@ Partner Section CSS
     background: #ffffff;
     -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
     box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
-    // padding: 40px 30px;
+    padding: 20px 30px;
+    margin: 30px 10px;
+    border-radius: 5px;
+    img {
+      display: inline-block;
+      margin: auto;
+    }
+  }
+}
+
+// Dubai Partner Logos
+
+.partner-section {
+  line-height: 1;
+  position: relative;
+  padding-top: 50px;
+}
+.partner-slider {
+  .dubai-partner-item {
+    text-align: center;
+    background: #ffffff;
+    -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+    padding: 40px 30px;
     margin: 30px 10px;
     border-radius: 5px;
     img {
@@ -2947,7 +3085,7 @@ Home Banner Two CSS
       font-size: 50px;
       // color: $black-color;
       color: #0a61c1 !important;
-      font-weight: 600 !important;
+      font-weight: 700 !important;
       line-height: normal;
       margin: 0 0 20px 0;
     }
@@ -2956,6 +3094,11 @@ Home Banner Two CSS
       color: #404142;
       font-weight: 400;
       margin: 0 0 0 0;
+    }
+    strong {
+      margin-top: 30px;
+      font-weight: 700;
+      text-transform: capitalize;
     }
     .banner-btn {
       margin-top: 40px;
@@ -3120,6 +3263,7 @@ Features Area CSS
       margin: 10px 0 0 0;
       position: relative;
       padding-bottom: 20px;
+      text-transform: capitalize;
 
       &::before {
         position: absolute;
@@ -3925,23 +4069,23 @@ Page Title Area CSS
 =================================================*/
 .page-title-area {
   position: relative;
-  background-image: url(/images/page-banner-bg.jpg);
+  background-image: url(/images/banner.jpg);
   background-position: center center;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 150px;
   position: relative;
 }
-.page-title-area::before {
-  content: "";
-  background-color: #2629b2;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.8;
-}
+// .page-title-area::before {
+//   content: "";
+//   background-color: #0a61c1;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   opacity: 0.8;
+// }
 .page-title-content {
   text-align: center;
   position: relative;

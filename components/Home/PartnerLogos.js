@@ -11,14 +11,22 @@ import partner5 from "../../public/images/partner/vch.png";
 import partner6 from "../../public/images/partner/v7.png";
 import partner7 from "../../public/images/partner/dtl.png";
 
+// import partner8 from "../../public/images/partner/j7.jpg";
+import partner9 from "../../public/images/partner/kmk.jpg";
+import partner10 from "../../public/images/partner/lakeshore.jpg";
+// import partner11 from "../../public/images/partner/man.jpg";
+// import partner12 from "../../public/images/partner/muree-oaks.png";
+import partner13 from "../../public/images/partner/oasis.png";
+import partner14 from "../../public/images/partner/parkview.png";
+
 const PartnerLogos = () => {
   return (
     <>
       <div className="partner-section">
         <div className="container">
-          <div className="partner-title">
+          {/* <div className="partner-title">
             <h3>Trusted By Clients & Leading Companies</h3>
-          </div>
+          </div> */}
 
           <Swiper
             autoHeight={true}
@@ -40,7 +48,7 @@ const PartnerLogos = () => {
                 slidesPerView: 4,
               },
               1200: {
-                slidesPerView: 6,
+                slidesPerView: 5,
               },
             }}
             modules={[Autoplay]}
@@ -89,7 +97,7 @@ const PartnerLogos = () => {
             <SwiperSlide>
               <div className="partner-item">
                 <a href="#" target="_blank">
-                  <Image src={partner3} alt="partner" width={100} height={60} />
+                  <Image src={partner6} alt="partner" width={100} height={60} />
                 </a>
               </div>
             </SwiperSlide>
@@ -97,7 +105,88 @@ const PartnerLogos = () => {
             <SwiperSlide>
               <div className="partner-item">
                 <a href="#" target="_blank">
-                  <Image src={partner6} alt="partner" width={100} height={60} />
+                  <Image src={partner7} alt="partner" width={100} height={60} />
+                </a>
+              </div>
+            </SwiperSlide>
+
+            {/* <SwiperSlide>
+              <div className="partner-item">
+                <a href="#" target="_blank">
+                  <Image src={partner8} alt="partner" width={100} height={60} />
+                </a>
+              </div>
+            </SwiperSlide> */}
+
+            <SwiperSlide>
+              <div className="partner-item">
+                <a href="#" target="_blank">
+                  <Image src={partner9} alt="partner" width={100} height={60} />
+                </a>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div className="partner-item">
+                <a href="#" target="_blank">
+                  <Image
+                    src={partner10}
+                    alt="partner"
+                    width={100}
+                    height={60}
+                  />
+                </a>
+              </div>
+            </SwiperSlide>
+
+            {/* <SwiperSlide>
+              <div className="partner-item">
+                <a href="#" target="_blank">
+                  <Image
+                    src={partner11}
+                    alt="partner"
+                    width={100}
+                    height={60}
+                  />
+                </a>
+              </div>
+            </SwiperSlide> */}
+
+            {/* <SwiperSlide>
+              <div className="partner-item">
+                <a href="#" target="_blank">
+                  <Image
+                    src={partner12}
+                    alt="partner"
+                    width={100}
+                    height={60}
+                  />
+                </a>
+              </div>
+            </SwiperSlide> */}
+
+            <SwiperSlide>
+              <div className="partner-item">
+                <a href="#" target="_blank">
+                  <Image
+                    src={partner13}
+                    alt="partner"
+                    width={100}
+                    height={60}
+                  />
+                </a>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div className="partner-item">
+                <a href="#" target="_blank">
+                  <Image
+                    src={partner14}
+                    alt="partner"
+                    width={100}
+                    height={60}
+                  />
                 </a>
               </div>
             </SwiperSlide>

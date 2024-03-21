@@ -28,9 +28,8 @@ const FeaturesArea = () => {
                 </div>
                 <h3>Transparency and Reliability</h3>
                 <p>
-                  Establish transparency through the trusted and reliable source
-                  for property evaluations, aiming for global recognition within
-                  the next five years.
+                  Establishing transparency through a trusted and reliable
+                  source for property evaluations and selections.
                 </p>
               </div>
             </div>
@@ -48,9 +47,8 @@ const FeaturesArea = () => {
                 </div>
                 <h3>Property Sales</h3>
                 <p>
-                  Focus on selling properties for our existing clients while
-                  actively seeking out potential clients to expand your client
-                  base and increase sales volume
+                  Selling luxury properties for our existing clients and seeking
+                  potential clients to expand your client base.
                 </p>
               </div>
             </div>
@@ -68,9 +66,9 @@ const FeaturesArea = () => {
                 </div>
                 <h3>Stakeholder Relations</h3>
                 <p>
-                  Strengthen relationships with stakeholders, including Property
-                  investors, real estate developers, property owners and
-                  sellers, real estate.
+                  Strengthening relationships with stakeholders, including
+                  property investors, developers, owners, sellers, agents, and
+                  government bodies.
                 </p>
               </div>
             </div>
@@ -86,10 +84,11 @@ const FeaturesArea = () => {
                 <div className="icon">
                   <i className="flaticon-analysis-1"></i>
                 </div>
-                <h3>Brand Positioning and Visibility</h3>
+                <h3>Brand Positioning & Visibility</h3>
                 <p>
-                  Elevate your brand's presence in the market through strategic
-                  positioning and enhanced visibility strategies with us.
+                  Elevating your brand's presence in the national/international
+                  market through strategic positioning and enhanced visibility
+                  strategies with us.
                 </p>
               </div>
             </div>

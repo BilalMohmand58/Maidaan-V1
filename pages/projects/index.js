@@ -24,6 +24,7 @@ export async function getStaticProps() {
 }
 
 export default function Projects({ projects }) {
+  console.log(projects);
   return (
     <>
       <NavbarTwo />
