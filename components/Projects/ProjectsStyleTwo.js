@@ -17,12 +17,12 @@ const ProjectsStyleTwo = () => {
               <div className="single-portfolio-box">
                 <div className="portfolio-image">
                   <Link href="/projects/single-project">
-                    <Image
+                    {/* <Image
                       src={portfolioImg1}
                       alt="image"
                       width={380}
                       height={700}
-                    />
+                    /> */}
                   </Link>
                 </div>
                 <div className="portfolio-hover-content">
@@ -35,12 +35,12 @@ const ProjectsStyleTwo = () => {
               <div className="single-portfolio-box">
                 <div className="portfolio-image">
                   <Link href="/projects/single-project">
-                    <Image
+                    {/* <Image
                       src={portfolioImg2}
                       alt="image"
                       width={390}
                       height={340}
-                    />
+                    /> */}
                   </Link>
                 </div>
                 <div className="portfolio-hover-content">
@@ -55,12 +55,12 @@ const ProjectsStyleTwo = () => {
               <div className="single-portfolio-box">
                 <div className="portfolio-image">
                   <Link href="/projects/single-project">
-                    <Image
+                    {/* <Image
                       src={portfolioImg3}
                       alt="image"
                       width={390}
                       height={340}
-                    />
+                    /> */}
                   </Link>
                 </div>
                 <div className="portfolio-hover-content">
@@ -73,12 +73,12 @@ const ProjectsStyleTwo = () => {
               <div className="single-portfolio-box">
                 <div className="portfolio-image">
                   <Link href="/projects/single-project">
-                    <Image
+                    {/* <Image
                       src={portfolioImg4}
                       alt="image"
                       width={390}
                       height={340}
-                    />
+                    /> */}
                   </Link>
                 </div>
                 <div className="portfolio-hover-content">
@@ -91,12 +91,12 @@ const ProjectsStyleTwo = () => {
               <div className="single-portfolio-box">
                 <div className="portfolio-image">
                   <Link href="/projects/single-project">
-                    <Image
+                    {/* <Image
                       src={portfolioImg5}
                       alt="image"
                       width={390}
                       height={340}
-                    />
+                    /> */}
                   </Link>
                 </div>
                 <div className="portfolio-hover-content">
@@ -111,12 +111,12 @@ const ProjectsStyleTwo = () => {
               <div className="single-portfolio-box">
                 <div className="portfolio-image">
                   <Link href="/projects/single-project">
-                    <Image
+                    {/* <Image
                       src={portfolioImg6}
                       alt="image"
                       width={390}
                       height={340}
-                    />
+                    /> */}
                   </Link>
                 </div>
                 <div className="portfolio-hover-content">
@@ -131,12 +131,12 @@ const ProjectsStyleTwo = () => {
               <div className="single-portfolio-box">
                 <div className="portfolio-image">
                   <Link href="/projects/single-project">
-                    <Image
+                    {/* <Image
                       src={portfolioImg7}
                       alt="image"
                       width={380}
                       height={700}
-                    />
+                    /> */}
                   </Link>
                 </div>
                 <div className="portfolio-hover-content">

@@ -1,9 +1,6 @@
 import React from "react";
 import Image from "next/image";
 
-import servicesDetailsImg1 from "../../public/images/services-details/services-details-img1.jpg";
-import servicesDetailsImg2 from "../../public/images/services-details/services-details-img2.jpg";
-
 const SingleProjectContent = ({ project }) => {
   return (
     <>
@@ -12,23 +9,23 @@ const SingleProjectContent = ({ project }) => {
           <div className="row">
             <div className="col-lg-6 col-md-6">
               <div className="project-details-image">
-                <Image
+                {/* <Image
                   src={servicesDetailsImg1}
                   alt="projects"
                   width={550}
                   height={413}
-                />
+                /> */}
               </div>
             </div>
 
             <div className="col-lg-6 col-md-6">
               <div className="project-details-image">
-                <Image
+                {/* <Image
                   src={servicesDetailsImg2}
                   alt="projects"
                   width={550}
                   height={413}
-                />
+                /> */}
               </div>
             </div>
 
