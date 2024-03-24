@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import servicesDetailsImg1 from "../../public/images/services-details/services-details-img1.jpg";
+// import servicesDetailsImg1 from "../../public/images/services-details/services-details-img1.jpg";
 
 const SingleServiceContent = () => {
   return (
@@ -45,12 +45,12 @@ const SingleServiceContent = () => {
 
               <div className="col-lg-6 col-md-12">
                 <div className="services-details-image">
-                  <Image
+                  {/* <Image
                     src={servicesDetailsImg1}
                     alt="projects"
                     width={550}
                     height={413}
-                  />
+                  /> */}
                 </div>
               </div>
             </div>
@@ -60,12 +60,12 @@ const SingleServiceContent = () => {
             <div className="row align-items-center">
               <div className="col-lg-6 col-md-12">
                 <div className="services-details-image">
-                  <Image
+                  {/* <Image
                     src={servicesDetailsImg1}
                     alt="projects"
                     width={550}
                     height={413}
-                  />
+                  /> */}
                 </div>
               </div>
 

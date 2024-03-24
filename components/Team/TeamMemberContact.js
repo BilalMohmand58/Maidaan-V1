@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
 
-import teamImg1 from "../../public/images/team/team1.jpg";
-import teamImg2 from "../../public/images/team/team2.jpg";
-import teamImg3 from "../../public/images/team/team3.jpg";
-import teamImg4 from "../../public/images/team/team4.jpg";
-import teamImg5 from "../../public/images/team/team5.jpg";
-import teamImg6 from "../../public/images/team/team6.jpg";
+// import teamImg1 from "../../public/images/team/team1.jpg";
+// import teamImg2 from "../../public/images/team/team2.jpg";
+// import teamImg3 from "../../public/images/team/team3.jpg";
+// import teamImg4 from "../../public/images/team/team4.jpg";
+// import teamImg5 from "../../public/images/team/team5.jpg";
+// import teamImg6 from "../../public/images/team/team6.jpg";
 
 // Shape Images
 import shape2 from "../../public/images/shape/shape2.png";
@@ -26,7 +26,7 @@ const TeamMemberContact = () => {
             <div className="col-lg-4 col-md-6">
               <div className="team-item-area">
                 <div className="team-image">
-                  <Image src={teamImg1} alt="image" width={510} height={500} />
+                  {/* <Image src={teamImg1} alt="image" width={510} height={500} /> */}
                 </div>
 
                 <div className="team-content">
@@ -62,7 +62,7 @@ const TeamMemberContact = () => {
             <div className="col-lg-4 col-md-6">
               <div className="team-item-area">
                 <div className="team-image">
-                  <Image src={teamImg2} alt="image" width={510} height={500} />
+                  {/* <Image src={teamImg2} alt="image" width={510} height={500} /> */}
                 </div>
 
                 <div className="team-content">
@@ -98,7 +98,7 @@ const TeamMemberContact = () => {
             <div className="col-lg-4 col-md-6">
               <div className="team-item-area">
                 <div className="team-image">
-                  <Image src={teamImg3} alt="image" width={510} height={500} />
+                  {/* <Image src={teamImg3} alt="image" width={510} height={500} /> */}
                 </div>
 
                 <div className="team-content">
@@ -134,7 +134,7 @@ const TeamMemberContact = () => {
             <div className="col-lg-4 col-md-6">
               <div className="team-item-area">
                 <div className="team-image">
-                  <Image src={teamImg4} alt="image" width={510} height={500} />
+                  {/* <Image src={teamImg4} alt="image" width={510} height={500} /> */}
                 </div>
 
                 <div className="team-content">
@@ -170,7 +170,7 @@ const TeamMemberContact = () => {
             <div className="col-lg-4 col-md-6">
               <div className="team-item-area">
                 <div className="team-image">
-                  <Image src={teamImg5} alt="image" width={510} height={500} />
+                  {/* <Image src={teamImg5} alt="image" width={510} height={500} /> */}
                 </div>
 
                 <div className="team-content">
@@ -206,7 +206,7 @@ const TeamMemberContact = () => {
             <div className="col-lg-4 col-md-6">
               <div className="team-item-area">
                 <div className="team-image">
-                  <Image src={teamImg6} alt="image" width={510} height={500} />
+                  {/* <Image src={teamImg6} alt="image" width={510} height={500} /> */}
                 </div>
 
                 <div className="team-content">
@@ -244,19 +244,19 @@ const TeamMemberContact = () => {
         {/* Shape Images */}
         <div className="team-animation">
           <div className="shape-img1">
-            <Image src={shape2} alt="shape" width={23} height={23} />
+            {/* <Image src={shape2} alt="shape" width={23} height={23} /> */}
           </div>
           <div className="shape-img2">
-            <Image src={shape9} alt="image" width={20} height={23} />
+            {/* <Image src={shape9} alt="image" width={20} height={23} /> */}
           </div>
           <div className="shape-img3">
-            <Image src={shape2} alt="shape" width={23} height={23} />
+            {/* <Image src={shape2} alt="shape" width={23} height={23} /> */}
           </div>
           <div className="shape-img4">
-            <Image src={shape9} alt="image" width={20} height={23} />
+            {/* <Image src={shape9} alt="image" width={20} height={23} /> */}
           </div>
           <div className="shape-img5">
-            <Image src={shape9} alt="image" width={20} height={23} />
+            {/* <Image src={shape9} alt="image" width={20} height={23} /> */}
           </div>
         </div>
       </div>
