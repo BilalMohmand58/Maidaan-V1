@@ -2161,6 +2161,15 @@ Choose Section CSS
         font-weight: 500;
         margin: 0 0 8px 0;
       }
+      @media only screen and (max-width: 768px) {
+        flex-basis: calc(50% - 10px); /* Adjust width for smaller screens */
+      }
+
+      @media only screen and (max-width: 480px) {
+        flex-basis: calc(
+          100% - 20px
+        ); /* Adjust width for even smaller screens */
+      }
     }
   }
 
@@ -3965,8 +3974,9 @@ Subscribe Area CSS
   overflow: hidden;
   background: {
     color: $main-color;
-    image: url(/images/subscribe-bg.jpg);
-    position: center center;
+    image: url(/images/services-details/services-details-img2.jpg);
+
+    position: center left;
     size: cover;
     repeat: no-repeat;
   }

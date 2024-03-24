@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html lang="zxx">
+    <Html lang="en">
       <Head>
         <meta charSet="utf-8" />
         {/* <link
@@ -25,6 +25,7 @@ export default function Document() {
         ></link>
 
         <link rel="icon" type="image/png" href="/images/favicon.png"></link>
+        <meta property="og:image" content="/images/opengraph-image.jpg" />
       </Head>
       <body>
         <Main />

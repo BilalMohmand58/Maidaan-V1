@@ -10,7 +10,7 @@ const InvestInDubai = () => {
     <>
       <div className="dubai-section">
         <div className="container">
-          <div className=" d-flex flex-row  align-items-center ">
+          <div className="row align-items-center ">
             <div
               className="col-lg-6 col-md-12"
               data-aos="fade-up"

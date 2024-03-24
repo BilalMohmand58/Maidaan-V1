@@ -11,7 +11,7 @@ const ProjectsStyleOne = ({ projects }) => {
         <div className="container">
           <div className="section-title">
             <span>Projects</span>
-            <h3>Our Projects For Client</h3>
+            <h3>Invest In Our Featured Projects</h3>
           </div>
 
           <div className="row justify-content-center">
@@ -21,7 +21,7 @@ const ProjectsStyleOne = ({ projects }) => {
               ))
             ) : (
               // Render a message if no projects are available
-              <p>No projects available</p>
+              <p className="text-center">Coming Soon</p>
             )}
           </div>
         </div>

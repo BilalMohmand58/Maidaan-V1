@@ -3,14 +3,7 @@ import Link from "next/link";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import Image from "next/image";
 
-import realTimeAnalytic from "../../public/images/boosting/real-time-analytics.jpg";
-import payPerClick from "../../public/images/boosting/pay-per-click.jpg";
-import onlineMarketing from "../../public/images/boosting/online-marketing.jpg";
-import emailMarketing from "../../public/images/boosting/email-marketing.jpg";
-import socialMarketing from "../../public/images/boosting/social-marketing.jpg";
-import digitalMarketing from "../../public/images/boosting/digital-marketing.jpg";
-
-import shape from "../../public/images/boosting/shape.png";
+import shape from "../../public/images/banner.jpg";
 
 const OutstandingDigitalExperience = () => {
   return (

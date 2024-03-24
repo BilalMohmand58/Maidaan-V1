@@ -1,10 +1,6 @@
 import React from "react";
 import Image from "next/image";
 
-import teamImg1 from "../../public/images/team/team1.jpg";
-import teamImg2 from "../../public/images/team/team2.jpg";
-import teamImg3 from "../../public/images/team/team3.jpg";
-
 // Shape Images
 import shape7 from "../../public/images/shape/shape7.png";
 import shape9 from "../../public/images/shape/shape9.png";

@@ -1904,6 +1904,16 @@ Choose Section CSS
   font-weight: 500;
   margin: 0 0 8px 0;
 }
+@media only screen and (max-width: 768px) {
+  .choose-content-area .container .choose-text {
+    flex-basis: calc(50% - 10px); /* Adjust width for smaller screens */
+  }
+}
+@media only screen and (max-width: 480px) {
+  .choose-content-area .container .choose-text {
+    flex-basis: calc(100% - 20px); /* Adjust width for even smaller screens */
+  }
+}
 .choose-content-area .choose-btn {
   margin-top: 30px;
   padding-left: 45px;
@@ -3471,8 +3481,8 @@ Subscribe Area CSS
   z-index: 1;
   overflow: hidden;
   background-color: #0a61c1;
-  background-image: url(/images/subscribe-bg.jpg);
-  background-position: center center;
+  background-image: url(/images/services-details/services-details-img2.jpg);
+  background-position: center left;
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 100px;

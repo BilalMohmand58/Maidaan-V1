@@ -2,14 +2,6 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import portfolioImg1 from "../../public/images/portfolio/portfolio-img1.png";
-import portfolioImg2 from "../../public/images/portfolio/portfolio-img2.png";
-import portfolioImg3 from "../../public/images/portfolio/portfolio-img3.png";
-import portfolioImg4 from "../../public/images/portfolio/portfolio-img4.png";
-import portfolioImg5 from "../../public/images/portfolio/portfolio-img5.png";
-import portfolioImg6 from "../../public/images/portfolio/portfolio-img6.png";
-import portfolioImg7 from "../../public/images/portfolio/portfolio-img7.png";
-
 const ProjectsStyleTwo = () => {
   return (
     <>

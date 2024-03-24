@@ -37,32 +37,26 @@ const SingleBlogSidebar = ({ relatedBlogPosts }) => {
           <ul>
             <li>
               <Link href="/blog">
-                Business
-                <span className="post-count">(05)</span>
+                Real Estate
+                <span className="post-count">(0)</span>
               </Link>
             </li>
             <li>
               <Link href="/blog">
-                Privacy
-                <span className="post-count">(10)</span>
+                Investments
+                <span className="post-count">(0)</span>
               </Link>
             </li>
             <li>
               <Link href="/blog">
                 Technology
-                <span className="post-count">(15)</span>
+                <span className="post-count">(0)</span>
               </Link>
             </li>
             <li>
               <Link href="/blog">
-                Tips
-                <span className="post-count">(10)</span>
-              </Link>
-            </li>
-            <li>
-              <Link href="/blog">
-                Uncategorized
-                <span className="post-count">(05)</span>
+                Marketing
+                <span className="post-count">(0)</span>
               </Link>
             </li>
           </ul>
@@ -74,28 +68,20 @@ const SingleBlogSidebar = ({ relatedBlogPosts }) => {
 
           <div className="tagcloud">
             <Link href="/blog">
-              IT <span className="tag-link-count"> (3)</span>
+              Tech <span className="tag-link-count"> (0)</span>
             </Link>
             <Link href="/blog">
-              Crimso <span className="tag-link-count"> (3)</span>
+              Real Estate <span className="tag-link-count"> (0)</span>
+            </Link>
+
+            <Link href="/blog">
+              Properties <span className="tag-link-count"> (0)</span>
             </Link>
             <Link href="/blog">
-              Games <span className="tag-link-count"> (2)</span>
+              High RIO <span className="tag-link-count"> (0)</span>
             </Link>
             <Link href="/blog">
-              Fashion <span className="tag-link-count"> (2)</span>
-            </Link>
-            <Link href="/blog">
-              Travel <span className="tag-link-count"> (1)</span>
-            </Link>
-            <Link href="/blog">
-              Smart <span className="tag-link-count"> (1)</span>
-            </Link>
-            <Link href="/blog">
-              Marketing <span className="tag-link-count"> (1)</span>
-            </Link>
-            <Link href="/blog">
-              Tips <span className="tag-link-count"> (2)</span>
+              Marketing <span className="tag-link-count"> (0)</span>
             </Link>
           </div>
         </div>

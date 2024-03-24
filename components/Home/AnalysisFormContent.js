@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import analysisImg from "../../public/images/analysis-image.png";
+import analysisImg from "../../public/images/banner.jpg";
 
 const AnalysisFormContent = () => {
   return (

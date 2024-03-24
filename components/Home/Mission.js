@@ -8,7 +8,7 @@ const Mission = () => {
     <>
       <div className="mission-section">
         <div className="container">
-          <div className=" d-flex flex-row-reverse  align-items-center ">
+          <div className=" row flex-row-reverse  align-items-center ">
             <div
               className="col-lg-6 col-md-12"
               data-aos="fade-up"

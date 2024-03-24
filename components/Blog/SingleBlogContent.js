@@ -99,9 +99,9 @@ const SingleBlogContent = ({ post }) => {
                     <span>
                       <i className="fas fa-bookmark"></i>
                     </span>
-                    <Link href="/blog/">Fashion,</Link>
-                    <Link href="/blog/">Games,</Link>
-                    <Link href="/blog/">Travel</Link>
+                    <Link href="/blog/">Real Estate,</Link>
+
+                    <Link href="/blog/">Marketing</Link>
                   </div>
 
                   <div className="article-share">

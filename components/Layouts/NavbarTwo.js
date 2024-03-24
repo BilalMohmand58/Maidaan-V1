@@ -5,15 +5,6 @@ import Image from "next/image";
 
 import logo from "../../public/images/logo.png";
 
-import instagramImg1 from "../../public/images/instagram/instagram-img1.jpg";
-import instagramImg2 from "../../public/images/instagram/instagram-img2.jpg";
-import instagramImg3 from "../../public/images/instagram/instagram-img3.jpg";
-import instagramImg4 from "../../public/images/instagram/instagram-img4.jpg";
-import instagramImg5 from "../../public/images/instagram/instagram-img5.jpg";
-import instagramImg6 from "../../public/images/instagram/instagram-img6.jpg";
-import instagramImg7 from "../../public/images/instagram/instagram-img7.jpg";
-import instagramImg8 from "../../public/images/instagram/instagram-img8.jpg";
-
 const Navbar = () => {
   // Add active class
   const [currentPath, setCurrentPath] = useState("");

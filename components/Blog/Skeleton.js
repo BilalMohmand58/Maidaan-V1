@@ -3,13 +3,6 @@ import Link from "next/link";
 import BlogSidebar from "./BlogSidebar";
 import Image from "next/image";
 
-import singleBlog from "../../public/images/blog/single-blog.jpg";
-import blogImg7 from "../../public/images/blog/blog-img7.jpg";
-import blogImg8 from "../../public/images/blog/blog-img8.jpg";
-import blogImg9 from "../../public/images/blog/blog-img9.jpg";
-
-import userImg1 from "../../public/images/clients/client.jpg";
-
 const SingleBlogContent = () => {
   return (
     <>
@@ -51,34 +44,13 @@ const SingleBlogContent = () => {
 
                   <ul className="wp-block-gallery columns-3">
                     <li className="blocks-gallery-item">
-                      <figure>
-                        <Image
-                          src={blogImg7}
-                          alt="image"
-                          width={510}
-                          height={400}
-                        />
-                      </figure>
+                      <figure></figure>
                     </li>
                     <li className="blocks-gallery-item">
-                      <figure>
-                        <Image
-                          src={blogImg8}
-                          alt="image"
-                          width={510}
-                          height={400}
-                        />
-                      </figure>
+                      <figure></figure>
                     </li>
                     <li className="blocks-gallery-item">
-                      <figure>
-                        <Image
-                          src={blogImg9}
-                          alt="image"
-                          width={510}
-                          height={400}
-                        />
-                      </figure>
+                      <figure></figure>
                     </li>
                   </ul>
 
