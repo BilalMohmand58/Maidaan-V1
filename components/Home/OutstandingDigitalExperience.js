@@ -54,12 +54,7 @@ const OutstandingDigitalExperience = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-6">
                     <div className="tab-image">
-                      <Image
-                        src={realTimeAnalytic}
-                        alt="image"
-                        width={550}
-                        height={480}
-                      />
+                      <Image src={shape} alt="image" width={550} height={480} />
                     </div>
                   </div>
 
@@ -117,12 +112,7 @@ const OutstandingDigitalExperience = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-6">
                     <div className="tab-image">
-                      <Image
-                        src={payPerClick}
-                        alt="image"
-                        width={550}
-                        height={480}
-                      />
+                      <Image src={shape} alt="image" width={550} height={480} />
                     </div>
                   </div>
 
@@ -164,12 +154,7 @@ const OutstandingDigitalExperience = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-5">
                     <div className="tab-image">
-                      <Image
-                        src={onlineMarketing}
-                        alt="image"
-                        width={550}
-                        height={480}
-                      />
+                      <Image src={shape} alt="image" width={550} height={480} />
                     </div>
                   </div>
 
@@ -210,12 +195,7 @@ const OutstandingDigitalExperience = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-5">
                     <div className="tab-image">
-                      <Image
-                        src={emailMarketing}
-                        alt="image"
-                        width={550}
-                        height={480}
-                      />
+                      <Image src={shape} alt="image" width={550} height={480} />
                     </div>
                   </div>
 
@@ -256,12 +236,7 @@ const OutstandingDigitalExperience = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-5">
                     <div className="tab-image">
-                      <Image
-                        src={socialMarketing}
-                        alt="image"
-                        width={550}
-                        height={480}
-                      />
+                      <Image src={shape} alt="image" width={550} height={480} />
                     </div>
                   </div>
 
@@ -306,12 +281,7 @@ const OutstandingDigitalExperience = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-5">
                     <div className="tab-image">
-                      <Image
-                        src={digitalMarketing}
-                        alt="image"
-                        width={550}
-                        height={480}
-                      />
+                      <Image src={shape} alt="image" width={550} height={480} />
                     </div>
                   </div>
 
@@ -372,12 +342,7 @@ const OutstandingDigitalExperience = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-5">
                     <div className="tab-image">
-                      <Image
-                        src={digitalMarketing}
-                        alt="image"
-                        width={550}
-                        height={480}
-                      />
+                      <Image src={shape} alt="image" width={550} height={480} />
                     </div>
                   </div>
 
@@ -438,12 +403,7 @@ const OutstandingDigitalExperience = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-5">
                     <div className="tab-image">
-                      <Image
-                        src={digitalMarketing}
-                        alt="image"
-                        width={550}
-                        height={480}
-                      />
+                      <Image src={shape} alt="image" width={550} height={480} />
                     </div>
                   </div>
 
@@ -504,12 +464,7 @@ const OutstandingDigitalExperience = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-5">
                     <div className="tab-image">
-                      <Image
-                        src={digitalMarketing}
-                        alt="image"
-                        width={550}
-                        height={480}
-                      />
+                      <Image src={shape} alt="image" width={550} height={480} />
                     </div>
                   </div>
 

@@ -86,7 +86,7 @@ export default function Index({ posts, projects }) {
 
       <WhyChooseUs />
 
-      <ProjectsStyleOne projects={projects} />
+      {/* <ProjectsStyleOne projects={projects} /> */}
 
       <ServicesContent />
 
