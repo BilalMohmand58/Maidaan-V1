@@ -10,7 +10,7 @@ export default function PrivacyPolicy() {
       <NavbarTwo />
 
       <PageBanner
-        pageTitle="Privacy Policy"
+        pageTitle="Privacy Policy of Maidaan Marketing Agency"
         breadcrumbTextOne="Home"
         breadcrumbTextTwo="Privacy Policy"
         breadcrumbUrl="/"

@@ -1,77 +1,109 @@
-import React from "react"; 
+import React from "react";
 
 const PrivacyPolicyContent = () => {
   return (
     <>
       <div className="ptb-100">
         <div className="container">
-          <h4>What is Lorem Ipsum?</h4>
+          <h4>Introduction</h4>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            Maidaan Marketing Agency ("Maidaan", "we", "us", or "our") respects
+            the privacy of our clients, partners, and visitors. This Privacy
+            Policy outlines the types of information we may collect from you or
+            that you may provide when you visit our website, use our services,
+            or participate in our events, and our practices for collecting,
+            using, maintaining, protecting, and disclosing that information.
+            Information Collection We may collect several types of information
+            from and about users of our services, including information:
+          </p>
+          <ul>
+            <li>
+              {" "}
+              <strong>Personal Information:</strong> Your full name, postal
+              address, email address, telephone number, and any other identifier
+              by which you may be contacted online or offline.
+            </li>
+            <li>
+              {" "}
+              <strong>Event Information: </strong> Details pertaining to your
+              participation in our events, such as 'Property Ka Maidaan' and
+              'Maidaan Enclave'
+            </li>
+            <li>
+              {" "}
+              <strong>Financial Information: </strong> If applicable,
+              information necessary to process payments or investments, such as
+              your bank account or credit card details.
+            </li>
+            <li>
+              {" "}
+              <strong>Usage Information: </strong> Information about your
+              internet connection, the equipment you use to access our services,
+              and usage details.
+            </li>
+          </ul>
+
+          <h5>Use of Information</h5>
+          <p>The information we collect is used in the following ways:</p>
+
+          <ul>
+            <li>To provide, maintain, and improve our services and events.</li>
+            <li>
+              To provide you with information, products, or services that you
+              request from us.
+            </li>
+            <li>
+              To fulfill any other purpose for which you provide the
+              information.
+            </li>
+            <li>To notify you about changes to our services or events.</li>
+            <li>
+              To allow you to participate in interactive features on our
+              website.
+            </li>
+            <li>For any other purpose with your consent.</li>
+          </ul>
+
+          <h5>Data Security</h5>
+          <p>
+            We have implemented measures designed to secure your personal
+            information from accidental loss and from unauthorized access, use,
+            alteration, and disclosure. However, the transmission of information
+            via the internet is not completely secure. While we do our best to
+            protect your personal information, we cannot guarantee the security
+            of your information transmitted to our website.
           </p>
 
-          <h4>Why do we use it?</h4>
+          <h5>Data Retention</h5>
           <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using 'Content here, content
-            here', making it look like readable English. Many desktop publishing
-            packages and web page editors now use Lorem Ipsum as their default
-            model text, and a search for 'lorem ipsum' will uncover many web
-            sites still in their infancy. Various versions have evolved over the
-            years, sometimes by accident, sometimes on purpose (injected humour
-            and the like).
+            We will retain your personal information for the period necessary to
+            fulfill the purposes outlined in this policy unless a longer
+            retention period is required or permitted by law. Your Rights
           </p>
+          <h6>You have the right to:</h6>
+          <li>
+            Access and receive a copy of the personal data we hold about you.
+          </li>
+          <li>Request correction or deletion of your personal data.</li>
+          <li>Object to or restrict processing of your personal data.</li>
+          <li>Request the transfer of your personal data to another party.</li>
 
-          <h4>Where does it come from?</h4>
+          <h5 className="mt-3">Changes to Our Privacy Policy</h5>
           <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old. Richard McClintock, a Latin professor
-            at Hampden-Sydney College in Virginia, looked up one of the more
-            obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-            going through the cites of the word in classical literature,
-            discovered the undoubtable source. Lorem Ipsum comes from sections
-            1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes
-            of Good and Evil) by Cicero, written in 45 BC. This book is a
-            treatise on the theory of ethics, very popular during the
-            Renaissance.
+            It is our policy to post any changes we make to our privacy policy
+            on this page. The date the privacy policy was last revised is
+            identified at the top of the page.
           </p>
-
-          <h4>Where can I get some?</h4>
+          <h5>Contact Information</h5>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
-          </p>
-          <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-            qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-            sed quia non numquam eius modi tempora incidunt ut labore et dolore
-            magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-            nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
-            aliquid ex ea commodi consequatur? Quis autem vel eum iure
-            reprehenderit qui in ea voluptate velit esse quam nihil molestiae
-            consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
-            pariatur?
+            To ask questions or comment about this privacy policy and our
+            privacy practices, contact us at:
+            <strong className="p-3">
+              <a href="mailto:info@themaidaan.com">info@themaidaan.com</a>
+            </strong>
+            By using <strong>Maidaan's</strong> services, you consent to our
+            collection and use of your personal information as described in this{" "}
+            <strong>Privacy Policy</strong> .
           </p>
         </div>
       </div>

@@ -6209,4 +6209,126 @@ Go Top CSS
     }
   }
 }
-// End Home 3 Style
+// Pop up styles
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); // Semi-transparent black background
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .popup {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+
+    .close-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+    }
+  }
+}
+
+/*================================================
+// Property Ka Maidaan Carousel
+=================================================*/
+
+.slider-section {
+  line-height: 1;
+  position: relative;
+  width: 100%;
+  height: 85vh;
+  overflow: hidden; // Ensure that overflow doesn't affect the layout
+
+  // Remove padding-top if unnecessary
+  // padding-top: 50px;
+}
+
+.slider {
+  width: 100%; // Ensure slider takes up full width
+  height: 100%; // Ensure slider takes up full height of parent
+
+  .slide-item {
+    text-align: center;
+    background: #ffffff;
+    height: 100%; // Ensure slide item takes up full height of parent
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .slider-image {
+      max-width: 100%;
+      height: 100%;
+      width: auto; // Allow image to resize according to its aspect ratio
+      max-height: auto; // Ensure image doesn't overflow its container vertically
+
+      object-fit: contai;
+    }
+
+    .slide-content {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+
+      .features-btn {
+        margin-top: 25px;
+
+        .features-btn-one {
+          display: inline-block;
+          padding: 12px 32px;
+          color: $white-color;
+          text-transform: capitalize;
+          background-color: #eb8242;
+          border: 1px solid #eb8242;
+          transition: $transition;
+          border-radius: 30px;
+          font-size: 16px;
+          font-weight: 500;
+          margin-right: 10px;
+
+          &:hover {
+            background-color: transparent;
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    .slide-title {
+      margin-bottom: 10px;
+      color: #fff;
+      font-size: 50px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding a text shadow */
+      font-weight: 600; /* Increasing font weight for emphasis */
+      letter-spacing: 1px; /* Adding some letter spacing for better readability */
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff; /* Example background color */
+      color: #fff; /* Example text color */
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #0056b3; /* Example hover background color */
+    }
+  }
+}

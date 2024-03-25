@@ -128,6 +128,16 @@ const Navbar = () => {
                       Home
                     </Link>
                   </li>
+                  <li className="nav-item">
+                    <Link
+                      href="/propertyKaMaidaan/"
+                      className={`nav-link ${
+                        currentPath == "/propertyKaMaidaan/" && "active"
+                      }`}
+                    >
+                      Property Ka Maidaan
+                    </Link>
+                  </li>
 
                   <li className="nav-item">
                     <Link
@@ -322,17 +332,6 @@ const Navbar = () => {
                         </Link>
                       </li>
                     </ul>
-                  </li> */}
-
-                  {/* <li className="nav-item">
-                    <Link
-                      href="/features/"
-                      className={`nav-link ${
-                        currentPath == "/features/" && "active"
-                      }`}
-                    >
-                      Features
-                    </Link>
                   </li> */}
 
                   {/* <li className="nav-item">

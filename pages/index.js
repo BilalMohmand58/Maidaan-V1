@@ -23,6 +23,7 @@ import OutstandingDigitalExperience from "../components/Home/OutstandingDigitalE
 import InvestInDubai from "../components/Home/InvestInDubai";
 import DubaiPartnerLogos from "../components/Common/DubaiPartnerLogos";
 import InvestInPak from "../components/Home/InvestInPak";
+import LeadFormPopup from "../components/Home/LeadFormPopup";
 
 export async function getStaticProps() {
   try {
