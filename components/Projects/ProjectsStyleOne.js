@@ -21,7 +21,7 @@ const ProjectsStyleOne = ({ projects }) => {
               ))
             ) : (
               // Render a message if no projects are available
-              <p className="text-center">Coming Soon</p>
+              <p className="text-center">Coming</p>
             )}
           </div>
         </div>
