@@ -8,7 +8,7 @@ import ContactButton from "./ContactButton";
 const InvestInDubai = () => {
   return (
     <>
-      <div className="dubai-section">
+      <div className="dubai-section" id="invest">
         <div className="container">
           <div className="row align-items-center ">
             <div

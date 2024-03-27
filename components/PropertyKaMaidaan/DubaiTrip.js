@@ -10,7 +10,7 @@ import ContactButton from "../Home/ContactButton";
 const FeaturesContent = () => {
   return (
     <>
-      <div className="features-section">
+      <div className="features-section" id="explore">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5 col-md-12">
