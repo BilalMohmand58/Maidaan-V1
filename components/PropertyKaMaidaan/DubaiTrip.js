@@ -15,14 +15,22 @@ const FeaturesContent = () => {
           <div className="row align-items-center">
             <div className="col-lg-5 col-md-12">
               <div className="features-content-area">
-                <span>Explore Dubai With Us</span>
-                <h3>Discover Dubai's iconic landmarks</h3>
+                <span>Discover the Magic of Dubai</span>
+                <h3>Your Ultimate Adventure Awaits</h3>
+                <p className="mb-3 fw-bold ">
+                  Unveil the Splendor of the City of Dreams – From Sky-High
+                  Wonders to Cultural Treasures
+                </p>
+
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.Lorem Ipsum is simply
-                  dummy text of the printing and typesetting industry.
+                  A 2-night, 3-day luxury journey blending travel and investment
+                  opportunities. Explore iconic landmarks and engage with
+                  leading real estate projects. Unique to this package, invest
+                  in Dubai property and your trip's cost will be adjusted
+                  against your downpayment. Experience the blend of culture,
+                  luxury, and investment potential in one of the world's most
+                  dynamic cities. Start your investment journey with added
+                  travel pleasure in Dubai.
                 </p>
 
                 <div className="features-btn">
@@ -42,12 +50,14 @@ const FeaturesContent = () => {
                 >
                   <div className="single-features-item bg-f1eff8">
                     <div className="icon">
-                      <i className="flaticon-seo"></i>
+                      <i className="flaticon-check-mark"></i>
                     </div>
                     <h3>Iconic Landmarks</h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor
+                      Explore the architectural marvels of Dubai, from the
+                      towering Burj Khalifa to the enchanting Palm Jumeirah.
+                      Discover the city's skyline and historic sites, creating
+                      memories against the backdrop of breathtaking vistas.
                     </p>
                   </div>
                 </div>
@@ -61,12 +71,15 @@ const FeaturesContent = () => {
                 >
                   <div className="single-features-item bg-fbe6d4">
                     <div className="icon">
-                      <i className="flaticon-analytics"></i>
+                      <i className="flaticon-check-mark"></i>
                     </div>
-                    <h3>Cultural Diversity</h3>
+                    <h3>Strategic Investment</h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor
+                      Transform your Dubai visit into a smart investment.
+                      Explore prime real estate opportunities and learn how your
+                      travel expenses can be adjusted against the downpayment of
+                      your property investment, making every moment count
+                      towards your future.
                     </p>
                   </div>
                 </div>
@@ -80,12 +93,14 @@ const FeaturesContent = () => {
                 >
                   <div className="single-features-item bg-f0fffc">
                     <div className="icon">
-                      <i className="flaticon-laptop"></i>
+                      <i className="flaticon-check-mark"></i>
                     </div>
-                    <h3>Luxurious Accommodations</h3>
+                    <h3>Cultural Diversity</h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor
+                      Immerse yourself in the rich tapestry of Dubai's culture.
+                      From traditional souks to contemporary art galleries,
+                      discover a vibrant blend of heritage and innovation that
+                      captivates every visitor.
                     </p>
                   </div>
                 </div>
@@ -99,12 +114,15 @@ const FeaturesContent = () => {
                 >
                   <div className="single-features-item bg-f8e1eb">
                     <div className="icon">
-                      <i className="flaticon-analysis-1"></i>
+                      <i className="flaticon-check-mark"></i>
                     </div>
-                    <h3>Cultural Diversity</h3>
+                    <h3>Meet the Developers</h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor
+                      Gain invaluable insights by meeting directly with Dubai’s
+                      leading real estate developers. Discover upcoming
+                      projects, understand market trends, and forge potential
+                      investment paths in one of the world's most dynamic
+                      property landscapes.
                     </p>
                   </div>
                 </div>

@@ -5580,4 +5580,22 @@ Go Top CSS
 }
 .slider .slide-item .cta-button:hover {
   background-color: #0056b3; /* Example hover background color */
+}
+
+.features-btn-one {
+  display: inline-block;
+  padding: 12px 32px;
+  color: #ffffff;
+  text-transform: capitalize;
+  background-color: #eb8242;
+  border: 1px solid #eb8242;
+  transition: 0.5s;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.features-btn-one:hover {
+  background-color: transparent;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

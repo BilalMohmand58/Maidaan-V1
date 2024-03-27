@@ -6380,3 +6380,22 @@ Go Top CSS
     }
   }
 }
+
+.features-btn-one {
+  display: inline-block;
+  padding: 12px 32px;
+  color: $white-color;
+  text-transform: capitalize;
+  background-color: #eb8242;
+  border: 1px solid #eb8242;
+  transition: $transition;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 10px;
+
+  &:hover {
+    background-color: transparent;
+    color: #fff;
+  }
+}

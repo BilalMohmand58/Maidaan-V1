@@ -53,7 +53,7 @@ const Carousel = () => {
                     />
                   </a>
                   <div className="slide-content">
-                    <h3 className="slide-title">Invest In Dubai</h3>
+                    <h3 className="slide-title">INVEST IN DUBAI</h3>
                     <h3 className="slide-sub-title">
                       Limitless Investment Horizons.
                     </h3>
@@ -77,9 +77,9 @@ const Carousel = () => {
                     />
                   </a>
                   <div className="slide-content">
-                    <h3 className="slide-title">Invest In Pakistan</h3>
+                    <h3 className="slide-title">INVEST IN PAKISTAN</h3>
                     <h3 className="slide-sub-title">
-                      Limitless Investment Horizons
+                      Unleash Limitless Investment Opportunities.
                     </h3>
                     <div className="features-btn">
                       <Link href="#pakInvest" className="features-btn-one">
@@ -100,8 +100,12 @@ const Carousel = () => {
                     />
                   </a>
                   <div className="slide-content">
-                    <h3 className="slide-title">Explore Dubai </h3>
-                    <h3 className="slide-sub-title">Avail Our Latest Offers</h3>
+                    <h3 className="slide-title">
+                      DISCOVER THE MAGIC OF DUBAI{" "}
+                    </h3>
+                    <h3 className="slide-sub-title">
+                      Unveil the Splendor of the City of Dreams
+                    </h3>
                     <div className="features-btn">
                       <Link href="#explore" className="features-btn-one">
                         More Details
