@@ -5599,3 +5599,14 @@ Go Top CSS
   background-color: transparent;
   color: #fff;
 }/*# sourceMappingURL=style.css.map */
+
+
+
+
+.zoom-on-hover {
+  transition: transform 0.9s ease;
+}
+
+.zoom-on-hover:hover img {
+  transform: scale(1.05);
+}

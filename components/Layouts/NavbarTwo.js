@@ -137,6 +137,29 @@ const Navbar = () => {
                     >
                       Property Ka Maidaan
                     </Link>
+                    <ul
+                      className="dropdown-menu"
+                      aria-labelledby="navbarDropdown"
+                    >
+                      <li>
+                        <Link href="/investindubai/" className="dropdown-item">
+                          Invest in Dubai
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href="/investinpakistan/"
+                          className="dropdown-item"
+                        >
+                          Invest in Pakistan
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/discoverdubai/" className="dropdown-item">
+                          Discover a Dubai
+                        </Link>
+                      </li>
+                    </ul>
                   </li>
 
                   <li className="nav-item">
