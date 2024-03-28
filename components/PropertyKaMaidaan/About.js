@@ -12,14 +12,14 @@ const About = () => {
               </h2>
               <p className="lead mb-4">
                 <span className="fw-bold">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                  ultricies justo id justo condimentum, eget fermentum elit
-                  ultrices.
+                  An opportunity for luxury property investment with Maidaan at
+                  Future Fest 2024, organized in Lahore from April 1st to April
+                  7th.
                 </span>{" "}
               </p>
               <p>
-                Ut auctor vehicula ex, quis tempus risus luctus ut. Donec eget
-                tellus vel libero vehicula fringilla sed non eros.
+                Experience 1000 brands, 50+ restaurants, Qawali, Mehfl-e-Naat,
+                and Islamic lectures from Iftar to Sehr.
               </p>
             </div>
           </div>
