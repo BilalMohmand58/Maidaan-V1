@@ -35,6 +35,8 @@ import Image from "next/image";
 import popupImage from "../public/images/futurefest.jpg";
 import ContactButton from "../components/Home/ContactButton";
 import Link from "next/link";
+import MarketedBanner from "../components/Home/MarketedBanner";
+import RegisterButton from "../components/Home/RegisterButton";
 
 export async function getStaticProps() {
   try {
@@ -86,7 +88,7 @@ export default function Index({ posts, projects }) {
       }
     };
 
-    // window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll);
     // Check if modalShown cookie exists
     const modalShownCookie = document.cookie
       .split("; ")
@@ -129,6 +131,7 @@ export default function Index({ posts, projects }) {
 
       <div className="pb-70 ">
         <PartnerLogos />
+        <MarketedBanner />
       </div>
 
       {/* <div className="pb-70">
@@ -173,6 +176,9 @@ export default function Index({ posts, projects }) {
             src={popupImage}
             alt="partner"
           />
+
+          <RegisterButton />
+
           <div
             className="d-flex justify-content-end align-items-end position-absolute p-3"
             style={{ bottom: 0, right: 0 }}
@@ -186,8 +192,6 @@ export default function Index({ posts, projects }) {
                 Learn More
               </Link>
             )}
-
-            {!isMobile && <ContactButton />}
           </div>
         </Modal.Body>
       </Modal>

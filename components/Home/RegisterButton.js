@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-function ContactButton() {
+function RegisterButton() {
   useEffect(() => {
     const script = document.createElement("script");
     script.src = "//embed.typeform.com/next/embed.js";
@@ -17,12 +17,12 @@ function ContactButton() {
       <button
         data-tf-popup="pnDQPsKA"
         data-tf-size="70px"
-        className="default-btn-one"
+        className=" position-absolute top-50 start-50 move-right "
       >
-        Get in touch
+        Register Now
       </button>
     </>
   );
 }
 
-export default ContactButton;
+export default RegisterButton;
