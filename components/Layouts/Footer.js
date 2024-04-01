@@ -80,6 +80,17 @@ const Footer = () => {
                 <ul className="footer-quick-links">
                   <li>
                     <Link href="/propertyKaMaidaan">Property Ka Maidaan</Link>
+                    <ol>
+                      <li className="mt-3">
+                        <Link href="/investInDubai/">Invest In Dubai</Link>
+                      </li>
+                      <li>
+                        <Link href="/investInPak/">Invest In Pakistan</Link>
+                      </li>
+                      <li>
+                        <Link href="/discoverDubai/">Discover Dubai</Link>
+                      </li>
+                    </ol>
                   </li>
                   <li>
                     <Link href="/about-us">About Us</Link>
