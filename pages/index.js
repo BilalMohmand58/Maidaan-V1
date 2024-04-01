@@ -88,7 +88,7 @@ export default function Index({ posts, projects }) {
       }
     };
 
-    window.addEventListener("scroll", handleScroll);
+    // window.addEventListener("scroll", handleScroll);
     // Check if modalShown cookie exists
     const modalShownCookie = document.cookie
       .split("; ")
