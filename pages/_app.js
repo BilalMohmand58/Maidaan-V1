@@ -27,7 +27,7 @@ export default function App({ Component, pageProps }) {
       <ChakraProvider>
         <Head>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <title>Maidaan - Simplifying Real Estate</title>
+          <title>Maidaan | Simplifying Real Estate</title>
         </Head>
 
         <Component {...pageProps} />
