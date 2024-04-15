@@ -14,10 +14,17 @@ import Footer from "../components/Layouts/Footer";
 import Mission from "../components/Home/Mission";
 import Vision from "../components/Home/Vision";
 import DubaiPartnerLogos from "../components/Common/DubaiPartnerLogos";
-
+import Head from "next/head";
+import { getMetadata } from "../config/metadata";
 export default function AboutUs() {
+  const page = "about"; // Set the page name here
+  const { title, description } = getMetadata(page);
   return (
     <>
+      <Head>
+        <title>{title}</title>
+        <meta name="description" content={description} />
+      </Head>
       <NavbarTwo />
 
       <PageBanner

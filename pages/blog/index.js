@@ -5,7 +5,8 @@ import BlogCardContent from "../../components/Blog/BlogCardContent";
 import Footer from "../../components/Layouts/Footer";
 import { createClient } from "contentful";
 import BlogSidebar from "../../components/Blog/BlogSidebar";
-
+import { getMetadata } from "../../config/metadata";
+import Head from "next/head";
 export async function getStaticProps() {
   const client = createClient({
     space: process.env.CONTENTFUL_SPACE_ID,
@@ -23,8 +24,14 @@ export async function getStaticProps() {
 }
 
 export default function Blog({ posts }) {
+  const page = "blog";
+  const { title, description } = getMetadata(page);
   return (
     <>
+      <Head>
+        <title>{title}</title>
+        <meta name="description" content={description} />
+      </Head>
       <NavbarTwo />
 
       <PageBanner

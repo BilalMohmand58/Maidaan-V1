@@ -5,6 +5,28 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <meta charSet="utf-8" />
+
+        {/* Add Google Tag Manager script */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-Q95QHY78EY"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-Q95QHY78EY');
+            `,
+          }}
+        />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-Q95QHY78EY"
+        ></script>
+
+        {/* End of Google Tag Manager script */}
         {/* <link
           href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
           rel="stylesheet"

@@ -37,7 +37,8 @@ import ContactButton from "../components/Home/ContactButton";
 import Link from "next/link";
 import MarketedBanner from "../components/Home/MarketedBanner";
 import RegisterButton from "../components/Home/RegisterButton";
-
+import Head from "next/head";
+import { getMetadata } from "../config/metadata";
 export async function getStaticProps() {
   try {
     const client = createClient({
@@ -68,6 +69,8 @@ export async function getStaticProps() {
 }
 
 export default function Index({ posts, projects }) {
+  const page = "home"; // Set the page name here
+  const { title, description } = getMetadata(page);
   const isMobile = useMediaQuery({ maxWidth: 576 });
   const [showModal, setShowModal] = useState(false);
   useEffect(() => {
@@ -110,6 +113,10 @@ export default function Index({ posts, projects }) {
   };
   return (
     <>
+      <Head>
+        <title>{title}</title>
+        <meta name="description" content={description} />
+      </Head>
       <NavbarTwo />
 
       <MainBanner />

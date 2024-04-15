@@ -12,10 +12,18 @@ import InvestInPak from "../components/Home/InvestInPak";
 import DubaiProjects from "../components/PropertyKaMaidaan/DubaiProjects";
 import PartnerLogos from "../components/Home/PartnerLogos";
 import DubaiTrip from "../components/PropertyKaMaidaan/DubaiTrip";
+import Head from "next/head";
+import { getMetadata } from "../config/metadata";
 
 export default function PropertyKaMaidaan() {
+  const page = "propertyKaMaidaan";
+  const { title, description } = getMetadata(page);
   return (
     <>
+      <Head>
+        <title>{title}</title>
+        <meta name="description" content={description} />
+      </Head>
       <NavbarTwo />
 
       <Carousel />

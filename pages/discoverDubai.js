@@ -9,10 +9,17 @@ import SubscribeStyleTwo from "../components/Common/SubscribeStyleTwo";
 import Discover from "../components/DiscoverDubai/Discover";
 import Discription from "../components/DiscoverDubai/Description";
 import Banner from "../components/DiscoverDubai/Banner";
-
+import Head from "next/head";
+import { getMetadata } from "../config/metadata";
 const discoverdubai = () => {
+  const page = "discoverdubai"; // Set the page name here
+  const { title, description } = getMetadata(page);
   return (
     <>
+      <Head>
+        <title>{title}</title>
+        <meta name="description" content={description} />
+      </Head>
       <NavbarTwo />
       <PageBanner
         pageTitle="Discover The Magic Of Dubai"

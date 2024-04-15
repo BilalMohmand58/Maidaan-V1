@@ -9,9 +9,17 @@ import InvestInPak from "../components/Home/InvestInPak";
 import InvestInPakistan from "../components/InvestInPakistan/InvestInPakistan";
 import PartnerLogos from "../components/Home/PartnerLogos";
 import Banner from "../components/InvestInPakistan/Banner";
+import Head from "next/head";
+import { getMetadata } from "../config/metadata";
 const investInDubai = () => {
+  const page = "investInpak";
+  const { title, description } = getMetadata(page);
   return (
     <>
+      <Head>
+        <title>{title}</title>
+        <meta name="description" content={description} />
+      </Head>
       <NavbarTwo />
       <PageBanner
         pageTitle="Invest in Pakistan"
