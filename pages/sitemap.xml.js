@@ -3,7 +3,10 @@ import { getAllPages } from "../utils/pages";
 export default function SiteMap() {}
 
 export async function getServerSideProps({ res }) {
-  const pages = getAllPages("./pages", process.env.NEXT_PUBLIC_BASE_URL);
+  const pages = getAllPages(
+    "./pages",
+    process.env.NEXT_PUBLIC_BASE_URL || "http://www.themaidaan.com/"
+  );
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
