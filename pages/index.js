@@ -184,7 +184,7 @@ export default function Index({ posts, projects }) {
             alt="partner"
           />
 
-          <RegisterButton />
+          {!isMobile && <RegisterButton />}
 
           <div
             className="d-flex justify-content-end align-items-end position-absolute p-3"
