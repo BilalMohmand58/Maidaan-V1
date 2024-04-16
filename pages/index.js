@@ -39,6 +39,7 @@ import MarketedBanner from "../components/Home/MarketedBanner";
 import RegisterButton from "../components/Home/RegisterButton";
 import Head from "next/head";
 import { getMetadata } from "../config/metadata";
+import VictoyVillasBanner from "../components/Home/VictoryVillasBanner";
 export async function getStaticProps() {
   try {
     const client = createClient({
@@ -91,7 +92,6 @@ export default function Index({ posts, projects }) {
       }
     };
 
-    // window.addEventListener("scroll", handleScroll);
     // Check if modalShown cookie exists
     const modalShownCookie = document.cookie
       .split("; ")
@@ -133,10 +133,11 @@ export default function Index({ posts, projects }) {
       <div className="pb-70 ">
         <DubaiPartnerLogos />
       </div>
-
-      <InvestInPak />
-
       <div className="pb-70 ">
+        <VictoyVillasBanner />
+      </div>
+      <div className="pb-70 ">
+        <InvestInPak />
         <PartnerLogos />
         <MarketedBanner />
       </div>
@@ -170,7 +171,7 @@ export default function Index({ posts, projects }) {
       <Footer />
 
       {/* Modal */}
-      <Modal show={showModal} onHide={handleCloseModal} size="xl">
+      {/* <Modal show={showModal} onHide={handleCloseModal} size="xl">
         <Modal.Body style={{ position: "relative", padding: 0 }}>
           <button
             type="button"
@@ -201,7 +202,7 @@ export default function Index({ posts, projects }) {
             )}
           </div>
         </Modal.Body>
-      </Modal>
+      </Modal> */}
     </>
   );
 }
