@@ -76,6 +76,12 @@ button {
 .pb-70 {
   padding-bottom: 70px;
 }
+/* Mobile Responsive Styles */
+@media (max-width: 576px) {
+  .pb-70 {
+    padding-bottom: 10px;
+  }
+}
 .pb-0 {
   padding-bottom: 0;
 }
@@ -5418,7 +5424,7 @@ Coming Soon Area CSS
 .coming-soon-area {
   position: relative;
   z-index: 1;
-  height: 100vh;
+  height: 95vh;
   background: {
     image: url(/images/lakeshore.jpg);
     position: center center;
@@ -5477,6 +5483,33 @@ Coming Soon Area CSS
           -webkit-transition: 0.5s;
         }
       }
+    }
+  }
+  .marketed-btn {
+    display: inline-block;
+    padding: 12px 32px;
+    color: $white-color;
+    text-transform: capitalize;
+    background-color: #eb8242;
+    border: 1px solid #eb8242;
+    transition: $transition;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 10px;
+
+    &:hover {
+      background-color: transparent;
+      color: #fff;
+    }
+  }
+  /* Mobile Responsive Styles */
+  @media (max-width: 576px) {
+    .marketed-btn {
+      padding: 6px 10px; /* Adjust padding for smaller screens */
+      font-size: 8px; /* Adjust font size for smaller screens */
+      margin-right: 5px; /* Adjust margin for smaller screens */
+      margin-top: 150px;
     }
   }
 }
@@ -6432,7 +6465,7 @@ Victory Villas Banner
 .victory-villas-banner-area {
   position: relative;
   z-index: 1;
-  height: 85vh;
+  height: 95vh;
   background: {
     image: url(/images/victoryVillas.jpg);
     position: center center;
@@ -6491,6 +6524,33 @@ Victory Villas Banner
           -webkit-transition: 0.5s;
         }
       }
+    }
+  }
+  .victory-villas-btn {
+    display: inline-block;
+    padding: 12px 32px;
+    color: $white-color;
+    text-transform: capitalize;
+    background-color: #eb8242;
+    border: 1px solid #eb8242;
+    transition: $transition;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 10px;
+
+    &:hover {
+      background-color: transparent;
+      color: #fff;
+    }
+  }
+  /* Mobile Responsive Styles */
+  @media (max-width: 576px) {
+    .victory-villas-btn {
+      padding: 6px 10px; /* Adjust padding for smaller screens */
+      font-size: 8px; /* Adjust font size for smaller screens */
+      margin-right: 5px; /* Adjust margin for smaller screens */
+      margin-top: 150px;
     }
   }
 }

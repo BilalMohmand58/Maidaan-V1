@@ -16,7 +16,7 @@ const MarketedBanner = () => {
                   <Link
                     href="https://lakeshorecity.com/"
                     target="_blank"
-                    className=" me-2 features-btn-one text-black"
+                    className=" me-2 marketed-btn text-black"
                   >
                     Learn More
                   </Link>
