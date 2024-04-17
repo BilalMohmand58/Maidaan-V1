@@ -8,9 +8,9 @@ const Payment = () => {
     <div className="container my-5">
       <div className="row">
         <div className="col text-center">
-          <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+          {/* <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
             Victory Villas Payment Plans
-          </h1>
+          </h1> */}
         </div>
       </div>
       <div className="row mt-5">
