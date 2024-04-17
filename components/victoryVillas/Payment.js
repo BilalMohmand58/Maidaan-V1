@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import MainImg from "../../public/images/coming-soon-bg.jpg";
+import MainImg from "../../public/images/paymentPlan.jpg";
 
 const Payment = () => {
   return (
