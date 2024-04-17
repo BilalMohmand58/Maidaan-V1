@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import aboutImg from "../../public/images/investindubai.webp";
+import aboutImg from "../../public/images/victoryVillasAbout2.jpg";
 
 import ContactButton from "../Home/ContactButton";
 
