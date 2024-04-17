@@ -36,24 +36,22 @@ const DiscriptionVillas = () => {
               data-aos-once="true"
             >
               <div className="about-area-content">
-                <span>Victori Villas </span>
-                <h3>
-                  Step into a world of unparalleled opulence with luxury
-                  properties
-                </h3>
+                <span>Why Victory Villas </span>
+                <h3>Live the Victory Life in Unmatched Luxury</h3>
 
                 <p>
-                  Step into a world of unparalleled opulence with our curated
-                  selection of luxury properties. From sprawling estates nestled
-                  in lush landscapes to sleek urban penthouses boasting
-                  panoramic views, each residence is meticulously crafted to
-                  redefine modern luxury living. <br /> <br /> Join us for
-                  exclusive insights into prime investment opportunities,
-                  tailored advice from market experts, and special investor
-                  benefits. Whether you are new to the market or looking to
-                  expand your portfolio, Invest in Dubai provides everything you
-                  need to make informed and lucrative investments in this
-                  vibrant city.
+                  We've meticulously designed each Victory Villa with high-end
+                  finishes, spa-like amenities, and spacious layouts. Smart home
+                  technology puts control at your fingertips, while stunning
+                  architecture and private outdoor spaces create an oasis of
+                  tranquility. Indulge in a gourmet kitchen perfect for culinary
+                  creations, and unwind in a home theater designed for
+                  entertainment. Al Sadat Group, a trusted name in real estate
+                  for over a decade, brings their commitment to transparency and
+                  affordability to Victory Villas. Partnering with the
+                  award-winning Victory Construction, renowned for their quality
+                  and on-time project delivery, Victory Villas guarantees not
+                  just a dream home, but a winning investment.
                 </p>
               </div>
               <div

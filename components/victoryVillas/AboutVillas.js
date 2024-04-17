@@ -9,13 +9,12 @@ const AboutVillas = () => {
             <div className="col-lg-12">
               <div className="text-center mb-5">
                 <h2 className="fw-bold mb-4 ">
-                  With Victory Villas, your dream of owning a luxurious home in
-                  Islamabad isn't just a vision
+                  Victory Villas is proud to introduce a stunning collection of
+                  villas in the heart of Islamabad
                 </h2>
                 <p className="lead mb-4">
                   <span className="fw-bold">
-                    it's a reality waiting to happen, thanks to our flexible
-                    payment options.
+                    A joint venture by Al Sadat Group and Victory Construction
                   </span>{" "}
                 </p>
               </div>

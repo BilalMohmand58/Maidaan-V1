@@ -1,33 +1,105 @@
-import { getAllPages } from "../utils/pages";
-
-export default function SiteMap() {}
+import fs from "fs/promises";
+import path from "path";
 
 export async function getServerSideProps({ res }) {
-  const pages = getAllPages(
-    "./pages",
-    process.env.NEXT_PUBLIC_BASE_URL || "http://www.themaidaan.com/"
-  );
+  const pagesDirectory = path.join(process.cwd(), "pages");
+  const pages = await getAllPages(pagesDirectory);
 
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>
-    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-      ${pages
-        .map((page) => {
-          return `
-            <url>
-              <loc>${page}</loc>
-              <lastmod>${new Date().toISOString()}</lastmod>
-              <changefreq>daily</changefreq>
-              <priority>0.8</priority>
-            </url>`;
-        })
-        .join("")}
-    </urlset>`;
+  const sitemap = generateSitemapXML(pages);
 
-  res.setHeader("Content-Type", "text/xml");
-  res.write(xml);
+  res.setHeader("Content-Type", "application/xml");
+  res.write(sitemap);
   res.end();
 
   return {
     props: {},
   };
 }
+
+async function getAllPages(pagesDirectory) {
+  const pages = [];
+
+  async function readDirectory(directory) {
+    const files = await fs.readdir(directory);
+    for (const file of files) {
+      const filePath = path.join(directory, file);
+      const stat = await fs.stat(filePath);
+      if (stat.isDirectory()) {
+        await readDirectory(filePath);
+      } else {
+        if (file.endsWith(".js") && !file.startsWith("_")) {
+          const pagePath = filePath
+            .replace(pagesDirectory, "")
+            .replace(/\.js$/, "");
+          const url = `https://www.themaidaan.com/${pagePath}`;
+          pages.push({ url, changefreq: "weekly", priority: "0.5" });
+        }
+      }
+    }
+  }
+
+  await readDirectory(pagesDirectory);
+  return pages;
+}
+
+const Sitemap = () => {};
+export default Sitemap;
+
+function generateSitemapXML(pages) {
+  let xml = `<?xml version="1.0" encoding="UTF-8"?>
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">`;
+  pages.forEach((page) => {
+    xml += `<url>
+              <loc>${page.url}</loc>
+              <changefreq>${page.changefreq || "weekly"}</changefreq>
+              <priority>${page.priority || "0.5"}</priority>
+            </url>
+            `;
+  });
+  xml += ` </urlset>`;
+
+  return xml;
+}
+
+// export async function getServerSideProps({ res }) {
+//   const pages = [
+//     { url: "http://localhost:3000/", changefreq: "weekly", priority: "0.5" },
+//     {
+//       url: "http://localhost:3000/propertyKaMaidaan/",
+//       changefreq: "weekly",
+//       priority: "0.5",
+//     },
+//     {
+//       url: "http://localhost:3000/about-us/",
+//       changefreq: "weekly",
+//       priority: "0.5",
+//     },
+//   ];
+
+//   const sitemap = generateSitemapXML(pages);
+
+//   res.setHeader("Content-Type", "application/xml");
+//   res.write(sitemap);
+//   res.end();
+
+//   return {
+//     props: {},
+//   };
+// }
+// const Sitemap = () => {};
+// export default Sitemap;
+// function generateSitemapXML(pages) {
+//   let xml = `<?xml version="1.0" encoding="UTF-8"?>
+//     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">`;
+//   pages.forEach((page) => {
+//     xml += `<url>
+//               <loc>${page.url}</loc>
+//               <changefreq>${page.changefreq || "weekly"}</changefreq>
+//               <priority>${page.priority || "0.5"}</priority>
+//             </url>
+//             `;
+//   });
+//   xml += ` </urlset>`;
+
+//   return xml;
+// }

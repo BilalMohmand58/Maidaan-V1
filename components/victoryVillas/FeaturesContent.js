@@ -14,23 +14,29 @@ const FeaturesContent = () => {
           <div className="row align-items-center">
             <div className="col-lg-5 col-md-12">
               <div className="features-content-area">
-                <span>Discover the Magic of Victory Villas</span>
-                <h3>Your Ultimate Adventure Awaits</h3>
+                <span>Life at Victory Villas</span>
+                <h3>Beyond Your Doorstep: A World of Amenities Awaits</h3>
                 <p className="mb-3 fw-bold ">
                   Unveil the Splendor of the Luxury Property – From Sky-High
                   Wonders to Cultural Treasures
                 </p>
 
                 <p>
-                  A 2-night, 3-day luxury journey blending travel and investment
-                  opportunities. Explore iconic landmarks and engage with
-                  leading real estate projects. Unique to this package, invest
-                  in Victory Villas property and your trip's cost will be
-                  adjusted against your downpayment. Experience the blend of
-                  culture, luxury, and investment potential in one of the
-                  world's most dynamic property landscapes. Start your
-                  investment journey with added travel pleasure in Victory
-                  Villas.
+                  Nestled within the vibrant Airport Green Gardens community,
+                  you'll enjoy a plethora of amenities designed to enhance your
+                  everyday living at victory villas. Rest assured with features
+                  like uninterrupted utilities – gas, electricity, and water –
+                  alongside a robust drainage system. High-speed internet keeps
+                  y ou connected, while a 24/7 security system with CCTV and
+                  trained guards ensures peace of mind.
+                  <br />
+                  Victory Villas goes beyond the walls of your home. Explore a
+                  world of leisure and entertainment with a sports club,
+                  landscaped boulevards, and a mega shopping complex featuring
+                  hotels and business centers. For families, a multipurpose
+                  community center, international schools, and a dedicated
+                  children's theme park provide endless opportunities for
+                  connection and fun.
                 </p>
 
                 <div className="features-btn">
@@ -52,13 +58,14 @@ const FeaturesContent = () => {
                     <div className="icon">
                       <i className="flaticon-check-mark"></i>
                     </div>
-                    <h3>Iconic Landmarks</h3>
+                    <h3>Our Strategic Location</h3>
                     <p>
-                      Explore the architectural marvels of Victory Villas, from
-                      the towering structures to the enchanting landscapes.
-                      Discover the property's beauty and historic sites,
-                      creating memories against the backdrop of breathtaking
-                      vistas.
+                      Victory Villas boasts a prime location within the
+                      progressive Airport Green Gardens community. Enjoy easy
+                      access to Islamabad International Airport (just a 7-minute
+                      drive!), major highways like Kashmir Highway and
+                      Lahore-Islamabad Motorway, and bustling business hubs like
+                      Top City and G-11 Markaz.
                     </p>
                   </div>
                 </div>
@@ -74,13 +81,13 @@ const FeaturesContent = () => {
                     <div className="icon">
                       <i className="flaticon-check-mark"></i>
                     </div>
-                    <h3>Strategic Investment</h3>
+                    <h3>Flexible Payment Options</h3>
                     <p>
-                      Transform your visit to Victory Villas into a smart
-                      investment. Explore prime real estate opportunities and
-                      learn how your travel expenses can be adjusted against the
-                      downpayment of your property investment, making every
-                      moment count towards your future.
+                      We offer a manageable down payment to get you started,
+                      followed by convenient monthly installments that fit your
+                      budget. Plus, our possession payment plan allows you to
+                      spread out the remaining cost upon receiving the keys to
+                      your new home.
                     </p>
                   </div>
                 </div>
@@ -96,12 +103,13 @@ const FeaturesContent = () => {
                     <div className="icon">
                       <i className="flaticon-check-mark"></i>
                     </div>
-                    <h3>Cultural Diversity</h3>
+                    <h3>Diverse Villas Offerings</h3>
                     <p>
-                      Immerse yourself in the rich tapestry of Victory Villas'
-                      culture. From traditional landmarks to contemporary
-                      amenities, discover a vibrant blend of heritage and
-                      innovation that captivates every visitor.
+                      Choose from our diverse range of villas, including the
+                      luxurious double-story Royal Villas, perfect for grand
+                      living. The Sunrise Villas offer a captivating corner
+                      location, and the Majestic Villas provide a classic
+                      single-story design.
                     </p>
                   </div>
                 </div>
@@ -117,13 +125,13 @@ const FeaturesContent = () => {
                     <div className="icon">
                       <i className="flaticon-check-mark"></i>
                     </div>
-                    <h3>Meet the Developers</h3>
+                    <h3>Landmark Community</h3>
                     <p>
-                      Gain invaluable insights by meeting directly with Victory
-                      Villas’ leading real estate developers. Discover upcoming
-                      projects, understand market trends, and forge potential
-                      investment paths in one of the world's most dynamic
-                      property landscapes.
+                      Nestled within the prestigious Airport Green Gardens,
+                      Victory Villas invites you to enjoy the benefits of a
+                      vibrant community with modern amenities, eco- friendly
+                      living, and unparalleled security, all within easy reach
+                      of Islamabad International Airport.
                     </p>
                   </div>
                 </div>
