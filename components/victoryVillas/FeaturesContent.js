@@ -62,10 +62,8 @@ const FeaturesContent = () => {
                     <p>
                       Victory Villas boasts a prime location within the
                       progressive Airport Green Gardens community. Enjoy easy
-                      access to Islamabad International Airport (just a 7-minute
-                      drive!), major highways like Kashmir Highway and
-                      Lahore-Islamabad Motorway, and bustling business hubs like
-                      Top City and G-11 Markaz.
+                      access to Islamabad International Airport, Islamabad toll
+                      plaza, Kashmir Highway, Motorway M1, M2, and Top City.
                     </p>
                   </div>
                 </div>
