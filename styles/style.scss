@@ -3569,8 +3569,8 @@ Pricing Section CSS
             margin: 2px 0 0 -15px;
           }
           span {
-            font-size: 36px;
-            color: #7a55d0;
+            font-size: 26px;
+            color: #0a61c1;
             font-weight: bold;
           }
         }
@@ -3589,7 +3589,7 @@ Pricing Section CSS
             }
           }
           i {
-            color: #fa5eb1;
+            color: #eb8242;
             margin-right: 8px;
             &::before {
               font-size: 14px;
@@ -6641,4 +6641,10 @@ Victory Villas Banner
       }
     }
   }
+}
+
+// Victory Villas Page
+.lead {
+  color: #0a61c1;
+  font-weight: 600;
 }

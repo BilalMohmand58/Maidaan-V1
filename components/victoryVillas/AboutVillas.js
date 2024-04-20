@@ -8,14 +8,15 @@ const AboutVillas = () => {
           <div className="row align-items-center">
             <div className="col-lg-12">
               <div className="text-center mb-5">
-                <h2 className="fw-bold mb-4 ">
-                  Victory Villas is proud to introduce a stunning collection of
-                  villas in the heart of Islamabad
-                </h2>
+                <div className="section-title">
+                  {/* <span>Pricing Plans</span> */}
+                  <h3>
+                    Victory Villas is proud to introduce a stunning collection
+                    of villas in the heart of Islamabad
+                  </h3>
+                </div>
                 <p className="lead mb-4">
-                  <span className="fw-bold">
-                    A joint venture by Al Sadat Group and Victory Construction
-                  </span>{" "}
+                  A joint venture by Al Sadat Group and Victory Construction
                 </p>
               </div>
             </div>

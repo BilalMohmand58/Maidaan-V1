@@ -8,12 +8,13 @@ import FeaturesContent from "../components/victoryVillas/FeaturesContent";
 import Footer from "../components/Layouts/Footer";
 import Intro from "../components/victoryVillas/Intro";
 import Map from "../components/victoryVillas/Map";
+import Main from "../components/victoryVillas/Main";
 
 const victoriVillas = () => {
   return (
     <>
       <NavbarTwo />
-      <Intro />
+      <Main />
       <div className="pb-100">
         <AboutVillas />
       </div>
@@ -21,11 +22,12 @@ const victoriVillas = () => {
         <DiscriptionVillas />
       </div>
       <div className="pb-100">
-        <Payment />
-      </div>
-      <div className="pb-100">
         <Form />
       </div>
+      <div className="pb-100">
+        <Payment />
+      </div>
+
       <div className="pb-100">
         <FeaturesContent />
       </div>

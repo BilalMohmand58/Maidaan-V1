@@ -3124,8 +3124,8 @@ Pricing Section CSS
   margin: 2px 0 0 -15px;
 }
 .pricing-tab .react-tabs__tab-panel .single-pricing-box.bg-f6f5fb .price span {
-  font-size: 36px;
-  color: #7a55d0;
+  font-size: 26px;
+  color: #0a61c1;
   font-weight: bold;
 }
 .pricing-tab .react-tabs__tab-panel .single-pricing-box.bg-f6f5fb .pricing-features {
@@ -3142,7 +3142,7 @@ Pricing Section CSS
   padding-bottom: 0;
 }
 .pricing-tab .react-tabs__tab-panel .single-pricing-box.bg-f6f5fb .pricing-features i {
-  color: #fa5eb1;
+  color: #eb8242;
   margin-right: 8px;
 }
 .pricing-tab .react-tabs__tab-panel .single-pricing-box.bg-f6f5fb .pricing-features i::before {
@@ -5793,5 +5793,10 @@ Victory Villas Banner
   margin-top: -4px;
   color: #777777;
   font-size: 14px;
+  font-weight: 600;
+}
+
+.lead {
+  color: #0a61c1;
   font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
