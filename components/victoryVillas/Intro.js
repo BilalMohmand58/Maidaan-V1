@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import slider3 from "../../public/images/victoryVillasGif.gif";
+import slider3 from "../../public/images/victoryVillasAbout2.jpg";
 
 const Intro = () => {
   // Assuming slider3.src is the URL of the background image
@@ -29,8 +29,8 @@ const Intro = () => {
             </div>
             <div className=" mb-5 ">
               <div className="features-btn-one">
-                <Link href="#map" className="">
-                  Get Direction
+                <Link href="about" className="">
+                  Learn More
                 </Link>
               </div>
             </div>

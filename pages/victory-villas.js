@@ -14,10 +14,15 @@ const victoriVillas = () => {
   return (
     <>
       <NavbarTwo />
-      <Main />
+      <Intro />
+
       <div className="pb-100">
         <AboutVillas />
       </div>
+      <div className="pb-100">
+        <Main />
+      </div>
+
       <div className="pb-100">
         <DiscriptionVillas />
       </div>

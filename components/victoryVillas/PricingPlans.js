@@ -31,19 +31,23 @@ const PricingPlans = () => {
                     <ul className="pricing-features">
                       <li>
                         <i className="flaticon-check-mark"></i>
-                        Villa Feature Here
+                        Modern architecture with spacious interiors, style, and
+                        comfort.
                       </li>
                       <li>
                         <i className="flaticon-check-mark"></i>
-                        Villa Feature Here
+                        ush green surroundings and scenic views while living at
+                        Silver Villas
                       </li>
                       <li>
                         <i className="flaticon-check-mark"></i>
-                        Villa Feature Here
+                        High-quality fixtures and amenities ensuring a luxurious
+                        living
                       </li>
                       <li>
                         <i className="flaticon-check-mark"></i>
-                        Villa Feature Here
+                        Convenience and connectivity with easy access to key
+                        locations
                       </li>
                     </ul>
 
@@ -68,19 +72,23 @@ const PricingPlans = () => {
                     <ul className="pricing-features">
                       <li>
                         <i className="flaticon-check-mark"></i>
-                        Villa Feature Here
+                        Realize cutting-edge smart home technology at Diamond
+                        Villas.
                       </li>
                       <li>
                         <i className="flaticon-check-mark"></i>
-                        Villa Feature Here
+                        Witness a luxury where elegant architectural design
+                        shines.
                       </li>
                       <li>
                         <i className="flaticon-check-mark"></i>
-                        Villa Feature Here
+                        Unparalleled amenities such as private spas and infinity
+                        pools.
                       </li>
                       <li>
                         <i className="flaticon-check-mark"></i>
-                        Villa Feature Here
+                        Lush and expansive gardens define the unique luxury of
+                        Diamond Villas.
                       </li>
                     </ul>
 
@@ -105,19 +113,23 @@ const PricingPlans = () => {
                     <ul className="pricing-features">
                       <li>
                         <i className="flaticon-check-mark"></i>
-                        Villa Feature Here
+                        Unfold Golden Villas with Spacious Luxury Interiors and
+                        Urbanized Architecture
                       </li>
                       <li>
                         <i className="flaticon-check-mark"></i>
-                        Villa Feature Here
+                        Own a luxury residence with dedicated entertainment
+                        rooms.
                       </li>
                       <li>
                         <i className="flaticon-check-mark"></i>
-                        Villa Feature Here
+                        Hold a key to villas equipped with eco-friendly outdoor
+                        living spaces.
                       </li>
                       <li>
                         <i className="flaticon-check-mark"></i>
-                        Villa Feature Here
+                        Enhanced security systems to ensure a sophisticated
+                        lifestyle.
                       </li>
                     </ul>
 
