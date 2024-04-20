@@ -14,7 +14,7 @@ const victoriVillas = () => {
   return (
     <>
       <NavbarTwo />
-      <Intro />
+      {/* <Intro /> */}
 
       <div className="pb-100">
         <AboutVillas />
