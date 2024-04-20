@@ -36,7 +36,7 @@ const PricingPlans = () => {
                       </li>
                       <li>
                         <i className="flaticon-check-mark"></i>
-                        ush green surroundings and scenic views while living at
+                        Lush green surroundings and scenic views while living at
                         Silver Villas
                       </li>
                       <li>
