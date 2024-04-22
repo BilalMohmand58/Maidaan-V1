@@ -670,6 +670,14 @@ const Navbar = () => {
                       <i className="fab fa-instagram"></i>
                     </a>
                   </li>
+                  <li>
+                    <a
+                      href="https://www.youtube.com/@themaidaan"
+                      target="_blank"
+                    >
+                      <i className="fab fa-youtube"></i>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
