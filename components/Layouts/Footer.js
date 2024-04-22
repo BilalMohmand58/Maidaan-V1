@@ -67,6 +67,15 @@ const Footer = () => {
                       <i className="fab fa-instagram"></i>
                     </a>
                   </li>
+                  <li>
+                    <a
+                      href="https://www.youtube.com/@themaidaan"
+                      target="_blank"
+                      className="bg-0273af"
+                    >
+                      <i className="fab fa-youtube"></i>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>

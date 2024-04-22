@@ -70,7 +70,7 @@ const MainBanner = () => {
     <>
       <FsLightbox
         toggler={toggler}
-        sources={["https://youtu.be/RD0le4EYjnE?si=KOHsiBHRmyyuXvvX"]}
+        sources={["https://youtu.be/4QXCPriDMGw?si=i7BZ3mjqcxlQyehp"]}
       />
 
       <div className="home-banner-two">
