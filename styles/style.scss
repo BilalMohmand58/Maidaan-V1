@@ -6649,3 +6649,243 @@ Victory Villas Banner
   color: #0a61c1;
   font-weight: 600;
 }
+
+// Careers Page Styles
+.benefit-area {
+  position: relative;
+  line-height: 1;
+  overflow: hidden;
+  background-color: #f6f5fb;
+
+  .features-title {
+    text-align: center;
+    margin-bottom: 60px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    span {
+      font-size: 18px;
+      color: $main-color;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    h3 {
+      font-size: 38px;
+      color: $black-color;
+      font-weight: bold;
+      margin: 10px 0 0 0;
+      position: relative;
+      padding-bottom: 20px;
+      text-transform: capitalize;
+
+      &::before {
+        position: absolute;
+        content: "";
+        height: 3px;
+        width: 80px;
+        background-color: #fab4a2;
+        bottom: 0;
+        left: 0;
+        right: 35px;
+        margin: auto;
+      }
+      &::after {
+        position: absolute;
+        content: "";
+        height: 3px;
+        width: 32px;
+        background-color: #ff724e;
+        bottom: 0;
+        margin: 0 auto 0;
+        left: 95px;
+        right: 0;
+      }
+    }
+  }
+  .single-benefit-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // flex-wrap: wrap;
+    padding: 35px 25px;
+    position: relative;
+    z-index: 1;
+    // border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: unset;
+
+    h3 {
+      font-size: 18px;
+      color: #3b3663;
+      font-weight: 700;
+      margin: 20px 0 10px 0;
+      transition: $transition;
+      text-align: center;
+    }
+    p {
+      font-size: 14px;
+      margin: 0;
+      transition: $transition;
+      text-align: center;
+    }
+
+    &.bg-b5a2f8 {
+      background: transparent;
+      border: 1px dotted #b5a2f8;
+      transition: $transition;
+      .icon {
+        i {
+          display: inline-block;
+          height: 65px;
+          width: 65px;
+          color: #5d43bc;
+          border: 2px dotted #5d43bc;
+          line-height: 65px;
+          border-radius: 50px;
+          transition: $transition;
+          text-align: center;
+
+          &::before {
+            font-size: 30px;
+          }
+        }
+      }
+      &:hover {
+        background-color: #b5a2f8;
+
+        h3 {
+          color: $white-color;
+        }
+        p {
+          color: $white-color;
+        }
+        .icon {
+          i {
+            color: $white-color;
+            border: 2px dotted $white-color;
+          }
+        }
+      }
+    }
+
+    &.bg-f27e19 {
+      background: transparent;
+      // border: 1px dotted #eb8242;
+      transition: $transition;
+      .icon {
+        i {
+          display: inline-block;
+          height: 65px;
+          width: 65px;
+          color: #eb8242;
+          border: 2px dotted #eb8242;
+          line-height: 65px;
+          border-radius: 50px;
+          transition: $transition;
+          text-align: center;
+
+          &::before {
+            font-size: 30px;
+          }
+        }
+      }
+      // &:hover {
+      //   // background-color: #eb8242;
+
+      //   h3 {
+      //     color: $white-color;
+      //   }
+      //   p {
+      //     color: $white-color;
+      //   }
+      //   .icon {
+      //     i {
+      //       color: $white-color;
+      //       border: 2px dotted $white-color;
+      //     }
+      //   }
+      // }
+    }
+
+    &.bg-1db294 {
+      background: transparent;
+      border: 1px dotted #1db294;
+      transition: $transition;
+      .icon {
+        i {
+          display: inline-block;
+          height: 65px;
+          width: 65px;
+          color: #1db294;
+          border: 2px dotted #1db294;
+          line-height: 65px;
+          border-radius: 50px;
+          transition: $transition;
+          text-align: center;
+
+          &::before {
+            font-size: 30px;
+          }
+        }
+      }
+      &:hover {
+        background-color: #1db294;
+
+        h3 {
+          color: $white-color;
+        }
+        p {
+          color: $white-color;
+        }
+        .icon {
+          i {
+            color: $white-color;
+            border: 2px dotted $white-color;
+          }
+        }
+      }
+    }
+
+    &.bg-e80d82 {
+      background: transparent;
+      border: 1px dotted #e80d82;
+      transition: $transition;
+      .icon {
+        i {
+          display: inline-block;
+          height: 65px;
+          width: 65px;
+          color: #e80d82;
+          border: 2px dotted #e80d82;
+          line-height: 65px;
+          border-radius: 50px;
+          transition: $transition;
+          text-align: center;
+
+          &::before {
+            font-size: 30px;
+          }
+        }
+      }
+      &:hover {
+        background-color: #e80d82;
+
+        h3 {
+          color: $white-color;
+        }
+        p {
+          color: $white-color;
+        }
+        .icon {
+          i {
+            color: $white-color;
+            border: 2px dotted $white-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Careers Page Styles End Here

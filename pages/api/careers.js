@@ -1,6 +1,6 @@
 import { mailOptions, transporter } from "../../config/careersNodemailer";
 
-const CONTACT_MESSAGE_FIELDS = {
+const CAREERS_FORM_FIELDS = {
   name: "Name",
   email: "Email",
   number: "Number",
@@ -10,12 +10,11 @@ const CONTACT_MESSAGE_FIELDS = {
 
 const generateEmailContent = (data) => {
   const stringData = Object.entries(data).reduce(
-    (str, [key, val]) =>
-      (str += `${CONTACT_MESSAGE_FIELDS[key]}: \n${val} \n \n`),
+    (str, [key, val]) => (str += `${CAREERS_FORM_FIELDS[key]}: \n${val} \n \n`),
     ""
   );
   const htmlData = Object.entries(data).reduce((str, [key, val]) => {
-    return (str += `<h3 class="form-heading" align="left">${CONTACT_MESSAGE_FIELDS[key]}</h3><p class="form-answer" align="left">${val}</p>`);
+    return (str += `<h3 class="form-heading" align="left">${CAREERS_FORM_FIELDS[key]}</h3><p class="form-answer" align="left">${val}</p>`);
   }, "");
 
   return {
