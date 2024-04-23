@@ -188,7 +188,7 @@ const CareerForm = () => {
                         mt={5}
                         w="100%"
                       >
-                        Send Message
+                        Submit Application
                       </Button>
                     </div>
                   </div>
