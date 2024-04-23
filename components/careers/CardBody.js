@@ -10,10 +10,10 @@ function CardBody({ job }) {
   return (
     <Container>
       <Row className="justify-content-center">
-        <Col md={8}>
+        <Col sm={12} md={9}>
           <Card className="my-2">
             <Card.Body className="d-flex align-items-center justify-content-between p-1 ">
-              <div className="d-flex align-items-center gap-3">
+              <div className="d-flex align-items-center gap-2">
                 <img
                   src={"https:" + thumbnail?.fields?.file?.url}
                   alt="Your Image"
@@ -22,12 +22,11 @@ function CardBody({ job }) {
                 <h6 className="mb-0">{title}</h6>
               </div>
               <div className="d-flex align-items-center gap-3">
-                <p className="mb-0 mr-3">{location}</p>
                 <Link
                   href={"/careers/" + slug}
                   className="text-decoration-none p-2"
                 >
-                  Learn More
+                  Apply Now
                 </Link>
               </div>
             </Card.Body>

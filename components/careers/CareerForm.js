@@ -16,6 +16,7 @@ const initValues = {
   number: "",
   subject: "",
   message: "",
+  portfolio: "",
 };
 
 const initState = { isLoading: false, error: "", values: initValues };
@@ -133,6 +134,23 @@ const CareerForm = () => {
                         type="text"
                         name="subject"
                         value={values.subject}
+                        onChange={handleChange}
+                        errorBorderColor="red.300"
+                        onBlur={onBlur}
+                      />
+                      <FormErrorMessage>Required</FormErrorMessage>
+                    </FormControl>
+                  </div>
+                  <div className="col-lg-12">
+                    <FormControl
+                      mb={4}
+                      isInvalid={touched.portfolio && !values.portfolio}
+                    >
+                      <FormLabel>Portfolio Link / Drive Link</FormLabel>
+                      <Input
+                        type="url"
+                        name="portfolio"
+                        value={values.portfolio}
                         onChange={handleChange}
                         errorBorderColor="red.300"
                         onBlur={onBlur}

@@ -6,6 +6,7 @@ const CAREERS_FORM_FIELDS = {
   number: "Number",
   subject: "Subject",
   message: "Message",
+  portfolio: "Portfolio",
 };
 
 const generateEmailContent = (data) => {
@@ -32,7 +33,8 @@ const handler = async (req, res) => {
       !data.email ||
       !data.number ||
       !data.subject ||
-      !data.message
+      !data.message ||
+      !data.portfolio
     ) {
       return res.status(400).send({ message: "Bad request" });
     }
