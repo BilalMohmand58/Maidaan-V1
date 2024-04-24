@@ -117,7 +117,8 @@ const MainBanner = () => {
                         onClick={() => setToggler(!toggler)}
                         className="video-btn popup-youtube"
                       >
-                        Watch Video <i className="flaticon-play-button"></i>
+                        Maidaan X Future Fest{" "}
+                        <i className="flaticon-play-button"></i>
                       </div>
                     </div>
                   </div>
