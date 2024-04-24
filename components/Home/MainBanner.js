@@ -99,8 +99,8 @@ const MainBanner = () => {
                       properties.
                     </p>
                     <strong>
-                      Join Us From March 31 - Eid in Lahore for an unparalleled
-                      real estate journey.
+                      Explore the gateway to luxury and innovation in one of the
+                      world’s most dynamic real estate markets.
                     </strong>
 
                     <div

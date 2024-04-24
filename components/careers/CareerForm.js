@@ -17,6 +17,7 @@ const initValues = {
   subject: "",
   message: "",
   portfolio: "",
+  file: null,
 };
 
 const initState = { isLoading: false, error: "", values: initValues };
@@ -40,6 +41,35 @@ const CareerForm = () => {
       },
     }));
 
+  const handleFileChange = async (e) => {
+    const file = e.target.files[0];
+    const formData = new FormData();
+    formData.append("file", file);
+    formData.append("upload_preset", "ml_default");
+
+    setState((prev) => ({ ...prev, isLoading: true }));
+    try {
+      const response = await fetch(
+        "https://api.cloudinary.com/v1_1/dr8z1qdye/raw/upload",
+        {
+          method: "POST",
+          body: formData,
+        }
+      );
+      const data = await response.json();
+      setState((prev) => ({
+        ...prev,
+        values: { ...prev.values, file: data.secure_url },
+        isLoading: false,
+      }));
+    } catch (error) {
+      setState((prev) => ({
+        ...prev,
+        error: "Failed to upload ",
+        isLoading: false,
+      }));
+    }
+  };
   const onSubmit = async () => {
     setState((prev) => ({
       ...prev,
@@ -50,7 +80,7 @@ const CareerForm = () => {
       setTouched({});
       setState(initState);
       toast({
-        title: "Message sent.",
+        title: "Application Submitted Successfully",
         status: "success",
         duration: 2000,
         position: "top",
@@ -129,7 +159,9 @@ const CareerForm = () => {
                       mb={4}
                       isInvalid={touched.subject && !values.subject}
                     >
-                      <FormLabel>Subject</FormLabel>
+                      <FormLabel>
+                        Subject (Position You are Applying For)
+                      </FormLabel>
                       <Input
                         type="text"
                         name="subject"
@@ -142,11 +174,8 @@ const CareerForm = () => {
                     </FormControl>
                   </div>
                   <div className="col-lg-12">
-                    <FormControl
-                      mb={4}
-                      isInvalid={touched.portfolio && !values.portfolio}
-                    >
-                      <FormLabel>Portfolio Link / Drive Link</FormLabel>
+                    <FormControl mb={4}>
+                      <FormLabel>Portfolio Link (Optional)</FormLabel>
                       <Input
                         type="url"
                         name="portfolio"
@@ -155,7 +184,6 @@ const CareerForm = () => {
                         errorBorderColor="red.300"
                         onBlur={onBlur}
                       />
-                      <FormErrorMessage>Required</FormErrorMessage>
                     </FormControl>
                   </div>
                   <div className="col-lg-12 col-md-12">
@@ -176,13 +204,32 @@ const CareerForm = () => {
                       <FormErrorMessage>Required</FormErrorMessage>
                     </FormControl>
                   </div>
+                  <div className="col-lg-12 col-md-12">
+                    <FormControl
+                      mb={4}
+                      isInvalid={touched.file && !values.file}
+                    >
+                      <FormLabel>Upload File (PDF File Only)</FormLabel>
+                      <Input
+                        type="file"
+                        name="file"
+                        accept=".pdf"
+                        onChange={handleFileChange}
+                        className="p-1"
+                      />
+                      <FormErrorMessage>Required</FormErrorMessage>
+                    </FormControl>
+                  </div>
                   <div className="col-lg-12 col-sm-12">
                     <div className="send-btn">
                       <Button
                         colorScheme="orange"
                         isLoading={isLoading}
                         disabled={
-                          !values.name || !values.email || !values.number
+                          !values.name ||
+                          !values.email ||
+                          !values.number ||
+                          !values.subject
                         }
                         onClick={onSubmit}
                         mt={5}
