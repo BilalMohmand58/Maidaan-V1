@@ -14,7 +14,8 @@ const victoriVillas = () => {
   return (
     <>
       <NavbarTwo />
-      <Main />
+      {/* <Main /> */}
+      <Map />
       <div className="pb-100">
         <AboutVillas />
       </div>
@@ -31,7 +32,6 @@ const victoriVillas = () => {
       <div className="pb-100">
         <FeaturesContent />
       </div>
-      <Map />
 
       <Footer />
     </>
