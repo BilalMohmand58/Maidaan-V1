@@ -5620,7 +5620,8 @@ Footer Section CSS
     content: "";
     height: 100%;
     width: 100%;
-    background-color: $black-color;
+    // background-color: $black-color;
+    background-color: #000;
     left: 0;
     right: 0;
     top: 0;
@@ -5754,15 +5755,15 @@ Footer Section CSS
 Copyright Section CSS
 =================================================*/
 .copyright-area {
-  background-color: #01082d;
+  background-color: #eb8242;
   padding: {
     top: 35px;
     bottom: 35px;
   }
   p {
-    color: #d9d3d3;
+    color: #000;
     a {
-      color: #d9d3d3;
+      color: #000;
       display: inline-block;
       font-weight: 600;
       &:hover {
@@ -5778,7 +5779,7 @@ Copyright Section CSS
 
     li {
       display: inline-block;
-      color: #d9d3d3;
+      color: #000;
       position: relative;
       margin: {
         left: 10px;
@@ -5786,7 +5787,7 @@ Copyright Section CSS
       }
       a {
         display: inline-block;
-        color: #d9d3d3;
+        color: #000;
 
         &:hover {
           color: $main-color;
@@ -5799,7 +5800,7 @@ Copyright Section CSS
         right: -10px;
         width: 1px;
         height: 12px;
-        background-color: $white-color;
+        background-color: #000;
       }
       &:last-child {
         margin-right: 0;
