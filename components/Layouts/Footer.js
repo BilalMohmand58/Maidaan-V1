@@ -2,11 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import shape12 from "../../public/images/shape/shape12.svg";
-import shape13 from "../../public/images/shape/shape13.svg";
-import shape14 from "../../public/images/shape/shape14.png";
-import shape15 from "../../public/images/shape/shape15.png";
-import shape2 from "../../public/images/shape/shape2.png";
+import shape11 from "../../public/images/shape/shape11.png";
 import logo from "../../public/images/logo.png";
 
 const Footer = () => {
@@ -108,6 +104,7 @@ const Footer = () => {
                   <li>
                     <Link href="/services">Services</Link>
                   </li>
+
                   <li>
                     <Link href="/blog">Blogs</Link>
                   </li>
@@ -138,6 +135,9 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link href="/services">Invest In Dubai</Link>
+                  </li>
+                  <li>
+                    <Link href="/victory-villas">Victory Villas</Link>
                   </li>
                 </ul>
               </div>
@@ -174,19 +174,19 @@ const Footer = () => {
         {/* Shape Images */}
         <div className="default-animation">
           <div className="shape-img1">
-            <Image src={shape12} alt="image" width={21} height={20} />
+            <Image src={shape11} alt="image" width={21} height={20} />
           </div>
           <div className="shape-img2">
-            <Image src={shape13} alt="image" width={22} height={22} />
+            <Image src={shape11} alt="image" width={22} height={22} />
           </div>
           <div className="shape-img3">
-            <Image src={shape14} alt="image" width={15} height={15} />
+            <Image src={shape11} alt="image" width={15} height={15} />
           </div>
           <div className="shape-img4">
-            <Image src={shape15} alt="image" width={18} height={18} />
+            <Image src={shape11} alt="image" width={18} height={18} />
           </div>
           <div className="shape-img5">
-            <Image src={shape2} alt="image" width={23} height={23} />
+            <Image src={shape11} alt="image" width={23} height={23} />
           </div>
         </div>
       </footer>
@@ -198,9 +198,7 @@ const Footer = () => {
             <div className="col-lg-6">
               <p>
                 © {currentYear}. All Rights Reserved by{" "}
-                <a href="https://themaidaan.com/" target="_blank">
-                  Maidaan
-                </a>
+                <a href="https://themaidaan.com/">Maidaan</a>
               </p>
             </div>
 
