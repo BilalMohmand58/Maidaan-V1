@@ -35,13 +35,11 @@ const AboutContent = () => {
             >
               <div className="about-area-content">
                 <span>About Us</span>
-                <h3>Maidaan The Future of Real Estate.</h3>
+                <h3>Maidaan, A Core Center Of Real Estate Investment</h3>
                 <strong>
                   Dive into luxury, culture, and family-friendly real estate
                   opportunities. Explore over 30 leading domestic and
-                  international brands and uncover prime real estate gems at
-                  Expo Center Lahore, presented in collaboration with Future
-                  Fest Shopping
+                  international brands and uncover prime real estate gems.
                 </strong>
                 <p>
                   Maidaan, a trusted partner, helps you explore the unique gems

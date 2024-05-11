@@ -55,7 +55,7 @@ const Carousel = () => {
                   <div className="slide-content">
                     <h3 className="slide-title">INVEST IN DUBAI</h3>
                     <h3 className="slide-sub-title">
-                      Limitless Investment Horizons.
+                      Limitless Investment Horizons
                     </h3>
                     <div className="features-btn">
                       <Link href="#invest" className="features-btn-one">
@@ -79,7 +79,7 @@ const Carousel = () => {
                   <div className="slide-content">
                     <h3 className="slide-title">INVEST IN PAKISTAN</h3>
                     <h3 className="slide-sub-title">
-                      Unleash Limitless Investment Opportunities.
+                      Unleash Limitless Investment Opportunities
                     </h3>
                     <div className="features-btn">
                       <Link href="#pakInvest" className="features-btn-one">
@@ -100,11 +100,9 @@ const Carousel = () => {
                     />
                   </a>
                   <div className="slide-content">
-                    <h3 className="slide-title">
-                      DISCOVER THE MAGIC OF DUBAI{" "}
-                    </h3>
+                    <h3 className="slide-title">DISCOVER THE DUBAI MAGIC </h3>
                     <h3 className="slide-sub-title">
-                      Unveil the Splendor of the City of Dreams
+                      Unveil the City of Dreams Splendor
                     </h3>
                     <div className="features-btn">
                       <Link href="#explore" className="features-btn-one">

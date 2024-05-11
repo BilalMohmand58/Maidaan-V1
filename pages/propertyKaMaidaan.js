@@ -26,10 +26,8 @@ export default function PropertyKaMaidaan() {
       </Head>
       <NavbarTwo />
 
-      <Carousel />
-
       <div className="pb-100">
-        <About />
+        <Carousel />
       </div>
 
       {/* <FeaturesContent /> */}

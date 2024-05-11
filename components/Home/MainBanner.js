@@ -85,7 +85,7 @@ const MainBanner = () => {
                       data-aos-duration="800"
                       data-aos-delay="100"
                     >
-                      Simplifying Real Estate.
+                      Simplifying Real Estate
                     </h1>
                     <h4>Unlock The Door To Your Dream Property With Maidaan</h4>
                     <p
@@ -94,9 +94,8 @@ const MainBanner = () => {
                       data-aos-delay="200"
                     >
                       Maidaan thoroughly fulfills the aspirations of our
-                      customers and investors about real estate. We offer our
-                      buy, sell, and rent services to aspirants of luxury
-                      properties.
+                      customers and investors about real estate. We offer buy,
+                      sell, and rent services to aspirants of luxury properties.
                     </p>
                     <strong>
                       Explore the gateway to luxury and innovation in one of the

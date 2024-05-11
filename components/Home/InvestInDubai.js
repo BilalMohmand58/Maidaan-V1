@@ -37,7 +37,7 @@ const InvestInDubai = () => {
             >
               <div className="about-area-content">
                 <span>Invest In Dubai </span>
-                <h3>Discover Dubai : Unveil Limitless Investment Horizons.</h3>
+                <h3>Discover Dubai : Avail of Limitless Investment Horizons</h3>
 
                 <p>
                   Explore the gateway to luxury and innovation in one of the

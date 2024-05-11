@@ -11,7 +11,7 @@ const FeaturesArea = () => {
         <div className="container">
           <div className="features-title">
             <span>Core Features</span>
-            <h3>Gain benefits via the customer centric offerings</h3>
+            <h3>Gain benefits via customer centric offerings</h3>
           </div>
 
           <div className="row justify-content-center">

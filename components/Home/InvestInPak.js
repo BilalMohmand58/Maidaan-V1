@@ -37,22 +37,18 @@ const InvestInPak = () => {
             >
               <div className="about-area-content">
                 <span>Invest In Pakistan </span>
-                <h3>
-                  Explore Pakistan : Unleash Limitless Investment Opportunities.
-                </h3>
+                <h3>Explore Pakistan : Unleashing Limitless Investment</h3>
 
                 <p>
-                  Unveil the potential within our borders at{" "}
-                  <strong>FutureFest 2024</strong>. Dive into a curated
-                  collection of the nation’s most promising real estate
-                  ventures, from serene suburban retreats to bustling urban
-                  developments. <br /> <br /> Each project is selected for its
-                  growth potential, lifestyle offerings, and strategic location.
-                  Gain direct access to exclusive offers, detailed project
-                  insights, and direct interactions with developers. Whether
-                  you're seeking a new home or an investment opportunity, our
-                  Domestic Projects showcase offers a comprehensive guide to the
-                  best in local real estate.
+                  Dive into a curated collection of the nation’s most promising
+                  real estate ventures, from serene suburban retreats to
+                  bustling urban developments. <br /> <br /> Each project is
+                  selected for its growth potential, lifestyle offerings, and
+                  strategic location. Gain direct access to exclusive offers,
+                  detailed project insights, and direct interactions with
+                  developers. Whether you're seeking a new home or an investment
+                  opportunity, our Domestic Projects showcase offers a
+                  comprehensive guide to the best in local real estate.
                 </p>
               </div>
               <div

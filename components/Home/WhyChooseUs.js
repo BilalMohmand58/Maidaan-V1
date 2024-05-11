@@ -19,7 +19,7 @@ const WhyChooseUs = () => {
             >
               <div className="choose-content-area">
                 <span>Why Choose Us</span>
-                <h3>We Bring You Real Estate Success.</h3>
+                <h3>We Bring You Real Estate Success</h3>
                 <p>
                   At Maidaan, we stand out as your premier choice in the dynamic
                   realm of real estate. Our commitment to{" "}
@@ -27,21 +27,21 @@ const WhyChooseUs = () => {
                   – it's a promise. Choose Maidaan for a seamless experience,
                   unmatched expertise, and a future-forward approach that
                   propels you confidently through the ever-evolving landscape of
-                  real estate. Your journey to successful property transactions
-                  begins with us.
+                  real estate. Your journey to successful property transactions,
+                  in effect, begins with us.
                 </p>
 
                 <div class="container">
                   <div class="choose-text">
                     <i class="flaticon-check-mark"></i>
                     <h4>User-friendly Platform</h4>
-                    <p>Facilitates seamless property transactions.</p>
+                    <p>Facilitating seamless property transactions.</p>
                   </div>
 
                   <div class="choose-text">
                     <i class="flaticon-check-mark"></i>
                     <h4>Advanced Search Filters</h4>
-                    <p>Enables specific property searches.</p>
+                    <p>Enabling specific property searches.</p>
                   </div>
 
                   <div class="choose-text">
@@ -54,8 +54,8 @@ const WhyChooseUs = () => {
                     <i class="flaticon-check-mark"></i>
                     <h4>Diverse Property Listings</h4>
                     <p>
-                      Residential, commercial, and prestigious Dubai real estate
-                      projects.
+                      Residential, commercial, and Dubai's prestigious real
+                      estate projects.
                     </p>
                   </div>
 
@@ -63,28 +63,28 @@ const WhyChooseUs = () => {
                     <i class="flaticon-check-mark"></i>
                     <h4>Access to Real Estate Professionals</h4>
                     <p>
-                      Connects users with agents for personalized assistance.
+                      Connecting users with agents for personalized assistance.
                     </p>
                   </div>
 
                   <div class="choose-text">
                     <i class="flaticon-check-mark"></i>
                     <h4> Transparent Pricing</h4>
-                    <p>Ensures clarity in property pricing and negotiations.</p>
-                  </div>
-
-                  <div class="choose-text">
-                    <i class="flaticon-check-mark"></i>
-                    <h4>Property Management Integration</h4>
                     <p>
-                      Seamlessly manages properties for landlords and tenants.
+                      Ensuring clarity in property pricing and negotiations.
                     </p>
                   </div>
 
                   <div class="choose-text">
                     <i class="flaticon-check-mark"></i>
+                    <h4>Property Management Integration</h4>
+                    <p>Managing properties for landlords and tenants.</p>
+                  </div>
+
+                  <div class="choose-text">
+                    <i class="flaticon-check-mark"></i>
                     <h4>Market Updates</h4>
-                    <p>Provides real-time market insights.</p>
+                    <p>Providing real-time market insights.</p>
                   </div>
                 </div>
 
