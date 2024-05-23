@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import shape11 from "../../public/images/shape/shape11.png";
-import logo from "../../public/images/logo.png";
+import logo from "../../public/images/maidaanlogowhite.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
