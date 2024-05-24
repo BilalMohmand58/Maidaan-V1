@@ -11,8 +11,9 @@ const VictoyVillasBanner = () => {
               <div className="coming-soon-content">
                 <div className="  d-flex justify-content-center align-items-center mt-5  p-3">
                   <Link
-                    href="https://www.themaidaan.com/victory-villas"
+                    href="https://victoryvillas.pk/"
                     className=" me-2 victory-villas-btn text-black"
+                    target="_blank"
                   >
                     Learn More
                   </Link>
