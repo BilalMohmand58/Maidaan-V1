@@ -6439,7 +6439,7 @@ Go Top CSS
 
 .move-right {
   /*Movethebuttontotheright*/ /*Resetleft*/
-  right: 20px;
+  // right: 20px;
   /*Adjustthisvalueasneeded*/
   display: inline-block;
   padding: 12px 32px;
@@ -6452,10 +6452,10 @@ Go Top CSS
   font-size: 16px;
   font-weight: 500;
   margin-right: 150px;
-  margin-left: 150px;
-  margin-top: -50px;
+  margin-left: -110px;
+  margin-top: -70px;
   &:hover {
-    color: #fff;
+    color: #000;
     border-color: #0a61c1;
     background-color: transparent;
   }

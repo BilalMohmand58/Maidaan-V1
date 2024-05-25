@@ -32,7 +32,7 @@ import InvestInPak from "../components/Home/InvestInPak";
 import LeadFormPopup from "../components/Home/LeadFormPopup";
 import Image from "next/image";
 
-import popupImage from "../public/images/futurefest.jpg";
+import popupImage from "../public/images/dohaevent.jpg";
 import ContactButton from "../components/Home/ContactButton";
 import Link from "next/link";
 import MarketedBanner from "../components/Home/MarketedBanner";
@@ -81,7 +81,7 @@ export default function Index({ posts, projects }) {
       const documentHeight = document.documentElement.scrollHeight;
 
       // Calculate 20% scroll position
-      const twentyPercent = (documentHeight - windowHeight) * 0.2;
+      const twentyPercent = (documentHeight - windowHeight) * 0.03;
 
       if (scrollPosition >= twentyPercent) {
         setShowModal(true);
@@ -171,7 +171,7 @@ export default function Index({ posts, projects }) {
       <Footer />
 
       {/* Modal */}
-      {/* <Modal show={showModal} onHide={handleCloseModal} size="xl">
+      <Modal show={showModal} onHide={handleCloseModal} size="xl">
         <Modal.Body style={{ position: "relative", padding: 0 }}>
           <button
             type="button"
@@ -180,7 +180,7 @@ export default function Index({ posts, projects }) {
             onClick={handleCloseModal}
           ></button>
           <Image
-            className="slider-image w-100"
+            className="slider-image w-100 "
             src={popupImage}
             alt="partner"
           />
@@ -202,7 +202,7 @@ export default function Index({ posts, projects }) {
             )}
           </div>
         </Modal.Body>
-      </Modal> */}
+      </Modal>
     </>
   );
 }
