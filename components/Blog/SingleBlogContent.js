@@ -18,7 +18,7 @@ const SingleBlogContent = ({ post }) => {
     relatedBlogPosts,
   } = post?.fields;
 
-  const articleUrl = `http://localhost:3000//blog/${slug}`;
+  const articleUrl = `http://themaidaan.com/blog/${slug}`;
 
   const shareUrl = encodeURIComponent(articleUrl);
 
