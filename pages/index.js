@@ -139,7 +139,7 @@ export default function Index({ posts, projects }) {
       <div className="pb-70 ">
         <InvestInPak />
         <PartnerLogos />
-        <MarketedBanner />
+        {/* <MarketedBanner /> */}
       </div>
 
       {/* <div className="pb-70">
