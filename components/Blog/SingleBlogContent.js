@@ -23,7 +23,8 @@ const SingleBlogContent = ({ post }) => {
   const shareUrl = encodeURIComponent(articleUrl);
 
   const dateObj = new Date(publishedDate);
-
+  // console.log(articleUrl);
+  console.log(shareUrl);
   const monthNames = [
     "January",
     "February",
@@ -104,7 +105,7 @@ const SingleBlogContent = ({ post }) => {
                     <Link href="/blog/">Marketing</Link>
                   </div>
 
-                  <div className="article-share">
+                  {/* <div className="article-share">
                     <ul className="social">
                       <li>
                         <span>Share:</span>
@@ -133,16 +134,8 @@ const SingleBlogContent = ({ post }) => {
                           <i className="fab fa-linkedin-in"></i>
                         </a>
                       </li>
-                      <li>
-                        <a
-                          href={`https://www.instagram.com/share?url=${shareUrl}`}
-                          target="_blank"
-                        >
-                          <i className="fab fa-instagram"></i>
-                        </a>
-                      </li>
                     </ul>
-                  </div>
+                  </div> */}
                 </div>
 
                 {/* Post navigation */}
