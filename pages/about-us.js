@@ -34,10 +34,13 @@ export default function AboutUs() {
         breadcrumbUrl="/"
       />
 
-      <AboutContent />
-      <div className="ptb-70">
-        <DubaiPartnerLogos />
+      <div className="pb-70">
+        <AboutContent />
       </div>
+
+      {/* <div className="ptb-70">
+        <DubaiPartnerLogos />
+      </div> */}
 
       <div className="pb-70">
         <Mission />

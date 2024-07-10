@@ -6285,6 +6285,7 @@ Go Top CSS
   line-height: 1;
   position: relative;
   width: 100%;
+  // height: 100%;
   // height: 90vh;
   // overflow: hidden; // Ensure that overflow doesn't affect the layout
 
@@ -6299,7 +6300,7 @@ Go Top CSS
   .slide-item {
     text-align: center;
     background: #ffffff;
-    height: 100%; // Ensure slide item takes up full height of parent
+    height: 70vh; // Ensure slide item takes up full height of parent
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6319,7 +6320,7 @@ Go Top CSS
       align-items: center;
       width: 100%;
       position: absolute;
-      top: 40%;
+      top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
       text-align: center;

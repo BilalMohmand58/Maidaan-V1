@@ -85,7 +85,7 @@ const Footer = () => {
                 <ul className="footer-quick-links">
                   <li>
                     <Link href="/propertyKaMaidaan">Property Ka Maidaan</Link>
-                    <ol>
+                    {/* <ol>
                       <li className="mt-3">
                         <Link href="/investInDubai/">Invest In Dubai</Link>
                       </li>
@@ -95,7 +95,7 @@ const Footer = () => {
                       <li>
                         <Link href="/discoverDubai/">Discover Dubai</Link>
                       </li>
-                    </ol>
+                    </ol> */}
                   </li>
                   <li>
                     <Link href="/about-us">About Us</Link>
@@ -134,10 +134,7 @@ const Footer = () => {
                     <Link href="/services">Real Estate Solutions</Link>
                   </li>
                   <li>
-                    <Link href="/services">Invest In Dubai</Link>
-                  </li>
-                  <li>
-                    <Link href="/victory-villas">Victory Villas</Link>
+                    <Link href="/services">Invest Tranparently</Link>
                   </li>
                 </ul>
               </div>

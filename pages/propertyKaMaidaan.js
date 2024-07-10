@@ -14,6 +14,13 @@ import PartnerLogos from "../components/Home/PartnerLogos";
 import DubaiTrip from "../components/PropertyKaMaidaan/DubaiTrip";
 import Head from "next/head";
 import { getMetadata } from "../config/metadata";
+import MaidaanXFuturefest from "../components/PropertyKaMaidaan/MaidaanXFuturefest";
+import EventSlider from "../components/Events/EventSliderLahore";
+import MaidaanXmirpur from "../components/PropertyKaMaidaan/MaidaanXmirpur";
+import MaidaanXqatar from "../components/PropertyKaMaidaan/MaidaanXqatar";
+import EventSliderLahore from "../components/Events/EventSliderLahore";
+import EventSliderMirpur from "../components/Events/EventSliderMirpur";
+import EventSliderDoha from "../components/Events/EventSliderDoha";
 
 export default function PropertyKaMaidaan() {
   const page = "propertyKaMaidaan";
@@ -26,24 +33,49 @@ export default function PropertyKaMaidaan() {
       </Head>
       <NavbarTwo />
 
-      <div className="pb-100">
+      <div>
         <Carousel />
       </div>
 
       {/* <FeaturesContent /> */}
 
-      <InvestInDubai />
-
-      <div className="pb-100">
-        <DubaiProjects />
+      <div className="pb-70">
+        <About />
       </div>
 
-      <InvestInPak />
+      <div className="pb-70">
+        <MaidaanXFuturefest />
+      </div>
+      <div className="pb-70">
+        <EventSliderLahore />
+      </div>
+
+      <div className="pb-70">
+        <MaidaanXmirpur />
+      </div>
+      <div className="pb-70">
+        <EventSliderMirpur />
+      </div>
+
+      <div className="pb-70">
+        <MaidaanXqatar />
+      </div>
+      <div className="pb-70">
+        <EventSliderDoha />
+      </div>
+
+      {/* <InvestInDubai /> */}
+
+      {/* <div className="pb-100">
+        <DubaiProjects />
+      </div> */}
+
+      {/* <InvestInPak />
       <div className="pb-70 ">
         <PartnerLogos />
-      </div>
+      </div> */}
 
-      <DubaiTrip />
+      {/* <DubaiTrip /> */}
 
       <SubscribeStyleTwo />
 

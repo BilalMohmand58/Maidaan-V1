@@ -95,7 +95,7 @@ const MainBanner = () => {
                     >
                       Maidaan thoroughly fulfills the aspirations of our
                       customers and investors about real estate. We offer buy,
-                      sell, and rent services to aspirants of luxury properties.
+                      sell services to aspirants of luxury properties.
                     </p>
                     <strong>
                       Explore the gateway to luxury and innovation in one of the
@@ -109,16 +109,16 @@ const MainBanner = () => {
                       data-aos-delay="300"
                     >
                       <Link href="/about-us" className="default-btn-one">
-                        More About Us
+                        Learn More
                       </Link>
 
-                      <div
+                      {/* <div
                         onClick={() => setToggler(!toggler)}
                         className="video-btn popup-youtube"
                       >
                         Maidaan X Future Fest{" "}
                         <i className="flaticon-play-button"></i>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -126,10 +126,10 @@ const MainBanner = () => {
                 <div className="col-lg-4">
                   <div className="banner-form">
                     <div className="banner-form-header">
-                      <h4 className="header-title">Get Free Guide</h4>
+                      <h4 className="header-title">Get In Touch</h4>
                       <p className="header-desc">
                         {" "}
-                        Invest In Dubai with Maidaan
+                        Unlock The Door To Your Dream Property
                       </p>
                     </div>
                     <FormControl
@@ -188,7 +188,7 @@ const MainBanner = () => {
                       mt={5}
                       w="100%"
                     >
-                      Get Free Guide
+                      Send Message
                     </Button>
                   </div>
                 </div>

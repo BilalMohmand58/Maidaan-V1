@@ -53,7 +53,7 @@ const Carousel = () => {
                     />
                   </a>
                   <div className="slide-content">
-                    <h3 className="slide-title">INVEST IN DUBAI</h3>
+                    <h3 className="slide-title">Property Ka Maidaan</h3>
                     <h3 className="slide-sub-title">
                       Limitless Investment Horizons
                     </h3>
@@ -67,7 +67,7 @@ const Carousel = () => {
                 </div>
               </SwiperSlide>
 
-              <SwiperSlide>
+              {/* <SwiperSlide>
                 <div className="slide-item">
                   <a href="#" target="_blank">
                     <Image
@@ -89,8 +89,8 @@ const Carousel = () => {
                     </div>
                   </div>
                 </div>
-              </SwiperSlide>
-              <SwiperSlide>
+              </SwiperSlide> */}
+              {/* <SwiperSlide>
                 <div className="slide-item">
                   <a href="#" target="_blank">
                     <Image
@@ -112,7 +112,7 @@ const Carousel = () => {
                     </div>
                   </div>
                 </div>
-              </SwiperSlide>
+              </SwiperSlide> */}
             </Swiper>
           </div>
         </div>

@@ -12,12 +12,12 @@ import partner6 from "../../public/images/partner/v7.png";
 import partner7 from "../../public/images/partner/dtl.png";
 
 // import partner8 from "../../public/images/partner/j7.jpg";
-import partner9 from "../../public/images/partner/kmk.jpg";
-import partner10 from "../../public/images/partner/lakeshore.jpg";
+// import partner9 from "../../public/images/partner/kmk.jpg";
+// import partner10 from "../../public/images/partner/lakeshore.jpg";
 // import partner11 from "../../public/images/partner/man.jpg";
 // import partner12 from "../../public/images/partner/muree-oaks.png";
-import partner13 from "../../public/images/partner/oasis.png";
-import partner14 from "../../public/images/partner/parkview.png";
+// import partner13 from "../../public/images/partner/oasis.png";
+// import partner14 from "../../public/images/partner/parkview.png";
 
 const PartnerLogos = () => {
   return (
@@ -56,7 +56,10 @@ const PartnerLogos = () => {
           >
             <SwiperSlide>
               <div className="partner-item">
-                <a href="#" target="_blank">
+                <a
+                  href="https://thevictoryconstruction.com/project/prince-one-mall/"
+                  target="_blank"
+                >
                   <Image src={partner1} alt="partner" width={100} height={60} />
                 </a>
               </div>
@@ -64,7 +67,7 @@ const PartnerLogos = () => {
 
             <SwiperSlide>
               <div className="partner-item">
-                <a href="#" target="_blank">
+                <a href="https://jhelumvillas.com/" target="_blank">
                   <Image src={partner2} alt="partner" width={100} height={60} />
                 </a>
               </div>
@@ -72,7 +75,7 @@ const PartnerLogos = () => {
 
             <SwiperSlide>
               <div className="partner-item">
-                <a href="#" target="_blank">
+                <a href="https://jhelummidtown.com/" target="_blank">
                   <Image src={partner3} alt="partner" width={100} height={60} />
                 </a>
               </div>
@@ -80,7 +83,7 @@ const PartnerLogos = () => {
 
             <SwiperSlide>
               <div className="partner-item">
-                <a href="#" target="_blank">
+                <a href="https://thevictoryconstruction.com/" target="_blank">
                   <Image src={partner4} alt="partner" width={100} height={60} />
                 </a>
               </div>
@@ -88,7 +91,10 @@ const PartnerLogos = () => {
 
             <SwiperSlide>
               <div className="partner-item">
-                <a href="#" target="_blank">
+                <a
+                  href="https://thevictoryconstruction.com/project/victory-chib-heights/"
+                  target="_blank"
+                >
                   <Image src={partner5} alt="partner" width={100} height={60} />
                 </a>
               </div>
@@ -96,7 +102,10 @@ const PartnerLogos = () => {
 
             <SwiperSlide>
               <div className="partner-item">
-                <a href="#" target="_blank">
+                <a
+                  href="https://thevictoryconstruction.com/project/v7-heights/"
+                  target="_blank"
+                >
                   <Image src={partner6} alt="partner" width={100} height={60} />
                 </a>
               </div>
@@ -104,7 +113,10 @@ const PartnerLogos = () => {
 
             <SwiperSlide>
               <div className="partner-item">
-                <a href="#" target="_blank">
+                <a
+                  href="https://thevictoryconstruction.com/project/downtown-lane/"
+                  target="_blank"
+                >
                   <Image src={partner7} alt="partner" width={100} height={60} />
                 </a>
               </div>
@@ -118,15 +130,15 @@ const PartnerLogos = () => {
               </div>
             </SwiperSlide> */}
 
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <div className="partner-item">
                 <a href="#" target="_blank">
                   <Image src={partner9} alt="partner" width={100} height={60} />
                 </a>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
 
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <div className="partner-item">
                 <a href="#" target="_blank">
                   <Image
@@ -137,7 +149,7 @@ const PartnerLogos = () => {
                   />
                 </a>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
 
             {/* <SwiperSlide>
               <div className="partner-item">
@@ -165,7 +177,7 @@ const PartnerLogos = () => {
               </div>
             </SwiperSlide> */}
 
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <div className="partner-item">
                 <a href="#" target="_blank">
                   <Image
@@ -176,9 +188,9 @@ const PartnerLogos = () => {
                   />
                 </a>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
 
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <div className="partner-item">
                 <a href="#" target="_blank">
                   <Image
@@ -189,7 +201,7 @@ const PartnerLogos = () => {
                   />
                 </a>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
           </Swiper>
         </div>
       </div>

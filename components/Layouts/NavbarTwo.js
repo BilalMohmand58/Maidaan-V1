@@ -137,7 +137,7 @@ const Navbar = () => {
                     >
                       Property Ka Maidaan
                     </Link>
-                    <ul
+                    {/* <ul
                       className="dropdown-menu"
                       aria-labelledby="navbarDropdown"
                     >
@@ -156,7 +156,7 @@ const Navbar = () => {
                           Discover a Dubai
                         </Link>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
 
                   <li className="nav-item">

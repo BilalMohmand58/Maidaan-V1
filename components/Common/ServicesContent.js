@@ -93,12 +93,11 @@ const ServicesContent = () => {
                   <i className="flaticon-application"></i>
                 </div>
                 <h3>
-                  <Link href="#">Invest in Dubai (Marketing services)</Link>
+                  <Link href="#">Invest Tranparently (Marketing services)</Link>
                 </h3>
                 <p>
-                  A newest venture for buying, selling, and renting properties!
-                  Coming Soon to Dubai, we are a trusted partner for all your
-                  real estate needs here.
+                  A newest venture for buying, selling properties, we are a
+                  trusted partner for all your real estate needs here.
                 </p>
               </div>
             </div>

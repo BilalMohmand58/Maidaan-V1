@@ -4,6 +4,7 @@ import MainBanner from "../components/Home/MainBanner";
 import PartnerLogos from "../components/Home/PartnerLogos";
 import FeaturesArea from "../components/Home/FeaturesArea";
 import AboutContent from "../components/Home/AboutContent";
+import MaidaanStory from "../components/Home/MaidaanStory";
 import Mission from "../components/Home/Mission";
 import Vision from "../components/Home/Vision";
 import { useMediaQuery } from "react-responsive";
@@ -40,6 +41,10 @@ import RegisterButton from "../components/Home/RegisterButton";
 import Head from "next/head";
 import { getMetadata } from "../config/metadata";
 import VictoyVillasBanner from "../components/Home/VictoryVillasBanner";
+import EventSlider from "../components/Events/EventSliderLahore";
+import MaidaanAchievments from "../components/Home/MaidaanAchievments";
+import PakistanProjects from "../components/Home/PakistanProjects";
+import MaidaanXVc from "../components/Home/MaidaanXVc";
 export async function getStaticProps() {
   try {
     const client = createClient({
@@ -123,25 +128,33 @@ export default function Index({ posts, projects }) {
       <div className="pb-70 ">
         <AboutContent />
       </div>
+      <div className="pb-70 ">
+        <MaidaanStory />
+      </div>
 
       <div className="pb-70 ">
         <FeaturesArea />
       </div>
 
-      <InvestInDubai />
+      {/* <InvestInDubai /> */}
 
-      <div className="pb-70 ">
+      {/* <div className="pb-70 ">
         <DubaiPartnerLogos />
-      </div>
+      </div> */}
       <div className="pb-70 ">
-        <VictoyVillasBanner />
-      </div>
-      <div className="pb-70 ">
-        <InvestInPak />
+        <MaidaanAchievments />
+        {/* <PakistanProjects /> */}
+        {/* <InvestInPak /> */}
         <PartnerLogos />
         {/* <MarketedBanner /> */}
       </div>
 
+      <div className="pb-70 ">
+        <VictoyVillasBanner />
+      </div>
+      <div className="pb-70">
+        <MaidaanXVc />
+      </div>
       {/* <div className="pb-70">
         <OutstandingDigitalExperience />
       </div> */}
