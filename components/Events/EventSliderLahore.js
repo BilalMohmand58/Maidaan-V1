@@ -8,12 +8,12 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import pImg1 from "../../public/images/event/lahore13.JPG";
-import pImg2 from "../../public/images/event/lahore14.JPG";
-import pImg3 from "../../public/images/event/lahore15.JPG";
-import pImg4 from "../../public/images/event/lahore16.JPG";
-import pImg5 from "../../public/images/event/lahore11.JPG";
-import pImg6 from "../../public/images/event/lahore12.JPG";
+import pImg1 from "../../public/images/event/lahore13.jpg";
+import pImg2 from "../../public/images/event/lahore13.jpg";
+import pImg3 from "../../public/images/event/lahore13.jpg";
+import pImg4 from "../../public/images/event/lahore13.jpg";
+import pImg5 from "../../public/images/event/lahore13.jpg";
+import pImg6 from "../../public/images/event/lahore13.jpg";
 
 const images = [
   { src: pImg1, title: "Explore Dubai" },
