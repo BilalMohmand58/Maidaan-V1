@@ -12,8 +12,8 @@ import pImg1 from "../../public/images/event/lahore13.jpg";
 import pImg2 from "../../public/images/event/lahore14.jpg";
 import pImg3 from "../../public/images/event/lahore15.jpg";
 import pImg4 from "../../public/images/event/lahore16.jpg";
-import pImg5 from "../../public/images/event/lahore1.jpg";
-import pImg6 from "../../public/images/event/lahore3.jpg";
+import pImg5 from "../../public/images/event/lahore11.jpg";
+import pImg6 from "../../public/images/event/lahore12.jpg";
 
 const images = [
   { src: pImg1, title: "Explore Dubai" },
