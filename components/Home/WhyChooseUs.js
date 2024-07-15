@@ -53,10 +53,7 @@ const WhyChooseUs = () => {
                   <div class="choose-text">
                     <i class="flaticon-check-mark"></i>
                     <h4>Diverse Property Listings</h4>
-                    <p>
-                      Residential, commercial, and Dubai's prestigious real
-                      estate projects.
-                    </p>
+                    <p>Residential, commercial, real estate projects.</p>
                   </div>
 
                   <div class="choose-text">

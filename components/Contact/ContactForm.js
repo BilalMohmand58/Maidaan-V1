@@ -75,19 +75,13 @@ const ContactForm = () => {
             <div className="col-lg-5 col-md-6 ">
               <div className="contact-text">
                 <h2>Get in Touch</h2>
-                <p>
-                  Dive into luxury, culture, and family-friendly real estate
-                  opportunities. Explore over 30 leading domestic and
-                  international brands and uncover prime real estate gems at
-                  Expo Center Lahore, presented in collaboration with Future
-                  Fest Shopping.
-                </p>
+
                 <p>
                   Maidaan, a trusted partner, helps you explore the unique gems
                   of real estate marketing. We are a leading real estate
-                  marketing company and specialize in providing comprehensive
+                  marketing company and specializing in providing comprehensive
                   services by our dedicated real estate marketing team for
-                  buying, selling, and renting properties.
+                  buying and selling properties.
                 </p>
 
                 <h3>Follow Us</h3>

@@ -35,19 +35,18 @@ const Vision = () => {
             >
               <div className="about-area-content">
                 <span>Our Vision</span>
-                <h3>
-                  Translating To Your Success By Our Team’s Extensive Knowledge
-                  of Real Estate Investment.
-                </h3>
+
                 {/* <strong>
                   With a vision for transparency, efficiency, and innovation,
                   Maidaan is shaping the future of Pakistan's real estate
                   industry.
                 </strong> */}
                 <p>
-                  Redefining the simplicity of real estate and offering an
-                  integrated platform for buying, selling, and renting
-                  properties.
+                  Maidaan envisions to redefine real estate simplicity by
+                  offering an integrated platform for buying, selling and
+                  renting properties. We aim to create an environment where
+                  transparency, efficiency, innovation, and creativity converge,
+                  redefining the norms of the real estate.
                 </p>
               </div>
             </div>

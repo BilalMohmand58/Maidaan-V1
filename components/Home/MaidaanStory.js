@@ -37,29 +37,30 @@ const AboutContent = () => {
                 <span>Our Story</span>
                 <h3>Maidaan Group of Companies</h3>
                 <strong>
-                  Maidaan Group of Companies is a leading real estate marketing
-                  business in Pakistan, committed to simplifying the intricacies
-                  of the real estate sector. This group was established in
-                  September 2022, with a mission to simplify real estate and
-                  make it accessible to all. With a focus on simplifying the
-                  complexities inherent in the market.
+                  In view of the locals as well as Overseas Pakistanis’
+                  aspirations, Maidaan is committed to bringing luxury property
+                  and technology together for futuristic investment at both
+                  national and international levels.
                 </strong>
-                <p>
-                  we specialize in providing comprehensive services for buying,
-                  selling properties across Pakistan. Our slogan "Simplifying
-                  Real Estate" encapsulates our dedication to making the real
-                  estate process more accessible and transparent for all.
-                </p>
+
                 <p>
                   {" "}
-                  Maidaan Group of Companies stands as a powerhouse
-                  conglomerate, encompassing a diverse portfolio of enterprises
-                  that resonate with innovation, excellence, and client-centric
-                  solutions. Rooted in Pakistan yet thriving globally, our
-                  spectrum of companies—Maidaan, Node Proptech, Bolt Media
-                  Productions, The Sprocket Media Agency, Victory Villas,
-                  Workwise, and Victory Constructions—embodies a collective
-                  pursuit of pioneering advancements across various industries.
+                  Understanding the difficulties and pains deep-rooted in the
+                  Pakistani real estate market, we’ve built a comprehensive
+                  suite of services and introduced “Property Ka Maidaan," a
+                  collaboration-oriented event series recently held in Lahore,
+                  Mirpur, Jhelum and Doha, Qatar, to revolutionize the processes
+                  for all participants. Whether you are buying, or selling
+                  properties, Maidaan offers expert guidance and innovative
+                  solutions to ensure a whole experience under one roof. Maidaan
+                  also stands as a powerhouse conglomerate, encompassing a
+                  diverse portfolio of enterprises that resonate with
+                  innovation, excellence, and client-centric solutions. Rooted
+                  in Pakistan yet thriving globally, our spectrum of
+                  companies—Maidaan, Node Proptech, Bolt Media Productions, The
+                  Sprocket Media Agency, Victory Villas, Workwise, and Victory
+                  Constructions—embodies a collective pursuit of pioneering
+                  advancements across various industries.
                 </p>
               </div>
             </div>

@@ -35,14 +35,12 @@ const Mission = () => {
             >
               <div className="about-area-content">
                 <span>Our Mission</span>
-                <h3>
-                  Playing a Role As Your Trusted Partner In Luxury Properties.{" "}
-                </h3>
 
                 <p>
-                  Addressing the multifaceted needs of the real estate industry
-                  and simplifying the processes for our clients in Pakistan and
-                  Dubai.
+                  Our mission at Maidaan is to streamline Pakistan's real estate
+                  market by addressing multifaceted industry needs and
+                  simplifying processes for our clients through pioneering
+                  solutions.
                 </p>
               </div>
             </div>

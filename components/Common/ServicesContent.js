@@ -34,9 +34,7 @@ const ServicesContent = () => {
                 <h3>
                   <Link href="#">Sales Support</Link>
                 </h3>
-                <p>
-                  Expert assistance for buying, selling, renting properties.
-                </p>
+                <p>Expert assistance for buying and selling properties</p>
               </div>
             </div>
 
@@ -96,7 +94,7 @@ const ServicesContent = () => {
                   <Link href="#">Invest Tranparently (Marketing services)</Link>
                 </h3>
                 <p>
-                  A newest venture for buying, selling properties, we are a
+                  A newest venture for buying and selling properties, we are a
                   trusted partner for all your real estate needs here.
                 </p>
               </div>

@@ -33,11 +33,11 @@ const FaqSection = () => {
                     <AccordionItemPanel>
                       <p>
                         Maidaan is a leading real estate marketing company,
-                        dedicated to simplifying the complexities of buying,
-                        selling, and renting properties. We offer a
-                        comprehensive suite of services and utilize innovative
-                        solutions to make the real estate process more
-                        accessible and transparent for everyone.
+                        dedicated to simplifying the complexities of buying and
+                        selling properties. We offer a comprehensive suite of
+                        services and utilize innovative solutions to make the
+                        real estate process more accessible and transparent for
+                        everyone.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -52,11 +52,10 @@ const FaqSection = () => {
                       <p>
                         We offer a range of services tailored to your specific
                         needs, including Sales Support i.e., Assistance and
-                        guidance throughout the buying, selling, or renting
-                        process, and Marketing services, A diverse spectrum of
-                        real estate marketing services, including branding
-                        solutions, digital marketing, and conventional
-                        marketing.
+                        guidance throughout the buying, selling process, and
+                        Marketing services, A diverse spectrum of real estate
+                        marketing services, including branding solutions,
+                        digital marketing, and conventional marketing.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -75,23 +74,6 @@ const FaqSection = () => {
                         analysis, property selection, legal assistance, and
                         post-purchase support, ensuring a seamless investment
                         experience.
-                      </p>
-                    </AccordionItemPanel>
-                  </AccordionItem>
-
-                  <AccordionItem uuid="d">
-                    <AccordionItemHeading>
-                      <AccordionItemButton>
-                        Can Maidaan help first-time investors navigate the Dubai
-                        real estate market?
-                      </AccordionItemButton>
-                    </AccordionItemHeading>
-                    <AccordionItemPanel>
-                      <p>
-                        Participants will gain exclusive insights into real
-                        estate market, access to top developers, networking
-                        opportunities, and firsthand knowledge of Maidaan&#39;s
-                        unique investment strategies and offers.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>

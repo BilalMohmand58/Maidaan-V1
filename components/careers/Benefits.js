@@ -45,13 +45,6 @@ const Benefits = () => {
     },
 
     {
-      title: "Medical Allowance",
-      description:
-        "Onboarding starts when candidates accept our offer. We give them our welcoming kit to be part of the Bitsol family.",
-      iconClassName: "check-mark",
-    },
-
-    {
       title: "Multiple Bonuses",
       description:
         "Onboarding starts when candidates accept our offer. We give them our welcoming kit to be part of the Bitsol family.",
@@ -76,12 +69,7 @@ const Benefits = () => {
         "Onboarding starts when candidates accept our offer. We give them our welcoming kit to be part of the Bitsol family.",
       iconClassName: "check-mark",
     },
-    {
-      title: "Health and Fitness Allowance",
-      description:
-        "Onboarding starts when candidates accept our offer. We give them our welcoming kit to be part of the Bitsol family.",
-      iconClassName: "check-mark",
-    },
+
     {
       title: "Free Coffee, Tea and Snacks",
       description:
@@ -104,8 +92,8 @@ const Benefits = () => {
             <span>Compensation and Benefits</span>
             <p className="my-2">
               We have designed the compensation and benefits to make our
-              people’s journey at Bitsol Technologies as happy and comfortable
-              as one desires.
+              people’s journey at Maidaan Marketing as happy and comfortable as
+              one desires.
             </p>
           </div>
 

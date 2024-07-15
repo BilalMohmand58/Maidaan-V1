@@ -43,11 +43,10 @@ const MaidaanXVc = () => {
                   and Speed in High-Rise Projects
                 </h3>
                 <strong>
-                  Maidaan and Victory construction collaboration Maidaan, as the
-                  marketing partner and project head, has collaborated with
-                  Victory Construction, leveraging their 40+ years of experience
-                  as the construction partner, to deliver projects with
-                  exceptional quality and speed.
+                  Maidaan, as the marketing partner and project head, has
+                  collaborated with Victory Construction, leveraging their 40+
+                  years of experience as the construction partner, to deliver
+                  projects with exceptional quality and speed.
                 </strong>
                 <p>
                   This partnership has proven to be highly successful, combining

@@ -37,16 +37,20 @@ const AboutContent = () => {
                 <span>About Us</span>
                 <h3>Maidaan, A Core Center Of Real Estate Investment</h3>
                 <strong>
-                  Dive into luxury, culture, and family-friendly real estate
-                  opportunities. Explore over 30 leading domestic and
-                  international brands and uncover prime real estate gems.
+                  Maidaan Group of Companies is a leading real estate marketing
+                  business in Pakistan, committed to simplifying the intricacies
+                  of the real estate sector. We were established in September
+                  2022, with a mission to simplify real estate and make it
+                  accessible to all.
                 </strong>
                 <p>
-                  Maidaan, a trusted partner, helps you explore the unique gems
-                  of real estate marketing. We are a leading real estate
-                  marketing company and specialize in providing comprehensive
-                  services by our dedicated real estate marketing team for
-                  buying, selling, and renting properties.
+                  With a focus on simplifying the complexities inherent in the
+                  market, we specialize in providing comprehensive services for
+                  buying and selling properties across Pakistan and beyond. We
+                  aim to revolutionize the real estate landscape by addressing
+                  diverse client needs and streamlining every aspect of property
+                  transaction, from listing to ownership transfer through
+                  innovative solutions and advanced technology.
                 </p>
               </div>
             </div>
