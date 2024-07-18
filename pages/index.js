@@ -33,7 +33,7 @@ import InvestInPak from "../components/Home/InvestInPak";
 import LeadFormPopup from "../components/Home/LeadFormPopup";
 import Image from "next/image";
 
-import popupImage from "../public/images/dohaevent.jpg";
+import popupImage from "../public/images/Pop up Design.jpg";
 import ContactButton from "../components/Home/ContactButton";
 import Link from "next/link";
 import MarketedBanner from "../components/Home/MarketedBanner";
@@ -184,7 +184,7 @@ export default function Index({ posts, projects }) {
       <Footer />
 
       {/* Modal */}
-      {/* <Modal show={showModal} onHide={handleCloseModal} size="xl">
+      <Modal show={showModal} onHide={handleCloseModal} size="xl">
         <Modal.Body style={{ position: "relative", padding: 0 }}>
           <button
             type="button"
@@ -198,13 +198,13 @@ export default function Index({ posts, projects }) {
             alt="partner"
           />
 
-          {!isMobile && <RegisterButton />}
+          <RegisterButton />
 
           <div
             className="d-flex justify-content-end align-items-end position-absolute p-3"
             style={{ bottom: 0, right: 0 }}
           >
-            {!isMobile && (
+            {/* {!isMobile && (
               <Link
                 href="/propertyKaMaidaan/"
                 target="_blank"
@@ -212,10 +212,10 @@ export default function Index({ posts, projects }) {
               >
                 Learn More
               </Link>
-            )}
+            )} */}
           </div>
         </Modal.Body>
-      </Modal> */}
+      </Modal>
     </>
   );
 }
