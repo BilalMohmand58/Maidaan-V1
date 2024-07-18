@@ -41,7 +41,7 @@ function RegisterButton() {
     <>
       <button
         onClick={handleButtonClick}
-        className="position-absolute top-50 start-50 move-right"
+        className="position-absolute top-100 start-50 move-right"
       >
         Register Now
       </button>
