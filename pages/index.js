@@ -184,7 +184,7 @@ export default function Index({ posts, projects }) {
       <Footer />
 
       {/* Modal */}
-      <Modal show={showModal} onHide={handleCloseModal} size="xl">
+      {/* <Modal show={showModal} onHide={handleCloseModal} size="xl">
         <Modal.Body style={{ position: "relative", padding: 0 }}>
           <button
             type="button"
@@ -212,10 +212,10 @@ export default function Index({ posts, projects }) {
               >
                 Learn More
               </Link>
-            )} */}
+            )} 
           </div>
         </Modal.Body>
-      </Modal>
+      </Modal> */}
     </>
   );
 }
