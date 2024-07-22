@@ -4,6 +4,7 @@ import BlogSidebar from "./BlogSidebar";
 import Image from "next/image";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 import SingleBlogSidebar from "./SingleBlogSidebar";
+import Head from "next/head";
 
 const SingleBlogContent = ({ post }) => {
   const {
@@ -48,6 +49,14 @@ const SingleBlogContent = ({ post }) => {
 
   return (
     <>
+      <Head>
+        <title>{title}</title>
+        <meta name="description" content={excerpt} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={excerpt} />
+        <meta property="og:image" content={featuredImage?.fields?.file?.url} />
+        <meta property="og:url" content={articleUrl} />
+      </Head>
       <div className="blog-details-area ptb-100">
         <div className="container">
           <div className="row">
