@@ -19,7 +19,7 @@ const SingleBlogContent = ({ post }) => {
     relatedBlogPosts,
   } = post?.fields;
 
-  const articleUrl = `http://themaidaan.com/blog/${slug}`;
+  const articleUrl = `https://themaidaan.com/blog/${slug}`;
 
   const shareUrl = encodeURIComponent(articleUrl);
 
