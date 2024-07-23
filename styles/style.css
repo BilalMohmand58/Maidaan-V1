@@ -5642,8 +5642,7 @@ Go Top CSS
 }
 .move-right:hover {
   
-  border-color: #0a61c1;
-  background-color: transparent;
+  border-color: #ffffff;
 }
 @media (max-width: 1000px) {
   .move-right {
