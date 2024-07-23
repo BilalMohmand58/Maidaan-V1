@@ -184,7 +184,7 @@ export default function Index({ posts, projects }) {
       <Footer />
 
       {/* Modal */}
-      {/* <Modal show={showModal} onHide={handleCloseModal} size="xl">
+      <Modal show={showModal} onHide={handleCloseModal} size="xl">
         <Modal.Body style={{ position: "relative", padding: 0 }}>
           <button
             type="button"
@@ -200,11 +200,11 @@ export default function Index({ posts, projects }) {
 
           <RegisterButton />
 
-          <div
+          {/* <div
             className="d-flex justify-content-end align-items-end position-absolute p-3"
             style={{ bottom: 0, right: 0 }}
           >
-            {/* {!isMobile && (
+           {!isMobile && (
               <Link
                 href="/propertyKaMaidaan/"
                 target="_blank"
@@ -213,9 +213,9 @@ export default function Index({ posts, projects }) {
                 Learn More
               </Link>
             )} 
-          </div>
+          </div> */}
         </Modal.Body>
-      </Modal> */}
+      </Modal> 
     </>
   );
 }
