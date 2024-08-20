@@ -72,14 +72,9 @@ const DubaiProjects = () => {
 
                   <div className="col-lg-6">
                     <div className="content">
-                      <h2>EMAAR PROPERTIES</h2>
+                      <h2>Lorem ipsum dolor</h2>
                       <p>
-                        Emaar Properties is among the most admired and valuable
-                        real estate development companies in the world. Emaar,
-                        which has established competencies in real estate,
-                        retail and shopping malls, hospitality, and leisure,
-                        shapes new lifestyles through its commitment to design
-                        excellence, build quality, and timely delivery.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum vulputate risus, vel fringilla ipsum cursus ut. Mauris non libero at dolor gravida ullamcorper ut vel est. Fusce feugiat, quam nec viverra varius, ligula lacus maximus quam, id vestibulum turpis mi eu magna.
                       </p>
                     </div>
 

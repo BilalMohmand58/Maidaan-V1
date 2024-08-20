@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 import aboutImg from "../../public/images/maidaanxff.jpg";
+import Link from "next/link";
 
 const MaidaanXFuturefest = () => {
   return (
@@ -53,6 +54,13 @@ const MaidaanXFuturefest = () => {
                   properties, promote, market, and position the Maidaan brand
                   while fostering collaborations.
                 </p>
+                <div className="choose-btn mt-3 mb-4">
+                  <Link href="/lahore" className="default-btn-one">
+                    Read more
+                  </Link>
+                </div>
+                     
+                    
               </div>
             </div>
           </div>

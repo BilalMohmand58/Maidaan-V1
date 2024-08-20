@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 import aboutImg from "../../public/images/maidaanxff.jpg";
+import Link from "next/link";
 
 const MaidaanXqatar = () => {
   return (
@@ -54,6 +55,11 @@ const MaidaanXqatar = () => {
                   and engage with industry experts and developers who were there
                   to help them make the right decision.
                 </p>
+                <div className="choose-btn mt-3 mb-4">
+                  <Link href="/qatar" className="default-btn-one">
+                    Read more
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

@@ -32,8 +32,7 @@ import React from "react";
 function RegisterButton() {
   const handleButtonClick = () => {
     window.open(
-      "https://docs.google.com/forms/d/e/1FAIpQLScDOJqAt1bj3fb7BHi7IjMn1QYg77bvx9tMp6dNvYvrZJxa0Q/viewform?usp=sf_link",
-      "_blank"
+      "https://docs.google.com/forms/d/e/1FAIpQLSc8FNUGSF2r8mMPcKiNuxryXoBRVnSoKZUFKWuNo3voU6d_ew/viewform"
     );
   };
 

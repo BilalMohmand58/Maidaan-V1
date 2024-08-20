@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 import aboutImg from "../../public/images/maidaanxff.jpg";
+import Link from "next/link";
 
 const MaidaanXmirpur = () => {
   return (
@@ -52,6 +53,11 @@ const MaidaanXmirpur = () => {
                   investors, overseas Pakistani realtors, real estate
                   professionals, dealers and locals from Mirpur.
                 </p>
+                <div className="choose-btn mt-3 mb-4">
+                  <Link href="/mirpur" className="default-btn-one">
+                    Read more
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
