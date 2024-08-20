@@ -48,6 +48,30 @@ export const getMetadata = (page) => {
         description:
           "Real estate: where dreams meet brick and mortar, shaping lives and communities",
       };
+      case "qatar":
+        return {
+          title: "Qatar",
+          description:
+            "Property Ka Maidaan Doha: where dreams meet brick and mortar, shaping lives and communities",
+        };
+        case "uk":
+          return {
+            title: "Uk",
+            description:
+              "Exclusive Invite-Only Seminar: Pakistan Property Talk with Maidaan! Are you curious about real estate taxes in Pakistan",
+          };
+          case "lahore":
+            return {
+              title: "Lahore",
+              description:
+                "Property Ka Maidaan Lahore: Bridging Local and International Investments",
+            };
+            case "mirpur":
+            return {
+              title: "MirPur",
+              description:
+                "Property Ka Maidaan Mirpur: A Hub of Lucrative Investment Prospects",
+            };
     case "home":
       return {
         title: "Maidaan - Simplifying Real Estate",

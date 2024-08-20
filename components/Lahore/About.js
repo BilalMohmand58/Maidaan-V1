@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
 
-import aboutImg from "../../public/images/investindubai.webp";
+import aboutImg from "../../public/images/event/lahore15.jpg";
 import Link from "next/link";
-import ContactButton from "./ContactButton";
 
-const InvestInDubai = () => {
+
+const About = () => {
   return (
     <>
       <div className="dubai-section" id="invest">
@@ -36,14 +36,13 @@ const InvestInDubai = () => {
               data-aos-once="true"
             >
               <div className="about-area-content">
-                <span>Lorem Ipsum Dolor </span>
-                <h3>Lorem Ipsum Dolor: Consectetur Adipiscing Elit</h3>
+                <span>Maidaan X Future Fest </span>
+                <h3>Property Ka Maidaan Lahore: Bridging Local and International Investments</h3>
 
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at justo ac ligula fermentum varius. Nullam vel enim id dui tincidunt tincidunt. Curabitur euismod urna in orci laoreet, ac interdum nisl volutpat. Phasellus eget tellus eget odio convallis posuere ut nec purus. Sed euismod lorem orci, nec consectetur turpis suscipit a.
+                
 
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer vel vestibulum turpis, non accumsan risus. Nunc a nibh ligula. Integer at tincidunt ligula, ut scelerisque eros. Ut in orci sit amet sapien aliquam vestibulum et in elit.
-                </p>
+Maidaan, in collaboration with Future Fest, held the 'Property Ka Maidaan' event at Expo Center Lahore from March 31st until Eid ul Fitr, from Iftar till Sehr. Property Ka Maidaan aimed to help investors explore exclusive offerings and investment options directly from renowned domestic and international real estate developers, alongside Maidaan’s sales team. Our mission was to bridge the gap between potential investors in Pakistan and lucrative domestic and international real estate opportunities. The primary objective of this event was to sell properties, promote, market, and position the Maidaan brand while fostering collaborations. </p>
               </div>
               <div
                 className="banner-btn mt-5"
@@ -72,4 +71,4 @@ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
   );
 };
 
-export default InvestInDubai;
+export default About;

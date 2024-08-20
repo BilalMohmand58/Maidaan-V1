@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
 
-import aboutImg from "../../public/images/investindubai.webp";
+import aboutImg from "../../public/images/event/doha1.jpeg";
 import Link from "next/link";
-import ContactButton from "./ContactButton";
 
-const InvestInDubai = () => {
+
+const About = () => {
   return (
     <>
       <div className="dubai-section" id="invest">
@@ -36,13 +36,11 @@ const InvestInDubai = () => {
               data-aos-once="true"
             >
               <div className="about-area-content">
-                <span>Lorem Ipsum Dolor </span>
-                <h3>Lorem Ipsum Dolor: Consectetur Adipiscing Elit</h3>
+                <span>Maidaan Doha Event </span>
+                <h3>Property Ka Maidaan Doha: Expanding Horizons in the Global Property Market</h3>
 
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at justo ac ligula fermentum varius. Nullam vel enim id dui tincidunt tincidunt. Curabitur euismod urna in orci laoreet, ac interdum nisl volutpat. Phasellus eget tellus eget odio convallis posuere ut nec purus. Sed euismod lorem orci, nec consectetur turpis suscipit a.
-
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer vel vestibulum turpis, non accumsan risus. Nunc a nibh ligula. Integer at tincidunt ligula, ut scelerisque eros. Ut in orci sit amet sapien aliquam vestibulum et in elit.
+                Maidaan successfully made its mark to Qatar with the grand showcase of Victory Villas at the Pakistan International Property Expo (PIPEx) 2024 in Doha on 2nd, 3rd and 6th June, 2024. Attendees had the opportunity to experience luxury living at its best with Victory Villas, strategically positioned near New Islamabad Airport, offering convenience and elegance to overseas Pakistanis and international investors looking to invest in the Pakistani real estate market. Evidently, this event was a great success, allowing visitors to explore premium real estate options in Pakistan, and engage with industry experts and developers who were there to help them make the right decision.
                 </p>
               </div>
               <div
@@ -72,4 +70,4 @@ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
   );
 };
 
-export default InvestInDubai;
+export default About;

@@ -1,11 +1,13 @@
 import React from "react";
 import Image from "next/image";
 
-import aboutImg1 from "../../public/images/exploreDubai.webp";
-import aboutImg2 from "../../public/images/investindubai.webp";
+import aboutImg1 from "../../public/images/event/doha2.jpeg";
+import aboutImg2 from "../../public/images/event/doha3.jpeg";
+import aboutImg3 from "../../public/images/event/doha4.jpeg";
+import aboutImg4 from "../../public/images/event/doha8.jpeg";
 import ContactButton from "../Home/ContactButton";
 
-const Invest = () => {
+const Content = () => {
   return (
     <>
       <div className="dubai-section" id="invest">
@@ -19,17 +21,18 @@ const Invest = () => {
               data-aos-once="true"
             >
               <div className="about-area-content">
-                <span>Why Choose Us</span>
+                <span>maidaan</span>
                 <h3>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                Experience Excellence in Real Estate Investment
                 </h3>
 
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum vulputate risus, vel fringilla ipsum cursus ut. Mauris non libero at dolor gravida ullamcorper ut vel est. Fusce feugiat, quam nec viverra varius, ligula lacus maximus quam, id vestibulum turpis mi eu magna.
-                </p>
+                Maidaan is dedicated to offering unparalleled real estate opportunities, catering to the needs of both local and international investors. Our commitment to quality and customer satisfaction is evident in every project we undertake. Whether you are looking to invest in a luxurious property like Victory Villas or seeking expert advice on the best real estate options in Pakistan, Maidaan is your trusted partner. Our experienced team of professionals is always ready to guide you through every step of your investment journey, ensuring that your decision is well-informed and beneficial in the long run.
+
+</p>
               </div>
               <div
-                className="banner-btn mt-5"
+                className="banner-btn mt-5 mb-4"
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-delay="300"
@@ -71,7 +74,7 @@ const Invest = () => {
                   <div className="image-item">
                     <div className="zoom-on-hover">
                       <Image
-                        src={aboutImg2}
+                        src={aboutImg3}
                         alt="About Img 3"
                         width={290}
                         height={268}
@@ -81,7 +84,7 @@ const Invest = () => {
                   <div className="image-item">
                     <div className="zoom-on-hover">
                       <Image
-                        src={aboutImg1}
+                        src={aboutImg4}
                         alt="About Img 4"
                         width={290}
                         height={268}
@@ -98,4 +101,4 @@ const Invest = () => {
   );
 };
 
-export default Invest;
+export default Content;

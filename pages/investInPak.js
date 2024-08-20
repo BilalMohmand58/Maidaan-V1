@@ -11,7 +11,7 @@ import PartnerLogos from "../components/Home/PartnerLogos";
 import Banner from "../components/InvestInPakistan/Banner";
 import Head from "next/head";
 import { getMetadata } from "../config/metadata";
-const investInDubai = () => {
+const investInpak = () => {
   const page = "investInpak";
   const { title, description } = getMetadata(page);
   return (
@@ -50,4 +50,4 @@ const investInDubai = () => {
   );
 };
 
-export default investInDubai;
+export default investInpak;
