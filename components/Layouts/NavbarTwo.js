@@ -130,6 +130,16 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <Link
+                      href="/about-us/"
+                      className={`nav-link ${
+                        currentPath == "/about-us/" && "active"
+                      }`}
+                    >
+                      About us
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link
                       href="/propertyKaMaidaan/"
                       className={`nav-link ${
                         currentPath == "/propertyKaMaidaan/" && "active"
@@ -141,24 +151,26 @@ const Navbar = () => {
                       className="dropdown-menu"
                       aria-labelledby="navbarDropdown"
                     >
-                       <li>
-                        <Link href="/qatar/" className="dropdown-item">
-                          Qatar
-                        </Link>
-                      </li>
+                      
                       <li>
                         <Link href="/uk/" className="dropdown-item">
                           UK
                         </Link>
                       </li>
                       <li>
-                        <Link href="/lahore/" className="dropdown-item">
-                          Lahore
+                        <Link href="/qatar/" className="dropdown-item">
+                          Qatar
                         </Link>
                       </li>
+                      
                       <li>
                         <Link href="/mirpur/" className="dropdown-item">
                           Mirpur
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/lahore/" className="dropdown-item">
+                          Lahore
                         </Link>
                       </li>
                      
@@ -180,16 +192,7 @@ const Navbar = () => {
                     </ul>
                   </li>
 
-                  <li className="nav-item">
-                    <Link
-                      href="/about-us/"
-                      className={`nav-link ${
-                        currentPath == "/about-us/" && "active"
-                      }`}
-                    >
-                      About us
-                    </Link>
-                  </li>
+                 
 
                   <li className="nav-item">
                     <Link
