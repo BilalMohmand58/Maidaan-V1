@@ -80,19 +80,18 @@ const Invest = () => {
                       data-aos-duration="800"
                       data-aos-delay="100"
                     >
-                      Invest With Maidaan
+                     Join Us for Exclusive Seminars
+
                     </h2>
-                    <h4>Unlock The Door To Your Dream Property With Maidaan</h4>
+                    {/* <h4>Unlock The Door To Your Dream Property With Maidaan</h4> */}
                     <p
                       data-aos="fade-up"
                       data-aos-duration="800"
                       data-aos-delay="200"
                       className="mb-4"
                     >
-                      Maidaan thoroughly fulfills the aspirations of our
-                      customers and investors about real estate. We offer our
-                      buy, sell, and rent services to aspirants of luxury
-                      properties.
+                      To guide you through the investment process and answer any real estate queries you might have, Maidaan is hosting a series of exclusive events and seminars across key cities in the UK. Our expert team will provide comprehensive insights into the real estate market, investment strategies, and the exceptional benefits of owning a Victory Villa.
+
                     </p>
                   </div>
                 </div>

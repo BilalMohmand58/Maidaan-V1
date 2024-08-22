@@ -8,7 +8,7 @@ import { getMetadata } from "../config/metadata";
 import About from "../components/uk/About";
 import Discription from "../components/uk/Discription";
 import Details from "../components/uk/Details";
-import Invest from "../components/mirpur/Invest";
+import Invest from "../components/uk/Invest";
 
 const uk = () => {
   const page = "uk"; // Set the page name here
