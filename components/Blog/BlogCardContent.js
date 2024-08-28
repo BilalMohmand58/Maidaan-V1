@@ -7,7 +7,7 @@ import BlogCard from "../../components/Blog/BlogCard";
 const BlogCardContent = ({ posts }) => {
   return (
     <>
-      <div className="blog-page-area ptb-100">
+      <div className="blog-page-area pt-100">
         <div className="container">
           <div className="row">
             {/* <div className="col-lg-4 col-md-6"> */}
