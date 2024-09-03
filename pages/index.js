@@ -33,7 +33,7 @@ import InvestInPak from "../components/Home/InvestInPak";
 import LeadFormPopup from "../components/Home/LeadFormPopup";
 import Image from "next/image";
 
-import popupImage from "../public/images/Pop up Design.jpg";
+import popupImage from "../public/images/Pop up Design.jpeg";
 import ContactButton from "../components/Home/ContactButton";
 import Link from "next/link";
 import MarketedBanner from "../components/Home/MarketedBanner";
