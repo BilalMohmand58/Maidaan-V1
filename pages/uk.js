@@ -22,7 +22,7 @@ const uk = () => {
       <NavbarTwo />
       <PageBanner
         pageTitle="Maidaan x United Kingdom"
-        breadcrumbTextOne="PropertKaMaidaan"
+        breadcrumbTextOne="Property Ka Maidaan"
         breadcrumbTextTwo="uk"
         breadcrumbUrl="/propertKaMaidaan"
       />

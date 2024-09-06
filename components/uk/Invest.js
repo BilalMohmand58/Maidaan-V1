@@ -80,7 +80,7 @@ const Invest = () => {
                       data-aos-duration="800"
                       data-aos-delay="100"
                     >
-                     Join Us for Exclusive Seminars
+                     Join Us for Future Events
 
                     </h2>
                     {/* <h4>Unlock The Door To Your Dream Property With Maidaan</h4> */}
@@ -90,7 +90,8 @@ const Invest = () => {
                       data-aos-delay="200"
                       className="mb-4"
                     >
-                      To guide you through the investment process and answer any real estate queries you might have, Maidaan is hosting a series of exclusive events and seminars across key cities in the UK. Our expert team will provide comprehensive insights into the real estate market, investment strategies, and the exceptional benefits of owning a Victory Villa.
+                     
+Though our recent seminar has concluded, we continue to offer support and guidance through upcoming events and one-on-one consultations. Stay tuned for information on future seminars and opportunities to connect with our expert team. For personalized advice on real estate investments or to learn more about our services, get in touch with us today.
 
                     </p>
                   </div>
