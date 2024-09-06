@@ -73,38 +73,40 @@ const Details = () => {
               data-aos-duration="800"
               data-aos-once="true">
               <div className="about-area-content">
-                
-                <h3>Why Attend?</h3>
+                <h3>Why People Attended?</h3>
 
                 <p>
-                  <b>In-depth Knowledge: </b> 
-                  Gain valuable insights into
-                  the Pakistani real estate market and investment opportunities.<br/>
+                  <b>In-depth Knowledge: </b>
+                  To gain valuable insights into the Pakistani real estate
+                  market and investment opportunities.<br />
                   <b>Expert Guidance: </b>
-                  Receive personalized advice from our
-                  experienced professionals on making informed investment
-                  decisions. <br/>
+                  To receive personalized advice from our experienced
+                  professionals on making informed investment decisions.
+                  <br />
                   <b>Networking Opportunities: </b>
-                  
-                  Connect with like-minded investors and industry experts. 
-                  <br/><br/>
-                  <h6>Exclusive Invite-Only Seminar:
-                  Pakistan Property Talk with Maidaan!</h6>
-                   Are you curious about
-                  real estate taxes in Pakistan? Want to understand the benefits
-                  of being a tax filer, especially if you own property? Join us
-                  for an exclusive, invite-only seminar where we'll address
-                  these critical topics and more. Whether you have questions
-                  about your current real estate investments or are looking to
-                  invest in your dream home, this seminar is designed to provide
-                  you with valuable insights and guidance. Our experts will help
-                  you navigate the complexities of real estate transactions and
-                  taxation to ensure you're well-informed. </p>
-                  <br/>
-                  <h5>Why Attend This
-                  Seminar?</h5>
-                  <p> This exclusive seminar offers a unique opportunity to gain expert insights into the intricacies of real estate transactions and tax benefits in Pakistan. By attending, you'll have direct access to knowledgeable professionals who can answer your specific questions, provide tailored advice, and help you make informed decisions about your real estate investments. Don't miss this chance to enhance your understanding of the property market and learn strategies that can optimize your investments and maximize your returns. Secure your spot today and take the first step towards achieving your property goals!
+                  To connect with like-minded investors and industry experts. .
+                  <br />
+                  <br />
+                  <h6>Pakistan Property Talk with Maidaan!</h6>
+                  Are you interested in the latest insights on real estate taxes
+                  in Pakistan? Curious about the advantages of being a tax
+                  filer, particularly if you own property? Our recent seminar
+                  covered these essential topics and more, offering invaluable
+                  guidance for navigating real estate transactions and taxation.
+                </p>
+                <br />
+                <h5>Why This Seminar Was a Must-Attend</h5>
+                <p>
                   {" "}
+                  Our exclusive seminar provided a unique opportunity to delve
+                  into the complexities of real estate transactions and tax
+                  benefits in Pakistan. Attendees gained direct access to
+                  industry experts who addressed specific questions, offered
+                  tailored advice, and helped participants make informed
+                  decisions about their real estate investments. With expert
+                  insights into the property market and investment strategies,
+                  participants learned how to optimize their investments and
+                  maximize returns.{" "}
                 </p>
               </div>
               <div

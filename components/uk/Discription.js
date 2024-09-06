@@ -8,7 +8,8 @@ const Discription = () => {
           <div className="col-lg-12">
             <div className="text-center mb-5">
               <h2 className="fw-bold mb-4 text-primary">
-              Event Schedule:
+              Our UK Events:
+
 
               </h2>
               {/* <p className="lead mb-4">
@@ -18,9 +19,7 @@ const Discription = () => {
               <p>
                 
               
-17 August 2024: Halifax, UK<br/>
-18 August 2024: Bradford, UK<br/>
-25 August 2024: Manchester, UK- Pakistan Property Talks with Maidaan
+              Maidaan hosted property events across various UK cities, including Halifax, Bradford, and Manchester. These events were designed to provide overseas clients with valuable insights and information about the Pakistan property market. 
 
               </p>
             </div>
