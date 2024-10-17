@@ -969,6 +969,10 @@ Search Popup CSS
 /*================================================
 Navbar Area Two CSS
 =================================================*/
+
+
+
+
 .navbar-two {
   background-color: #ffffff !important;
   transition: 0.5s;
@@ -984,6 +988,43 @@ Navbar Area Two CSS
   background: #ffffff !important;
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
   transition: 0.5s;
+}
+
+
+/* For screens between 766px and 1000px */
+@media (min-width: 766px) and (max-width: 1000px) {
+  /* Logo size adjustment */
+  .navbar-brand img {
+    width: 120px; /* Adjust logo size */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  /* Font size reduction for navbar links */
+  .navbar-nav .nav-link {
+    font-size: 13px !important; /* Reduce font size */
+    margin: 0px 2px !important; /* Adjust padding to reduce gap between items */
+  }
+
+  /* Reduce the gap between navbar items */
+  .navbar-nav {
+    gap: 10px; /* Reduce spacing between items */
+  }
+
+  /* Adjust dropdown menu font size */
+  .navbar-nav .dropdown-menu .dropdown-item {
+    font-size: 13px; /* Slightly smaller font size for dropdown items */
+    padding: 5px 10px; /* Adjust padding to fit smaller text */
+  }
+
+  /* Adjust the navbar padding and height */
+  .navbar {
+    padding: 5px 8px; /* Reduce overall padding of the navbar */
+  }
+
+  /* Adjust the navbar items to fit well */
+  .navbar-nav .nav-item {
+    margin: 0 1px; /* Reduce margin between each item */
+  }
 }
 
 /*================================================
