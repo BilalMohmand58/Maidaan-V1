@@ -23,8 +23,8 @@ const uk = () => {
       <PageBanner
         pageTitle="Maidaan x United Kingdom"
         breadcrumbTextOne="Property Ka Maidaan"
-        breadcrumbTextTwo="uk"
-        breadcrumbUrl="/propertKaMaidaan"
+        breadcrumbTextTwo="UK"
+        breadcrumbUrl="/propertyKaMaidaan/"
       />
 
       <div className="mt-5">

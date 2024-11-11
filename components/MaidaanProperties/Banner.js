@@ -81,16 +81,18 @@ const Banner = () => {
                       data-aos-delay="100"
                       className="mb-4"
                     >
-                      DISCOVER Pakistan with  maidaan{" "}
+                      Ready to Start Your Real Estate Journey?{" "}
                     </h2>
-                    <h4>Your Ultimate Adventure Awaits</h4>
+                    <h4>We are here to guide you every step of the way</h4>
                     <p
                       data-aos="fade-up"
                       data-aos-duration="800"
                       data-aos-delay="200"
                     >
-                      Unveil the Splendor of the City of Dreams – From Sky-High
-                      Wonders to Cultural Treasures
+                      
+
+Explore our projects, attend a Property ka Maidaan event, or connect with our team to learn how we can make your real estate dreams a reality.
+
                     </p>
                   </div>
                 </div>

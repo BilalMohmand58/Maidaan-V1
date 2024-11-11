@@ -45,22 +45,9 @@ const AboutContent = () => {
 
                 <p>
                   {" "}
-                  Understanding the difficulties and pains deep-rooted in the
-                  Pakistani real estate market, we’ve built a comprehensive
-                  suite of services and introduced “Property Ka Maidaan," a
-                  collaboration-oriented event series recently held in Lahore,
-                  Mirpur, Jhelum and Doha, Qatar, to revolutionize the processes
-                  for all participants. Whether you are buying, or selling
-                  properties, Maidaan offers expert guidance and innovative
-                  solutions to ensure a whole experience under one roof. Maidaan
-                  also stands as a powerhouse conglomerate, encompassing a
-                  diverse portfolio of enterprises that resonate with
-                  innovation, excellence, and client-centric solutions. Rooted
-                  in Pakistan yet thriving globally, our spectrum of
-                  companies—Maidaan, Node Proptech, Bolt Media Productions, The
-                  Sprocket Media Agency, Victory Villas, Workwise, and Victory
-                  Constructions—embodies a collective pursuit of pioneering
-                  advancements across various industries.
+                 
+                  Understanding the difficulties and pains deep-rooted in the Pakistani real estate market, we’ve built a comprehensive suite of services and introduced “Property Ka Maidaan," a collaboration-oriented event series recently held in Lahore, Mirpur, Jhelum and Doha, Qatar, to revolutionize the processes for all participants. Whether you are buying, selling or marketing your properties, Maidaan offers expert guidance and innovative solutions to ensure a whole experience under one roof with our EAAS and MAAS services. Maidaan also stands as a powerhouse conglomerate, encompassing a diverse portfolio of enterprises that resonate with innovation, excellence, and client-centric solutions. Rooted in Pakistan yet thriving globally, our spectrum of companies—Maidaan, Node Proptech, Bolt Media Productions, The Sprocket Media Agency, Victory Villas, Workwise, and Victory Constructions—embodies a collective pursuit of pioneering advancements across various industries.
+
                 </p>
               </div>
             </div>

@@ -32,12 +32,8 @@ const FaqSection = () => {
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Maidaan is a leading real estate marketing company,
-                        dedicated to simplifying the complexities of buying and
-                        selling properties. We offer a comprehensive suite of
-                        services and utilize innovative solutions to make the
-                        real estate process more accessible and transparent for
-                        everyone.
+                      Maidaan is a leading real estate marketing company, dedicated to simplifying the complexities of not just buying and selling properties but marketing then through our EAAS and MAAS services. We offer a comprehensive suite of services and utilize innovative solutions to make the real estate process more accessible and transparent for everyone.
+
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>

@@ -8,18 +8,22 @@ const Discription = () => {
           <div className="col-lg-12">
             <div className="text-center mb-5">
               <h2 className="fw-bold mb-4 text-primary">
-                Your Ultimate Adventure Awaits
+              Our Mission
               </h2>
-              <p className="lead mb-4">
-                <span className="fw-bold">
-                  An opportunity for luxury property investment with Maidaan at
-                  Future Fest 2024, organized in Lahore from April 1st to April
-                  7th.
-                </span>{" "}
-              </p>
+            
               <p>
-                Experience 1000 brands, 50+ restaurants, Qawali, Mehfl-e-Naat,
-                and Islamic lectures from Iftar to Sehr.
+              
+At Maidaan Properties, our mission is to streamline the real estate process, making it accessible, transparent, and efficient for all. We offer comprehensive services tailored to our clients' diverse needs, delivering innovative solutions that elevate every step of the buying and selling experience.
+
+              </p>
+              <h2 className="fw-bold mb-4 text-primary">
+              Our Vision
+              </h2>
+            
+              <p>
+             
+We envision a real estate landscape where transparency, efficiency, and creativity converge to create an integrated and rewarding property experience for everyone involved.
+
               </p>
             </div>
           </div>

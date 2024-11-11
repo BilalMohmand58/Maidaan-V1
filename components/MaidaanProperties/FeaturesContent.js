@@ -15,22 +15,19 @@ const FeaturesContent = () => {
           <div className="row align-items-center">
             <div className="col-lg-5 col-md-12">
               <div className="features-content-area">
-                <span>Discover the Magic of Dubai</span>
-                <h3>Your Ultimate Adventure Awaits</h3>
+                <span>Property ka Maidaan
+                </span>
+                <h3> Connecting Communities, Expanding Opportunities
+                </h3>
                 <p className="mb-3 fw-bold ">
-                  Unveil the Splendor of the City of Dreams – From Sky-High
-                  Wonders to Cultural Treasures
+                "Property ka Maidaan" is more than an expo; 
                 </p>
 
                 <p>
-                  A 2-night, 3-day luxury journey blending travel and investment
-                  opportunities. Explore iconic landmarks and engage with
-                  leading real estate projects. Unique to this package, invest
-                  in Dubai property and your trip's cost will be adjusted
-                  against your downpayment. Experience the blend of culture,
-                  luxury, and investment potential in one of the world's most
-                  dynamic cities. Start your investment journey with added
-                  travel pleasure in Dubai.
+              
+It's a platform where overseas Pakistanis connect with exclusive real estate opportunities in the U.S. and Pakistan. Featuring a dedicated Pakistan Pavilion, the event showcases top developers, builders, and projects, providing a one-stop destination for investment insights and networking. Attendees can explore booths, participate in panel discussions, enjoy community dinners, and gain valuable insights on U.S. real estate.
+With Property ka Maidaan, Maidaan Properties empowers the Pakistani diaspora to make informed, confident investments, fostering valuable connections across borders.
+
                 </p>
 
                 <div className="features-btn">

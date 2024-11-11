@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import NavbarTwo from "../components/Layouts/NavbarTwo";
 
 import Footer from "../components/Layouts/Footer";
@@ -19,6 +19,23 @@ import Details from "../components/MaidaanProperties/Details";
 export default function Properties() {
   const page = "propertyKaMaidaan";
   const { title, description } = getMetadata(page);
+
+  const [height, setHeight] = useState("");
+
+  useEffect(() => {
+    // Define a function to set height based on window width
+    const updateHeight = () => {
+      setHeight(window.innerWidth > 1000 ? "70vh" : "");
+    };
+
+    // Call function initially and on window resize
+    updateHeight();
+    window.addEventListener("resize", updateHeight);
+
+    // Cleanup listener on component unmount
+    return () => window.removeEventListener("resize", updateHeight);
+  }, []);
+
   return (
     <>
       <Head>
@@ -27,14 +44,21 @@ export default function Properties() {
       </Head>
       <NavbarTwo />
       <>
-      <div className="page-title-area"  style={{ backgroundImage: "url('https://res.cloudinary.com/dzeldg2vi/image/upload/v1729761806/pak-slide_zrziw6.webp')" }}>
-        <div className="container">
-          <div className="page-title-content">
-            <h2 color="red">Maidaan Properties</h2>
-           
-          </div>
-        </div>
-      </div>
+      <div
+  className="page-title-area d-flex align-items-center justify-content-center"
+  style={{
+    height: height,
+    backgroundImage: "url('https://res.cloudinary.com/dzeldg2vi/image/upload/v1730095118/kusmh8jq29zoppn20y5g.png')",
+  }}
+>
+  <div className="container text-center">
+    <h2 style={{ color: "white" }}>Maidaan Properties</h2>
+    <h3 className="slide-sub-title" style={{ color: "white" }}>
+                      Limitless Investment Horizons
+                    </h3>
+  </div>
+</div>
+
     </>
       {/* <div>
         <Carousel />
@@ -45,24 +69,20 @@ export default function Properties() {
       <div className="pb-100">
         <Discription />
       </div>
-      {/* <div className="pb-100">
-        <Form />
-      </div>
-      <div className="pb-100">
-        <Payment />
-      </div> */}
-
-      {/* <div className="pb-100">
-        <FeaturesContent />
-      </div> */}
-      <Details />
-      <FeaturesContent />
+   
+ {/* our mission and Vision */}
       <div className="pb-100">
         <Description />
       </div>
+      {/* why choose us */}
       <div className="pb-100">
         <Discover />
       </div>
+
+      <Details />
+      <FeaturesContent />
+
+     
       <Banner />
 
 

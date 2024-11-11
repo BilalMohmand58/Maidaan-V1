@@ -20,9 +20,9 @@ const Lahore = () => {
       <NavbarTwo />
       <PageBanner
         pageTitle="Lahore"
-        breadcrumbTextOne="PropertKaMaidaan"
+        breadcrumbTextOne="Property Ka Maidaan"
         breadcrumbTextTwo="Lahore"
-        breadcrumbUrl="/propertKaMaidaan"
+        breadcrumbUrl="/propertyKaMaidaan/"
       />
 
       <div className="mt-5">

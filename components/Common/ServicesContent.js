@@ -50,10 +50,12 @@ const ServicesContent = () => {
                   <i className="flaticon-goal"></i>
                 </div>
                 <h3>
-                  <Link href="#">Maas (Marketing as a Service)</Link>
+                  <Link href="#">MAAS (Marketing as a Service)</Link>
                 </h3>
                 <p>
-                  Comprehensive real estate marketing solutions under one roof.
+                
+From strategy to design and production, we deliver marketing solutions tailored to elevate your brand’s presence and growth. 
+
                 </p>
               </div>
             </div>
@@ -70,11 +72,11 @@ const ServicesContent = () => {
                   <i className="flaticon-contract"></i>
                 </div>
                 <h3>
-                  <Link href="#">Real Estate Solutions</Link>
+                  <Link href="#">EAAS (Event As a Service)</Link>
                 </h3>
                 <p>
-                  Aiming to revolutionize the industry through innovative and
-                  technology-driven approaches.
+                Our all-in-one event solutions handle every detail—from concept and design to execution and post-event analysis. 
+
                 </p>
               </div>
             </div>

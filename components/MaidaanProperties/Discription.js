@@ -36,16 +36,11 @@ const Discription = () => {
               data-aos-once="true"
             >
               <div className="about-area-content">
-                <span>Why Maidaan Properties </span>
+                <span>About Maidaan Properties </span>
                 <h3>Live the Victory Life in Unmatched Luxury</h3>
 
                 <p>
-                  We've meticulously designed each Houses with high-end
-                  finishes, spa-like amenities, and spacious layouts. Smart home
-                  technology puts control at your fingertips, while stunning
-                  architecture and private outdoor spaces create an oasis of
-                  tranquility. Indulge in a gourmet kitchen perfect for culinary
-                  creations. 
+                Maidaan Properties is redefining the real estate experience, delivering seamless, transparent, and efficient property solutions for individuals and businesses. As a U.S.-based real estate development firm, we’re committed to making property transactions simple, secure, and rewarding. Our approach combines high-quality design, strategic locations, and community-centered amenities, creating exceptional living environments that reflect both cultural values and modern lifestyles. Through our Property ka Maidaan expos, we bring real estate opportunities to overseas Pakistanis, bridging the gap between Pakistani and American real estate markets.
                 </p>
               </div>
               <div
@@ -54,7 +49,7 @@ const Discription = () => {
                 data-aos-duration="800"
                 data-aos-delay="300"
               >
-                <ContactButton />
+                {/* <ContactButton /> */}
               </div>
             </div>
           </div>

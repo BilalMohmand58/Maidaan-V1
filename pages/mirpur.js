@@ -26,9 +26,9 @@ const mirpur = () => {
       <NavbarTwo />
       <PageBanner
         pageTitle="Mirpur"
-        breadcrumbTextOne="PropertKaMaidaan"
+        breadcrumbTextOne="Property Ka Maidaan"
         breadcrumbTextTwo="Mirpur"
-        breadcrumbUrl="/propertKaMaidaan"
+        breadcrumbUrl="/propertyKaMaidaan/"
       />
 
       <div className="mt-5">

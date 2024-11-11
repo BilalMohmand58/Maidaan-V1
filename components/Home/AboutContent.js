@@ -44,13 +44,8 @@ const AboutContent = () => {
                   accessible to all.
                 </strong>
                 <p>
-                  With a focus on simplifying the complexities inherent in the
-                  market, we specialize in providing comprehensive services for
-                  buying and selling properties across Pakistan and beyond. We
-                  aim to revolutionize the real estate landscape by addressing
-                  diverse client needs and streamlining every aspect of property
-                  transaction, from listing to ownership transfer through
-                  innovative solutions and advanced technology.
+                  With a focus on simplifying the complexities inherent in the market, we specialize in providing comprehensive services for not just buying and selling properties but Event as a Service (EAAS) and Marketing as a Service (MAAS) across Pakistan and beyond. We aim to revolutionize the real estate landscape by addressing diverse client needs and streamlining every aspect of property transaction, from listing to ownership transfer through innovative solutions and advanced technology.
+
                 </p>
               </div>
             </div>

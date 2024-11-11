@@ -12,7 +12,7 @@ const About = () => {
                 Platform
               </h2>
               <p className="lead mb-4">
-                <span className="fw-bold">
+                <span className="" style={{color:"#202647"}}>
                   Showcasing Projects and Fostering Growth Through Dynamic
                   Marketing and Collaboration Events in Pakistan and
                   Internationally

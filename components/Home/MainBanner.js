@@ -94,8 +94,7 @@ const MainBanner = () => {
                       data-aos-delay="200"
                     >
                       Maidaan thoroughly fulfills the aspirations of our
-                      customers and investors about real estate. We offer buying
-                      and selling services to aspirants of luxury properties.
+                      customers and investors about real estate. We offer Event as a Service (EAAS) and Marketing as a Service (MAAS) to aspirants of luxury properties.
                     </p>
                     <strong>
                       Explore the gateway to luxury and innovation in one of the

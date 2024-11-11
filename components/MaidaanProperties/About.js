@@ -11,8 +11,7 @@ const About= () => {
                 <div className="section-title">
                   {/* <span>Pricing Plans</span> */}
                   <h3>
-                    Maidaan is proud to introduce a stunning collection
-                    of villas in the heart of Islamabad
+                  Welcome to Maidaan Properties: Your Trusted Partner in Real Estate
                   </h3>
                 </div>
                 <p className="lead mb-4">
