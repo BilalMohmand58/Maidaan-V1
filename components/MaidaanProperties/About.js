@@ -11,7 +11,7 @@ const About= () => {
                 <div className="section-title">
                   {/* <span>Pricing Plans</span> */}
                   <h3>
-                  Welcome to Maidaan Properties: Your Trusted Partner in Real Estate
+                  Maidaan Properties: Your Trusted Partner in Real Estate
                   </h3>
                 </div>
                 <p className="lead mb-4">

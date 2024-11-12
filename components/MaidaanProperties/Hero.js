@@ -28,7 +28,7 @@ const Hero = () => {
         borderRadius: "8px",
       }}
     >
-      <h3 className="slide-title mb-2" style={{ color: "#fff" }}>Maidaan Properties</h3>
+      <h2 className="slide-title mb-2" style={{ color: "#fff" }}>Welcome to Maidaan Properties</h2>
     
     </div>
   </div></>
