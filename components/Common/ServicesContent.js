@@ -20,23 +20,7 @@ const ServicesContent = () => {
           </div>
 
           <div className="row justify-content-center">
-            <div
-              className="col-lg-6 col-md-6 col-sm-6"
-              data-aos="fade-up"
-              data-aos-delay="100"
-              data-aos-duration="800"
-              data-aos-once="true"
-            >
-              <div className="single-services-box">
-                <div className="icon bg-faddd4">
-                  <i className="flaticon-landing-page"></i>
-                </div>
-                <h3>
-                  <Link href="#">Sales Support</Link>
-                </h3>
-                <p>Expert assistance for buying and selling properties</p>
-              </div>
-            </div>
+           
 
             <div
               className="col-lg-6 col-md-6 col-sm-6"
@@ -80,8 +64,25 @@ From strategy to design and production, we deliver marketing solutions tailored 
                 </p>
               </div>
             </div>
-
             <div
+              className="col-lg-6 col-md-6 col-sm-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="800"
+              data-aos-once="true"
+            >
+              <div className="single-services-box">
+                <div className="icon bg-faddd4">
+                  <i className="flaticon-landing-page"></i>
+                </div>
+                <h3>
+                  <Link href="#">Sales Support</Link>
+                </h3>
+                <p>Expert assistance for buying and selling properties</p>
+              </div>
+            </div>
+
+            {/* <div
               className="col-lg-6 col-md-6 col-sm-6"
               data-aos="fade-up"
               data-aos-delay="400"
@@ -100,7 +101,7 @@ From strategy to design and production, we deliver marketing solutions tailored 
                   trusted partner for all your real estate needs here.
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
