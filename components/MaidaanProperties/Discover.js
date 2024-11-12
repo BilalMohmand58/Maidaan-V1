@@ -24,7 +24,7 @@ const Discover = () => {
                 <h3> Why Choose Maidaan Properties?</h3>
 
                 <p>
-                Why Choose Maidaan Properties?
+               
 With our technology-driven, client-centric approach, we simplify the real estate journey by providing an integrated platform and expert guidance. Whether you’re a homebuyer, an investor, or a developer, Maidaan Properties offers a complete suite of services designed to make real estate transactions smooth and stress-free.
 
                 </p>
