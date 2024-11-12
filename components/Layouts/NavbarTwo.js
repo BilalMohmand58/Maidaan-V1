@@ -138,6 +138,17 @@ const Navbar = () => {
                       About us
                     </Link>
                   </li>
+
+                  <li className="nav-item">
+                    <Link
+                      href="/properties/"
+                      className={`nav-link ${
+                        currentPath == "/properties/" && "active"
+                      }`}
+                    >
+                      Maidaan Properties
+                    </Link>
+                  </li>
                   <li className="nav-item">
                     <Link
                       href="/propertyKaMaidaan/"
@@ -194,7 +205,7 @@ const Navbar = () => {
 
                  
 
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link
                       href="/services/"
                       className={`nav-link ${
@@ -203,7 +214,7 @@ const Navbar = () => {
                     >
                       Services
                     </Link>
-                  </li>
+                  </li> */}
 
                   {/* <li className="nav-item">
                     <Link
@@ -466,7 +477,7 @@ const Navbar = () => {
                       Contact Us
                     </Link>
                   </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link
                       href="/careers/"
                       className={`nav-link ${
@@ -475,7 +486,7 @@ const Navbar = () => {
                     >
                       Careers
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
 

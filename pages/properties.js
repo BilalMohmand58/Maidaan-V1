@@ -14,6 +14,9 @@ import Discover from "../components/MaidaanProperties/Discover";
 import Description from "../components/MaidaanProperties/Description";
 import Banner from "../components/MaidaanProperties/Banner";
 import Details from "../components/MaidaanProperties/Details";
+import { Image } from "react-bootstrap";
+import Link from "next/link";
+import Hero from "../components/MaidaanProperties/Hero";
 
 
 export default function Properties() {
@@ -43,26 +46,8 @@ export default function Properties() {
         <meta name="description" content={description} />
       </Head>
       <NavbarTwo />
-      <>
-      <div
-  className="page-title-area d-flex align-items-center justify-content-center"
-  style={{
-    height: height,
-    backgroundImage: "url('https://res.cloudinary.com/dzeldg2vi/image/upload/v1730095118/kusmh8jq29zoppn20y5g.png')",
-  }}
->
-  <div className="container text-center">
-    <h2 style={{ color: "white" }}>Maidaan Properties</h2>
-    <h3 className="slide-sub-title" style={{ color: "white" }}>
-                      Limitless Investment Horizons
-                    </h3>
-  </div>
-</div>
-
-    </>
-      {/* <div>
-        <Carousel />
-      </div> */}
+    <Hero/>
+     
       <div className="pb-100">
         <About />
       </div>

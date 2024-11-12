@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 
-import aboutImg1 from "../../public/images/exploreDubai.webp";
-import aboutImg2 from "../../public/images/investindubai.webp";
+import aboutImg from "../../public/images/9.png";
+
 import ContactButton from "../Home/ContactButton";
 
 const Discover = () => {
@@ -30,7 +30,7 @@ With our technology-driven, client-centric approach, we simplify the real estate
                 </p>
               </div>
               <div
-                className="banner-btn mt-5"
+                className="banner-btn mt-5 mb-5"
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-delay="300"
@@ -45,51 +45,13 @@ With our technology-driven, client-centric approach, we simplify the real estate
               data-aos-duration="800"
               data-aos-once="true"
             >
-              <div className="about-image collage">
-                <div className="d-flex gap-3">
-                  <div className="image-item">
-                    <div className="zoom-on-hover">
-                      <Image
-                        src={aboutImg1}
-                        alt="About Img 1"
-                        width={290}
-                        height={268}
-                      />
-                    </div>
-                  </div>
-                  <div className="image-item">
-                    <div className="zoom-on-hover">
-                      <Image
-                        src={aboutImg2}
-                        alt="About Img 2"
-                        width={290}
-                        height={268}
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div className="d-flex gap-3 mt-3">
-                  <div className="image-item">
-                    <div className="zoom-on-hover">
-                      <Image
-                        src={aboutImg2}
-                        alt="About Img 3"
-                        width={290}
-                        height={268}
-                      />
-                    </div>
-                  </div>
-                  <div className="image-item">
-                    <div className="zoom-on-hover">
-                      <Image
-                        src={aboutImg1}
-                        alt="About Img 4"
-                        width={290}
-                        height={268}
-                      />
-                    </div>
-                  </div>
-                </div>
+              <div className="about-image">
+                <Image
+                  src={aboutImg}
+                  alt="About Img"
+                  width={595}
+                  height={536}
+                />
               </div>
             </div>
           </div>
