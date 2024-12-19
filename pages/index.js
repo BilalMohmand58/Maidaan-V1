@@ -5,8 +5,8 @@ import PartnerLogos from "../components/Home/PartnerLogos";
 import FeaturesArea from "../components/Home/FeaturesArea";
 import AboutContent from "../components/Home/AboutContent";
 import MaidaanStory from "../components/Home/MaidaanStory";
-import Mission from "../components/Home/Mission";
-import Vision from "../components/Home/Vision";
+// import Mission from "../components/Home/Mission";
+// import Vision from "../components/Home/Vision";
 import { useMediaQuery } from "react-responsive";
 
 // modal

@@ -38,7 +38,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="https://www.facebook.com/themaidaan/"
+                      href="https://web.facebook.com/themaidaanmarketing/"
                       target="_blank"
                       className="bg-1da1f2"
                     >

@@ -89,7 +89,7 @@ const ContactForm = () => {
                 <ul className="social-links">
                   <li>
                     <a
-                      href="https://www.facebook.com/themaidaan/"
+                      href="https://web.facebook.com/themaidaanmarketing/"
                       target="_blank"
                     >
                       <i className="fab fa-facebook-f"></i>

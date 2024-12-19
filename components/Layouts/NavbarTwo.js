@@ -693,7 +693,7 @@ const Navbar = () => {
 
                   <li>
                     <a
-                      href="https://www.facebook.com/themaidaan/"
+                      href="https://web.facebook.com/themaidaanmarketing/"
                       target="_blank"
                     >
                       <i className="fab fa-facebook-f"></i>
