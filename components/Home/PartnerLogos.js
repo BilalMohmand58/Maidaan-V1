@@ -127,7 +127,7 @@ const PartnerLogos = () => {
 
             <SwiperSlide>
               <div className="partner-item">
-                <a href="#" target="_blank">
+                <a href="https://www.nodeproptech.com/" target="_blank">
                   <Image src={partner8} alt="partner" width={300} height={60} />
                 </a>
               </div>
@@ -135,7 +135,7 @@ const PartnerLogos = () => {
 
             <SwiperSlide>
               <div className="partner-item">
-                <a href="#" target="_blank">
+                <a href="https://buildvictory.com/" target="_blank">
                   <Image src={partner9} alt="partner" width={150} height={60} />
                 </a>
               </div>
