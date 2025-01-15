@@ -149,9 +149,7 @@ export default function Index({ posts, projects }) {
         {/* <MarketedBanner /> */}
       </div>
 
-      <div className="pb-70 ">
-        <VictoyVillasBanner />
-      </div>
+      {/*                                          */}
       <div className="pb-70">
         <MaidaanXVc />
       </div>

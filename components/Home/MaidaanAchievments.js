@@ -44,7 +44,7 @@ const MaidaanAchievments = () => {
                   project completion. <br />A major milestone for us is the
                   launch of "Property Ka Maidaan", a dynamic platform organizing
                   marketing, collaboration, and sales events across Pakistan and
-                  internationally. Through PKM in last 3 months, we have
+                  internationally. Through PKM in last 1 year, we have
                   successfully held events in UK, USA, Qatar, Lahore, Jhelum,
                   Mirpur, and more areas, providing valuable investment
                   opportunities in both local and global markets. These

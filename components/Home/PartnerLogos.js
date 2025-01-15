@@ -10,6 +10,9 @@ import partner4 from "../../public/images/partner/vc.png";
 import partner5 from "../../public/images/partner/vch.png";
 import partner6 from "../../public/images/partner/v7.png";
 import partner7 from "../../public/images/partner/dtl.png";
+import partner8 from "../../public/images/partner/np.png";
+import partner9 from "../../public/images/partner/vb.png";
+
 
 // import partner8 from "../../public/images/partner/j7.jpg";
 // import partner9 from "../../public/images/partner/kmk.jpg";
@@ -122,21 +125,21 @@ const PartnerLogos = () => {
               </div>
             </SwiperSlide>
 
-            {/* <SwiperSlide>
+            <SwiperSlide>
               <div className="partner-item">
                 <a href="#" target="_blank">
-                  <Image src={partner8} alt="partner" width={100} height={60} />
+                  <Image src={partner8} alt="partner" width={300} height={60} />
                 </a>
               </div>
-            </SwiperSlide> */}
+            </SwiperSlide>
 
-            {/* <SwiperSlide>
+            <SwiperSlide>
               <div className="partner-item">
                 <a href="#" target="_blank">
-                  <Image src={partner9} alt="partner" width={100} height={60} />
+                  <Image src={partner9} alt="partner" width={150} height={60} />
                 </a>
               </div>
-            </SwiperSlide> */}
+            </SwiperSlide>
 
             {/* <SwiperSlide>
               <div className="partner-item">
